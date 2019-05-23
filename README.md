@@ -5,7 +5,7 @@ Some language packages supported by Dataverse version not older than 4.9.4 (plea
 
 Available languages:
 - English
-- [French (Canada)](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/fr_CA) maintained by [Scholars Portal](https://dataverse.scholarsportal.info)
+- [French (Canada), 4.12](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/fr_CA) maintained by [Bibliothèques Université de Montréal](https://bib.umontreal.ca/)
 - [French (France), 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/fr-FR/) maintained by [Sciences Po](https://www.sciencespo.fr/en/)
 - [German (Austria), 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/de-AT/) maintained by [AUSSDA](http://aussda.at)
 - [Slovenian, 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/sl-SI/) maintained by [ADP, Social Science Data Archive](https://www.adp.fdv.uni-lj.si/eng/)
