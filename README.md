@@ -17,3 +17,20 @@ Available languages:
 - [Italian 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/it-IT/) maintained by [Centro Interdipartimentale UniData](http://www.unidata.unimib.it)
 - [Hungarian, 4.9.4](https://github.com/IQSS/dataverse-docker/tree/master/dataversedock/dataverse-property-files/hu-HU) maintained by [TARKI](http://tarki.hu)
 
+## Generating tools
+
+Bash script `generate.sh` helps to maintains up to date i18n files. It use en_US files to detect all files and keys from latest version et try to fill value for desired language from latest available version for this language.
+
+Usage:
+
+```bash
+bash ./generate.sh fr_CA => generate fr_CA from most recent version
+bash ./generate.sh fr_FR develop => generate fr_FR from develop branch
+```
+
+Process:
+
+1. Create properties files by copying files from en_US, rename then with language code, and removing value inside.
+2. Extract files from most recent version for this language (branch dataverse-vXXX) or from the specified branch
+3. Fill values by searching them in extracted files, in the same filename or in all files
+4. Print "not found" keys (new keys)
