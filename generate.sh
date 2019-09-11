@@ -79,16 +79,16 @@ do
             targetline=""
             # First search in same fille
             if [ -f $TMP_DIR/$CURRENT_FILE ]; then
-                targetline=$(grep -rh "^$originalline" $TMP_DIR/$CURRENT_FILE | head -n 1)
+                targetline=$(grep -rh "^$originalline" $TMP_DIR/$CURRENT_FILE | head -n 1 )
             fi
             if [[ ! -z $targetline ]]; then
-                sed -i "s|^$originalline|$targetline|g" $f
+                sed -i "s|^$originalline|${targetline//\\n/\\\\n}|g" $f
             else
                 # Second find in all file
                 targetline=$(grep -rh "^$originalline" $TMP_DIR/)
                 targetline_count=$(grep -rh "^$originalline" $TMP_DIR/ | wc -l)
                 if [[ ! -z $targetline && "$targetline_count" -eq "1" ]]; then
-                    sed -i "s|^$originalline|$targetline|g" $f
+                    sed -i "s|^$originalline|${targetline//\\n/\\\\n}|g" $f
                 else
                     echo "Can not translate $f>$originalline"
                 fi
