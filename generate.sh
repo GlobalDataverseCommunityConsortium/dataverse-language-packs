@@ -12,6 +12,7 @@ function usage(){
     exit 1
 }
 
+
 if [ -z $TARGET_LANG ]; then
     usage
 fi
@@ -58,6 +59,8 @@ export LANG=C
 find $TARGET_LANG -name '*.properties' -exec sed -i "s/^\([^=]*=\).*$/\\1/g" {} \;
 
 for file in $TARGET_LANG/* ; do
+    #append new line (while read line bug if no newline at EOF)
+    echo >> $file
     mv $file ${file/.properties/_$(echo $TARGET_LANG | awk -F '_' '{print $1}').properties}
 done
 
@@ -68,27 +71,39 @@ for f in $(git show $FROM_BRANCH:$TARGET_LANG | grep properties); do
     git show $FROM_BRANCH:$TARGET_LANG/$f > $TMP_DIR/$f
 done
 
-
 # fill files
-find $TARGET_LANG -name '*.properties' | while read f
+for f in $(find $TARGET_LANG -name '*.properties')
 do
     CURRENT_FILE=$(basename $f)
     while read originalline
     do
-        if [[ "$originalline" =~ ^[a-zA-Z].*$ ]]; then
+        if [[ "$originalline" =~ ^[0-9a-zA-Z].*$ ]]; then
+            originalline=${originalline//u0020/\\u0020}
+            originalline=${originalline//\\/\\\\}
+            originalline=${originalline//&/\\&}
             targetline=""
             # First search in same fille
             if [ -f $TMP_DIR/$CURRENT_FILE ]; then
                 targetline=$(grep -rh "^$originalline" $TMP_DIR/$CURRENT_FILE | head -n 1 )
+                targetline=${targetline//\\/\\\\\\}
+                targetline=${targetline//|/\\|}
+                targetline=${targetline//\\n/\\\\n}
+                targetline=${targetline//u0020/\\u0020}
+                targetline=${targetline//&/\\&}
             fi
             if [[ ! -z $targetline ]]; then
-                sed -i "s|^$originalline|${targetline//\\n/\\\\n}|g" $f
+                sed -i "s|^${originalline}$|${targetline}|g" $f
             else
                 # Second find in all file
                 targetline=$(grep -rh "^$originalline" $TMP_DIR/)
+                targetline=${targetline//\\/\\\\\\}
+                targetline=${targetline//|/\\|}
+                targetline=${targetline//\\n/\\\\n}
+                targetline=${targetline//u0020/\\u0020}
+                targetline=${targetline//&/\\&}
                 targetline_count=$(grep -rh "^$originalline" $TMP_DIR/ | wc -l)
                 if [[ ! -z $targetline && "$targetline_count" -eq "1" ]]; then
-                    sed -i "s|^$originalline|${targetline//\\n/\\\\n}|g" $f
+                    sed -i "s|^${originalline}$|${targetline}|g" $f
                 else
                     echo "Can not translate $f>$originalline"
                 fi
@@ -96,5 +111,9 @@ do
         fi
     done < $f
 done
+
+find $TARGET_LANG -name '*.properties' -exec sed -i "s/\\\\n/n/g" {} \;
+find $TARGET_LANG -name '*.properties' -exec sed -i "s/\\\\u/u/g" {} \;
+
 
 rm -rf $TMP_DIR
