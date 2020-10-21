@@ -7,7 +7,7 @@ API Documentation for deploying language files is still under development.
 
 Available languages:
 - [English (US), latest develop branch](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/en_US) maintained by [IQSS Harvard](https://github.com/IQSS/dataverse/tree/develop/src/main/java/propertyFiles)
-- [French (Canada), latest available 5.0](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/dataverse-v5.0/fr_CA) maintained by [Bibliothèques Université de Montréal](https://bib.umontreal.ca/)
+- [French (Canada), latest available 5.1.1](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/dataverse-v5.1.1/fr_CA) maintained by [Bibliothèques Université de Montréal](https://bib.umontreal.ca/)
 - [French (France), 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/fr-FR/) maintained by [Sciences Po](https://www.sciencespo.fr/en/)
 - [German (Austria), 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/de-AT/) maintained by [AUSSDA](http://aussda.at)
 - [Slovenian, 4.9.4](https://github.com/IQSS/dataverse-docker/blob/master/dataversedock/dataverse-property-files/sl-SI/) maintained by [ADP, Social Science Data Archive](https://www.adp.fdv.uni-lj.si/eng/)
