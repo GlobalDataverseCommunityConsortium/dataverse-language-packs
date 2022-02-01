@@ -8,7 +8,7 @@ API Documentation for deploying language files is still under development.
 Available languages:
 - [English (US), latest develop branch](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/en_US) maintained by [IQSS Harvard](https://github.com/IQSS/dataverse/tree/develop/src/main/java/propertyFiles)
 - [French (Canada), latest develop branch](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/fr_CA) maintained by [Bibliothèques Université de Montréal](https://bib.umontreal.ca/)
-- [French (France), 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/fr-FR/) maintained by [Sciences Po](https://www.sciencespo.fr/en/)
+- [French (France), 4.20](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/fr_FR) maintained by [Sciences Po](https://www.sciencespo.fr/en/)
 - [German (Austria), 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/de-AT/) maintained by [AUSSDA](http://aussda.at)
 - [Slovenian, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/sl-SI/) maintained by [ADP, Social Science Data Archive](https://www.adp.fdv.uni-lj.si/eng/)
 - [Swedish, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/se-SE/) maintained by [SND, Swedish National Data Service](https://snd.gu.se/en)
