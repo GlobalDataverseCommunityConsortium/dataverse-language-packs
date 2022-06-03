@@ -16,7 +16,7 @@ Available languages:
 - [Spanish, 4.11](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/es_ES) maintained by [El Consorcio Madroño](http://consorciomadrono.es/en/)
 - [Italian 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/it-IT/) maintained by [Centro Interdipartimentale UniData](http://www.unidata.unimib.it)
 - [Hungarian, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/hu-HU) maintained by [TARKI](http://tarki.hu)
-- [Portuguese, 4.18.1](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/pt_PT) maintained by [University of Minho](https://www.uminho.pt/EN)
+- [Portuguese, 4.18.1](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/dataverse-v4.18.1/pt_PT) maintained by [University of Minho](https://www.uminho.pt/EN)
 - [Portuguese, 4.19](https://github.com/RNP-dadosabertos/dataverse-language-packs) maintained by [Rede Nacional de Ensino e Pesquisa/Universidade Federal do Rio Grande do Sul](https://www.dadosdepesquisa.rnp.br/)
 - [Polish, 4.10](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/pl_PL) maintained by [CEON](https://depot.ceon.pl)
 
