@@ -5,6 +5,8 @@ Some language packages are only available for older versions, to get the latest 
 
 API Documentation for deploying language files is still under development.
 
+Please Note: These transalations are provided as is. If you see any problems, please open an issue and/or contact the organization listed below as the maintainer of the translation.
+
 Available languages:
 - [English (US), latest develop branch](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/en_US) maintained by [IQSS Harvard](https://github.com/IQSS/dataverse/tree/develop/src/main/java/propertyFiles)
 - [French (Canada), latest develop branch](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/fr_CA) maintained currently by [Institut national de la recherche scientifique INRS](https://inrs.ca/) and previously by [Bibliothèques Université de Montréal](https://bib.umontreal.ca/)
