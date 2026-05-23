@@ -15,7 +15,7 @@ Available languages:
 - [Slovenian, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/sl-SI/) maintained by [ADP, Social Science Data Archive](https://www.adp.fdv.uni-lj.si/eng/)
 - [Swedish, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/se-SE/) maintained by [SND, Swedish National Data Service](https://snd.gu.se/en)
 - [Ukrainian, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/ua-UA/Bundle_ua.properties) maintained by [The Center for Content Analysis](http://ukrcontent.com/en/)
-- [Spanish, 4.11](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/es_ES) maintained by [El Consorcio Madroño](http://consorciomadrono.es/en/)
+- [Spanish, 6.10.1](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/es_ES) maintained by [Consorcio Madroño](http://consorciomadrono.es/en/)
 - [Italian 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/it-IT/) maintained by [Centro Interdipartimentale UniData](http://www.unidata.unimib.it)
 - [Hungarian, 4.9.4](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/develop/hu-HU) maintained by [TARKI](http://tarki.hu)
 - [Portuguese, 4.18.1](https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/tree/dataverse-v4.18.1/pt_PT) maintained by [University of Minho](https://www.uminho.pt/EN)
