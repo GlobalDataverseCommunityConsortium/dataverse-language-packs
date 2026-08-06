@@ -1,0 +1,2739 @@
+dataverse=Dataverse
+newDataverse=新的Dataverse
+hostDataverse=主管Dataverse
+dataverses=所有Dataverse
+passwd=密碼
+dataset=Dataset
+datasets=所有Dataset
+newDataset=新的Dataset
+files=所有檔案
+file=檔案
+public=上市
+restricted=受限制的檔案
+restrictedaccess=限制存取權限
+embargoed=延遲提供
+embargoedaccess=延遲提供存取
+embargoedandrestricted=限制存取
+embargoedandrestrictedaccess=部分限制存取
+find=尋找
+search=搜尋
+language=語言
+created=建立了
+deposited=儲存
+published=發表
+metadatareleased=書目資料發表
+unpublished=未發表的
+embargoed.until=延遲提供存取直到
+embargoed.wasthrough=曾延遲提供存取直到
+embargoed.willbeuntil=草稿:將延遲提供存取直到
+embargo.date.invalid=日期超出存取時限:({0}至{1})
+embargo.date.required=延遲提供日期為必塡
+cancel=取消
+ok=確定
+saveChanges=儲存更改
+acceptTerms=接受
+submit=提交
+signup=註冊刪除
+login=登入
+email=電子郵件
+account=帳號
+requiredField=必填項目
+new=新的
+identifier=識別碼
+description=描述
+subject=主題
+close=關閉
+preview=預覽
+continue=繼續
+name=姓名
+institution=機構
+position=位置
+affiliation=聯繫
+storage=儲存
+curationLabels=典藏標籤
+metadataLanguage=Dataset書目資料語言
+createDataverse=建立Dataverse
+remove=刪除
+done=完畢
+editor=編輯者
+manager=管理者
+curator=典藏者
+explore=探索
+download=下載
+downloadOriginal=原始格式
+downloadArchival=典藏格式(.tab)
+deaccession=被除名
+share=分享
+link=關聯
+linked=聯繫
+harvested=獲取
+apply=申請
+add=新增
+delete=刪除
+copyClipboard=複製到剪貼簿
+truncateMoreBtn=閱讀全部 {0} [+]
+truncateMoreTip=點擊以閱讀完整{0}。
+truncateLessBtn=摺疊{0} [+]
+truncateLessTip=點擊以摺疊{0}。
+yes=是
+no=不
+previous=以前的
+next=下一個
+first=第一的
+last=最後的
+more=更多的...
+less=較少的...
+select=選擇...
+selectedFiles=選定的檔案
+htmlAllowedTitle=允許的html標記
+htmlAllowedMsg=此字段僅支援某些<a class="popoverHTML" tabindex="0" role="button">HTML tags</a>.
+htmlAllowedTags=&lt;a&gt;, &lt;b&gt;, &lt;blockquote&gt;, &lt;br&gt;, &lt;code&gt;, &lt;del&gt;, &lt;dd&gt;, &lt;dl&gt;, &lt;dt&gt;, &lt;em&gt;, &lt;hr&gt;, &lt;h1&gt;-&lt;h3&gt;, &lt;i&gt;, &lt;img&gt;, &lt;kbd&gt;, &lt;li&gt;, &lt;ol&gt;, &lt;p&gt;, &lt;pre&gt;, &lt;s&gt;, &lt;sup&gt;, &lt;sub&gt;, &lt;strong&gt;, &lt;strike&gt;, &lt;u&gt;, &lt;ul&gt;
+conditionalRequiredMsg=如果新增到其中一個或多個可選字段，則可能會成為一個或多個這些字段。
+conditionalRequiredMsg.tooltip=如果您選擇在其中一個或多個可選字段中輸入值，則將成為必需的。
+toggleNavigation=切換導航
+defaultBody=預設機構
+loading=加載中 ...
+filter=篩選
+to=到
+of=的
+alt.logo={0}logo
+alt.homepage={0}主頁
+
+# Dataverse_header.xhtml
+header.noscript=請啟用瀏覽器的javascript。需要使用Dataverse的大部分功能。
+header.status.header=地位
+header.search.title=搜尋所有Dataverse ...
+header.about=關於
+header.support=支援
+header.guides=指南
+header.guides.user=使用者指南
+header.guides.developer=開發人員指南
+header.guides.installation=安裝指南
+header.guides.api=API指南
+header.guides.admin=管理員指南
+header.signUp=註冊
+header.logOut=退出
+header.accountInfo=帳號資訊
+header.dashboard=儀表板
+header.user.selectTab.dataRelated=我的資料
+header.user.selectTab.notifications=通知
+header.user.selectTab.accountInfo=帳號資訊
+header.user.selectTab.groupsAndRoles=群組+角色
+header.user.selectTab.apiToken=API令牌
+
+# Dataverse_template.xhtml
+head.meta.description=Dataverse項目是一個開源軟體應用程序，用於共享、引用和存檔資料。Dataverse提供了一種稳健的基礎架構，用於托管和存檔資料，同時為研究人員提供一種簡單的方式來分享和獲得版權。
+body.skip=跳到主要内容
+
+# Dataverse_footer.xhtml
+footer.copyright=版權所有 &#169;{0}
+footer.widget.datastored=資料儲存在{0}處。
+footer.widget.login=登入到
+footer.privacyPolicy=隱私政策
+footer.poweredby=PowerBy
+footer.dataverseProject=Dataverse項目
+
+# messages.xhtml
+messages.error=錯誤
+messages.success=成功!
+messages.info=資訊
+messages.validation=驗證錯誤
+messages.validation.msg=必填字段未填寫或有驗證錯誤。請向下滾動以查看詳细資訊。
+
+# contactFormFragment.xhtml
+contact.header=聯繫{0}
+contact.dataverse.header=電子郵件Dataverse聯繫人
+contact.dataset.header=電子郵件Dataset聯繫人
+contact.to=到
+contact.support=支援
+contact.from=從
+contact.from.required=必需填寫使用者電子郵件。
+contact.from.invalid=電子郵件無效。
+contact.subject=學科
+contact.subject.required=必需填寫受試者。
+contact.subject.selectTab.top=選擇主題......
+contact.subject.selectTab.support=支援問題
+contact.subject.selectTab.dataIssue=資料問題
+contact.msg=訊息
+contact.msg.required=必須填寫訊息文本。
+contact.send=發送訊息
+contact.question=請填寫以證明您不是機器人。
+contact.sum.title=人類存取驗證答案
+contact.sum.required=必需填寫答案。
+contact.sum.invalid=不正確的總和，請再試一次。
+contact.sum.converterMessage=請輸入一個數字。
+contact.contact=接觸
+# Bundle file editors, please note that these "contact.context" messages are used in tests.
+contact.context.subject.dvobject={0}聯繫人:{1}
+contact.context.subject.support={0}支援請求:{1}
+contact.context.dataverse.intro={0}您剛剛通過名為「{3}」的{2}主管Dataverse:\n\n---\n\n
+contact.context.dataverse.ending=\n\n---\n\n{0}\n{1}\n\n 存取Dataverse  {2}/dataverse/{3}\n\n 您已收到此電子郵件，因為您已被列為Dataverse的聯繫人。如果您認為這是錯誤，請在{5}聯繫{4}。要直接回覆發送訊息的個人，只需回覆此電子郵件即可。
+contact.context.dataverse.noContact=此Dataverse的檔案上沒有聯繫地址，因此正在發送此訊息到系統地址。\n\n
+contact.context.dataset.greeting.helloFirstLast=你好{0} {1}，
+contact.context.dataset.greeting.organization=注意Dataset聯繫人:
+contact.context.dataset.intro={0} \n\n 您剛剛從{1}通過{2}主管Dataset發送了以下訊息標題為「{3}」({4}):\n\n---\n\n
+contact.context.dataset.ending=\n\n---\n\n{0}\n{1}\n\n 存取Dataset {2}/dataset.xhtml?persistentId={3}\n\n 您作為Dataset的聯繫人。如果您認為這是錯誤，請在{5}聯繫{4}。要直接回覆發送訊息的使用者，只需回覆此電子郵件即可。
+contact.context.dataset.noContact=該Dataset檔案上沒有聯繫地址，因此正在發送此訊息到系統地址。\n\n---\n\n
+contact.context.file.intro={0} \n\n您剛剛通過名為「{3}」的{2}主管檔案從標題為「{4}」({5})({5}):\n\n--- \n\n
+contact.context.file.ending=\n\n---\n\n{0}\n{1}\n\n存取檔案 {2}/file.xhtml?filed={3}\n\n 您已收到此電子郵件，因為您已被列為作為Dataset的聯繫人。如果您認為這是錯誤，請在{5}聯繫{4}。要直接回覆發送訊息的使用者，只需回覆此電子郵件即可。
+contact.context.support.intro={0}，\n\n以下訊息從{1}發送。\n\n---\n\n
+contact.context.support.ending=\n\n---\n\n從支援聯繫表單發送。
+
+# Dataverseuser.xhtml
+account.info=帳號資訊
+account.edit=編輯帳戶
+account.apiToken=API令牌
+account.emailvalidation.header=電子郵件驗證
+account.emailvalidation.token.exists=驗證電子郵件已發送至{0}。請檢查您的信箱收件匣。
+user.isShibUser=通過機構帳號登入時無法編輯帳號資訊。
+user.helpShibUserMigrateOffShibBeforeLink=離開你的機構？請聯繫
+user.helpShibUserMigrateOffShibAfterLink=尋求幫助。
+user.helpOAuthBeforeLink=您的Dataverse帳號使用{0}來登入。如果您需要更改登入方法，請聯繫
+user.helpOAuthAfterLink=尋求幫助。
+user.lostPasswdTip=如果您遺失或忘記密碼，請在下面輸入您的使用者名稱或電子郵件地址，然後點擊「提交」。我們會向您發送一個帶有新密碼的電子郵件。
+user.dataRelatedToMe=我的資料
+wasCreatedIn=，被建立在
+wasCreatedTo=，被加入到
+wasSubmittedForReview=，已提交審查以發表
+wasPublished=，發表在
+wasReturnedByReviewer=，由典藏者返回 
+# TODO: Confirm that "toReview" can be deleted.
+toReview=别忘了發表它或將其發送回貢獻者!
+# Bundle file editors, please note that "notification.welcome" is used in a unit test.
+notification.welcome=歡迎來到{0}!通過新增或查找資料開始使用Dataverse。有問題嗎？看看{1}。想要測試Dataverse功能嗎？使用我們的{2}。此外，請檢查您的歡迎電子郵件以驗證您的地址。
+notification.demoSite=演示網站
+notification.requestFileAccess=對Dataset請求的檔案存取:{0}由{1}({2})進行。
+notification.grantFileAccess=存取Dataset中的檔案:{0}。
+notification.rejectFileAccess=存取Dataset中請求的檔案被拒絕:{0}。
+notification.createDataverse={0}是在{1}中建立的。要了解更多關於您可以使用Dataverse的内容，請查看{2}。 
+notification.dataverse.management.title=Dataverse管理 - Dataverse使用者指南
+notification.createDataset={0}是在{1}中建立的。要了解有關您可以使用Dataset的内容，請查看{2}。
+notification.datasetCreated={0}在{2}中在{1}中建立。
+notification.dataset.management.title=Dataset管理 - Dataset使用者指南
+notification.wasSubmittedForReview={0}已提交審查以在{1}發表。不要忘記發表它或將其發送回貢獻者，{2}({3})\\!
+notification.wasReturnedByReviewer={1}的典藏者返回{0}。
+notification.wasPublished={0}發表在{1}。
+notification.publishFailedPidReg=由於無法註冊或更新Dataset的識別碼，無法發表{1}中的{0}。如果持續發生，請聯繫支援。
+notification.workflowFailed=在{1}中的{0}上運行的外部工作流程失敗。檢查您的電子郵件並查看可以提供其他詳细資訊的Dataset頁面。如果持續發生，請聯繫支援。
+notification.workflowSucceeded={1}中的{0}上的外部工作流程已成功。檢查您的電子郵件並查看可以提供其他詳细資訊的Dataset頁面。
+notification.statusUpdated=Dataset {0}的狀態已更新為{1}。
+
+notification.ingestCompleted=Dataset <a href="/dataset.xhtml?persistentId={0}" title="{1}">{1}</a>攝取已成功完成。
+notification.ingestCompletedWithErrors=Dataset <a href="/dataset.xhtml?persistentId={0}" title="{1}">{1}</a>包含個別檔案不支援攝取。
+notification.generic.objectDeleted=已刪除該通知的Dataverse、Dataset或檔案。
+notification.access.granted.dataverse=您已被授予{1}的{0}角色。
+notification.access.granted.dataset=您已被授予{1}的{0}角色。
+notification.access.granted.datafile=您已被授予{1}中檔案的{0}角色。   
+notification.access.granted.fileDownloader.additionalDataverse={0}您現在可以存取此Dataverse中的所有已發表的受限制和不受限制的檔案。
+notification.access.granted.fileDownloader.additionalDataset={0}您現在可以存取此Dataset中的所有已發表的受限制和不受限制的檔案。
+notification.access.revoked.dataverse=您已從{0}的角色中刪除。
+notification.access.revoked.dataset=您已從{0}的角色中刪除。
+notification.access.revoked.datafile=您已從{0}的角色中刪除。
+notification.checksumfail=您一個或多個檔案到上傳失敗的dataset <a href="/dataset.xhtml?persistentId={0}" title="{1}">{1}</a>。請重新上傳。如果問題仍然存在，請聯繫支援。
+notification.ingest.completed=Dataset <a href="{0}/dataset.xhtml?persistentId={1}" title="{2}">{2}</a>攝取過程已成功完成。<br>攝取檔案:{3}
+notification.ingest.completedwitherrors=Dataset <a href="{0}/dataset.xhtml?persistentId={1}" title="{2}">{2}</a>攝取過程完成了錯誤。<br> <br>攝取的檔案:{3}
+notification.mail.import.filesystem=Dataset ({0}/dataset.xhtml?persistentId={1}))已成功上傳和驗證。
+notification.import.filesystem=Dataset <a href="/dataset.xhtml?persistentId={0}" title="{1}">{1}</a>已成功上傳和驗證。
+notification.import.checksum=<a href="/dataset.xhtml?persistentId={0}" title="{1}">{1}</a>，Dataset通過批量處理作業新增了檔案校驗和。
+removeNotification=刪除通知
+groupAndRoles.manageTips=以下是您可以存取和管理您所屬的所有組的位置，以及您已分配的角色。
+user.message.signup.label=建立帳號
+user.message.signup.tip=為什麼要有Dataverse帳號？可以建立自己的Dataverse並自定義其內容、新增Dataset或請求存取受限制的檔案。
+user.signup.otherLogInOptions.tip=您還可以使用其中一個<a href="/loginpage.xhtml" title="Dataverse Log In">登入選項</a>.
+user.username.illegal.tip=在2-60個字符之間，可以使用 "a-z", "0-9", "_" 為您的使用者名。
+user.username=使用者名稱
+user.username.taken=該使用者名稱已被註冊。
+user.username.invalid=此使用者名稱包含無效字符或超出長度要求(2-60個字符)。 
+user.username.valid=在包含字母(a-z)，數字(0-9)，破折號(-)，下劃線(_)和句點(.)的中建立2到60個字符的有效使用者名稱。
+user.noPasswd=沒有密碼
+user.currentPasswd=目前密碼
+user.currentPasswd.tip=請輸入此帳號的目前密碼。
+user.passwd.illegal.tip=密碼需要至少6個字符、包括一個字母和一個數字、可以使用特殊字符。
+user.rePasswd=重新輸入密碼
+user.rePasswd.tip=請重新輸入您上方輸入的密碼。
+user.firstName=名
+user.firstName.tip=您要為此帳號使用的名字。
+user.lastName=姓
+user.lastName.tip=您要為此帳號使用的姓氏。
+user.email.tip=您的有效電子郵件地址以便聯繫。
+user.email.taken=此電子郵件地址已被使用過。
+user.affiliation.tip=與您所屬的組織。
+user.position=職位
+user.position.tip=您所在組織的角色或職位;如工作人員，教師，學生等。
+user.acccountterms=一般使用條款
+user.acccountterms.tip=使用應用程式和服務的條款和條件。
+user.acccountterms.required=請勾選該該框以表明您接受一般使用條款。
+user.acccountterms.iagree=我已閱讀並接受如上所述的Dataverse使用條款。
+user.createBtn=建立帳號
+user.updatePassword.welcome=歡迎來到Dataverse {0}
+user.updatePassword.warning=我們的使用條款已更改，請勾選下面的框框，然後點擊繼續。
+user.updatePassword.password={0}
+user.password=密碼
+user.newPassword=新密碼
+authenticationProvidersAvailable.tip={0}如果您是系統管理員，則沒有活動身份驗證提供程序{1}，請使用API啟用。{2}如果您不是系統管理員，請聯繫您的機構。
+
+passwdVal.passwdReq.title=您的密碼必須包含:
+passwdVal.passwdReq.goodStrength=至少{0}字符的密碼豁免於其他要求
+passwdVal.passwdReq.lengthReq=至少{0}字符 
+passwdVal.passwdReq.characteristicsReq=以下類型的{0}的至少1個字符:
+passwdVal.passwdReq.notInclude=它可能不包括:
+passwdVal.passwdReq.consecutiveDigits=連續的{0}编號
+passwdVal.passwdReq.dictionaryWords=詞典單詞
+passwdVal.passwdReq.unknownPasswordRule=未知，請聯繫您的管理員
+#printf syntax used to pass to passay library
+passwdVal.expireRule.errorCode=已到期
+passwdVal.expireRule.errorMsg=密碼超過%1$s 保留期，目前已過期。
+passwdVal.goodStrengthRule.errorMsg=注意:若有 %1$s 或更多字符長度，密碼始终有效。
+passwdVal.goodStrengthRule.errorCode=密碼不夠安全
+passwdVal.passwdReset.resetLinkTitle=密碼重置連結
+passwdVal.passwdReset.resetLinkDesc=您的密碼重置連結無效
+passwdVal.passwdReset.resetInitiated=發起密碼重置
+passwdVal.passwdReset.valBlankLog=新密碼是空白的
+passwdVal.passwdReset.valFacesError=密碼錯誤
+passwdVal.passwdReset.valFacesErrorDesc=請為您的帳號輸入新密碼。
+passwdVal.passwdValBean.warnDictionaryRead=字典已設置，但尚未錄入。
+passwdVal.passwdValBean.warnDictionaryObj=未設置預設密碼檔案，未找到密碼字典:
+passwdVal.passwdValBean.warnSetStrength=密碼强度 {0}值與{1}的密碼長度值競爭，並將新增到{2}
+
+# passwordreset.xhtml
+pageTitle.passwdReset.pre=帳號密碼重置
+passwdReset.token=令牌:
+passwdReset.userLookedUp=使用者查閱:
+passwdReset.emailSubmitted=提交電子郵件:
+passwdReset.details={0}密碼重置{1} - 要啟動密碼重置過程，請提供您的電子郵件地址。
+passwdReset.submitRequest=提交密碼請求
+passwdReset.successSubmit.tip=如果此電子郵件與帳號關聯，則將通過進一步的指令發送電子郵件至{0}。
+passwdReset.debug=調試
+passwdReset.resetUrl=重置url是
+passwdReset.noEmail.tip=實際上沒有電子郵件，因為無法使用提供的電子郵件地址{0}找到使用者，但我們不會提到這一點，避免有人惡意利用資訊來確定帳號是否有與電子郵件地址相關聯。
+passwdReset.illegalLink.tip=您的密碼重置連結無效。如果您需要重置密碼，{0}點擊此處{1}，以便請求再次重置密碼。
+passwdReset.newPasswd.details=在繼續之前請接受的新使用條款。
+passwdReset.newPasswd=新密碼
+passwdReset.rePasswd=重新輸入密碼
+passwdReset.resetBtn=繼續
+
+#loginpage.xhtml
+login.System=登入系統
+login.forgot.text=忘記密碼了嗎？
+login.builtin=Dataverse帳號
+login.institution=機構帳戶
+login.institution.blurb=登入或註冊您的機構帳戶 &mdash; 更多 <a href="{0}/{1}/user/account.html" title="Account Creation + Management - Dataverse User Guide" target="_blank" rel="noopener">information about account creation</a>.
+login.institution.support.blurbwithLink=離開你的機構？請聯繫{0}以獲取幫助。
+login.builtin.credential.usernameOrEmail=使用者名稱/電子郵件
+login.builtin.credential.password=密碼
+login.builtin.invalidUsernameEmailOrPassword=您輸入的使用者名稱、電子郵件地址或密碼無效。需要幫助取得您的帳號？
+login.signup.blurb=<a href="{0}">註冊帳號</a>.
+login.echo.credential.name=姓名
+login.echo.credential.email=電子郵件
+login.echo.credential.affiliation=聯繫
+# how do we exercise login.error? Via a password upgrade failure? See https://github.com/IQSS/dataverse/pull/2922
+login.error=驗證使用者名，電子郵件地址或密碼的錯誤。請再試一次。如果問題仍然存在，請聯繫管理員。
+user.error.cannotChangePassword=對不起，您的密碼無法更改。請聯繫您的系統管理員。
+user.error.wrongPassword=抱歉，密碼錯誤。
+login.button=使用{0}登入
+login.button.orcid=建立或連接您的orcid
+# authentication providers
+auth.providers.title=其他選擇
+auth.providers.tip=您可以轉換Dataverse帳號以使用上面的其中一個選項。更多<a href="{0}/{1}/user/account.html" title="Account Creation + Management - Dataverse User Guide" target="_blank" rel="noopener">關於如何建立帳戶</a>.
+auth.providers.title.builtin=使用者名稱/電子郵件
+auth.providers.title.shib=您的機構
+auth.providers.title.orcid=Orcid
+auth.providers.title.google=谷歌
+auth.providers.title.github=Github
+auth.providers.blurb=登入或註冊您的{0}帳號 &mdash; 更多<a href="{0}/{1}/user/account.html" title="Account Creation + Management - Dataverse User Guide" target="_blank" rel="noopener">information about account creation</a>`.
+auth.providers.persistentUserIdName.orcid=Orcid id
+auth.providers.persistentUserIdName.github=Id
+auth.providers.persistentUserIdTooltip.orcid=Orcid提供了一個永久的數字識別碼，可區分研究人員。
+auth.providers.persistentUserIdTooltip.github=Github為每個使用者分配唯一编號。
+auth.providers.insufficientScope=Dataverse未授予從{0}讀取使用者y xul4的權限。
+auth.providers.exception.userinfo=從{0}獲取使用者資訊紀錄錯誤。
+auth.providers.token.failRetrieveToken=Dataverse無法檢索Token。
+auth.providers.token.failParseToken=Dataverse無法解析存取Token。
+auth.providers.token.failGetUser=Dataverse無法獲取您的使用者紀錄。請諮詢系統管理員。
+auth.providers.orcid.helpmessage1=Orcid是一個開放、非營利性的社區的，提供獨特、透明的研究人員識別碼的註冊表和將研究活動連結到這些識別碼的方法。Orcid在跨越學科、研究部門和國家界限以及與其他識別碼系統的合作中獨一無二。請見<a href="https://orcid.org/about" title="about orcid" target="_blank" rel="noopener"> orcid.org/about </a>.
+auth.providers.orcid.helpmessage2=此Dataverse使用您的Orcid進行身份驗證(因此您不需要其他使用者名/密碼組合)。您的oOrcid與您的Dataset關聯，也使人們更容易找到您發表的Dataset。  
+
+# Friendly AuthenticationProvider names
+authenticationProvider.name.builtin=Dataverse
+authenticationProvider.name.null=(提供商未知)
+authenticationProvider.name.github=Github
+authenticationProvider.name.google=Google
+authenticationProvider.name.orcid=Orcid
+authenticationProvider.name.orcid-sandbox=Orcid沙盒
+authenticationProvider.name.shib=Shibboleth
+
+#confirmemail.xhtml
+confirmEmail.pageTitle=電子郵件驗證
+confirmEmail.submitRequest=驗證信件
+confirmEmail.submitRequest.success=驗證電子郵件已發送至{0}。注意，{1}後驗證連結將過期。
+confirmEmail.details.success=電子郵件地址已驗證!
+confirmEmail.details.failure=我們無法驗證您的電子郵件地址。請到您的帳號資訊頁面，然後點擊「驗證電子郵件」按鈕。
+confirmEmail.details.goToAccountPageButton=轉到帳號資訊
+confirmEmail.notVerified=未經審核的
+confirmEmail.verified=驗證
+
+#shib.xhtml
+shib.btn.convertAccount=轉換帳號
+shib.btn.createAccount=建立帳號
+shib.askToConvert=您想轉換您的Dataverse帳號成使用您的機構登入嗎？
+# Bundle file editors, please note that "shib.welcomeExistingUserMessage" is used in a unit test
+shib.welcomeExistingUserMessage=您的機構登入{0}匹配已用於Dataverse帳號的電子郵件地址。通過輸入下面的當前Dataverse密碼，可以轉換現有的Dataverse帳號以使用您的機構登入。轉換後，您只需要使用您的機構登入。
+# Bundle file editors, please note that "shib.welcomeExistingUserMessageDefaultInstitution" is used in a unit test
+shib.welcomeExistingUserMessageDefaultInstitution=你的機構
+shib.dataverseUsername=Dataverse使用者名
+shib.currentDataversePassword=當前Dataverse密碼
+shib.accountInformation=帳號資訊
+shib.offerToCreateNewAccount=此資訊由您的機構提供，並將用於建立您的Dataverse帳號。
+shib.passwordRejected=<strong>驗證錯誤</strong>  - 如果您為現有帳號提供了正確的密碼，則只能轉換帳號。如果您的現有帳號已被管理員停用，則無法轉換您的帳號。
+
+# oauth2/firstLogin.xhtml
+oauth2.btn.convertAccount=轉換現有帳號
+oauth2.btn.createAccount=建立新帳號
+oauth2.askToConvert=您想轉換您的Dataverse帳號始终使用您的機構登入嗎？
+oauth2.welcomeExistingUserMessage=您的機構登入{0}匹配已用於Dataverse帳號的電子郵件地址。通過輸入下面的當前Dataverse密碼，可以轉換現有的Dataverse帳號以使用您的機構登入。轉換後，您只需要使用您的機構登入。
+oauth2.welcomeExistingUserMessageDefaultInstitution=你的機構
+oauth2.dataverseUsername=Dataverse使用者名稱
+oauth2.currentDataversePassword=當前Dataverse密碼
+oauth2.chooseUsername=使用者名: 
+oauth2.passwordRejected=<strong>驗證錯誤</strong>  - 錯誤的使用者名或密碼。
+# oauth2.newAccount.title=Account Creation
+oauth2.newAccount.welcomeWithName=歡迎來到Dataverse，{0}
+oauth2.newAccount.welcomeNoName=歡迎來到Dataverse
+# oauth2.newAccount.email=Email
+# oauth2.newAccount.email.tip=Dataverse uses this email to notify you of issues regarding your data.
+oauth2.newAccount.suggestedEmails=建議的電子郵件地址:
+oauth2.newAccount.username=使用者名稱
+oauth2.newAccount.username.tip=此使用者名稱將是您作為Dataverse使用者的唯一識別碼。
+oauth2.newAccount.explanation=此資訊由{0}提供，並將用於建立{1}帳號。要再次登入，您必須使用{0}登入選項。
+oauth2.newAccount.suggestConvertInsteadOfCreate=如果您已經擁有{0}帳號，則需要<a href="/oauth2/convert.xhtml">轉換您的帳號。</a>
+# oauth2.newAccount.tabs.convertAccount=Convert Existing Account
+oauth2.newAccount.buttons.convertNewAccount=轉換帳號
+oauth2.newAccount.emailTaken=該電子郵件已採用過。請考慮合併相應的帳號。
+oauth2.newAccount.emailOk=電子郵件正常。
+oauth2.newAccount.emailInvalid=無效的電子郵件地址。
+# oauth2.newAccount.usernameTaken=Username already taken.
+# oauth2.newAccount.usernameOk=Username OK.
+
+# oauth2/convert.xhtml
+# oauth2.convertAccount.title=Account Conversion
+oauth2.convertAccount.explanation=請輸入您的{0}帳號使用者名稱或電子郵件和密碼，以將您的帳號轉換為{1}登入選項。<a href=" {2} /user/achount.html" target="_blank">了解更多</a>關於轉換您的帳號。
+oauth2.convertAccount.username=現有使用者名稱
+oauth2.convertAccount.password=密碼
+oauth2.convertAccount.authenticationFailed=只有為現有帳號提供正確的使用者名和密碼，您的帳號只能轉換。如果您的現有帳號已被管理員停用，則無法轉換您的帳號。
+oauth2.convertAccount.buttonTitle=轉換帳號
+oauth2.convertAccount.success=您的Dataverse帳號現在與您的{0}帳號關聯。
+oauth2.convertAccount.failedDeactivated=您的現有帳號無法轉換，因為它已被停用。
+
+# oauth2/callback.xhtml
+oauth2.callback.page.title=Oauth回調
+oauth2.callback.message=<strong>認證錯誤</strong>  -  Dataverse無法使用您選擇的程序進行身份驗證您的登入。請您授權您的帳號與Dataverse連接。有關請求的資訊的更多詳细資訊，請参閱<a href="{0}/{1}/user/account.html#remote-authentication" title="Remote Authentication - Dataverse User Guide" target="_blank">使用者手冊</a>.
+
+# deactivated user accounts
+deactivated.error=對不起，您的帳號已被停用。
+
+# tab on Dataverseuser.xhtml
+apitoken.title=API Token
+apitoken.message=您的API Token有效期為一年。有關使用Dataverse api的API Token的更多資訊，請查看我們的{0} api指南{1}。 
+apitoken.notFound=尚未建立{0}的API Token。
+apitoken.expired.warning=這個API Token即將到期，請生成一個新的Token。
+apitoken.expired.error=此API Token已過期，請生成一個新的Token。
+apitoken.generateBtn=建立API Token
+apitoken.regenerateBtn=重新建立API Token
+apitoken.revokeBtn=撤消API Token
+apitoken.expirationDate.label=截止日期
+
+#dashboard.xhtml
+dashboard.title=儀表板
+dashboard.card.harvestingclients.header=獲取客戶
+dashboard.card.harvestingclients.btn.manage=管理客戶端
+dashboard.card.harvestingclients.clients={0, choice, 0#Clients|1#Client|2#Clients}
+dashboard.card.harvestingclients.dataset={0, choice, 0#Datasets|1#Dataset|2#Datasets}
+dashboard.card.harvestingserver.header=獲取服務器
+dashboard.card.harvestingserver.enabled=Oai服務器已啟用
+dashboard.card.harvestingserver.disabled=Oai服務器已禁用
+dashboard.card.harvestingserver.status=地位
+dashboard.card.harvestingserver.sets={0, choice, 0#Sets|1#Set|2#Sets}
+dashboard.card.harvestingserver.btn.manage=管理服務器
+dashboard.card.metadataexport.header=書目資料導出
+dashboard.card.metadataexport.message=Dataset書目資料導出僅透過{0} api可用。在{0} {1} api指南{2}中了解更多資訊。
+
+#harvestclients.xhtml
+harvestclients.title=管理獲取客戶
+harvestclients.toptip=可以安排獲取在特定時間或按需運行。可以在此處或通過其它api啟動獲取。
+harvestclients.noClients.label=沒有配置客戶端。
+harvestclients.noClients.why.header=什麼是獲取？
+harvestclients.noClients.why.reason1=獲取是與其他儲存庫交換書目資料的過程。作為獲取<b> <i>客戶端</i> </b>，您的Dataverse收集來自遠端的書目資料紀錄。這些可以是其他Dataverse實例，或支援oai-pmh的其他檔案，標準獲取協議。 
+harvestclients.noClients.why.reason2=獲取的書目資料紀錄是由使用者搜尋的。點擊搜尋结果中的收割Dataset將使用者帶到原始儲存庫。您的Dataverse安裝無法編輯收割的Dataset。 
+harvestclients.noClients.how.header=如何使用獲取
+harvestclients.noClients.how.tip1=為了收集書目資料，為每個遠端儲存庫建立和配置a <i>獲取客戶端</i>。請注意，建立客戶端時，您需要選擇現有的本地Dataverse以獲取host hospled Dataset。
+harvestclients.noClients.how.tip2=獲取的紀錄可以通過預定的增量更新，例如每日或每周使用原始儲存庫保持同步。或者，可以從此頁面或通過rest api運行獲取。
+harvestclients.noClients.getStarted=要開始，請點擊上面的「新增客戶端」按鈕。要了解有關獲取的更多資訊，請存取<a href="{0}/{1}/user/index.html#index" title="Harvesting - Dataverse User Guide" target="_blank">Harvesting</a>部分使用者指南。
+harvestclients.btn.add=新增客戶端
+harvestclients.tab.header.name=暱稱
+harvestclients.tab.header.url=連結
+harvestclients.tab.header.lastrun=上次運行
+harvestclients.tab.header.lastresults=最後结果
+harvestclients.tab.header.action=行動
+harvestclients.tab.header.action.btn.run=運行獲取
+harvestclients.tab.header.action.btn.edit=編輯
+harvestclients.tab.header.action.btn.delete=刪除
+harvestclients.tab.header.action.btn.delete.dialog.header=刪除獲取客戶
+harvestclients.tab.header.action.btn.delete.dialog.warning=您確定要刪除獲取客戶端「{0}」？刪除客戶端將刪除從此遠端服務器獲取的所有Dataset。
+harvestclients.tab.header.action.btn.delete.dialog.tip=注意，此操作可能需要一段時間來處理，具體取决於獲取的Dataset的數量。
+harvestclients.tab.header.action.delete.infomessage=獲取客戶正在刪除。注意，這可能需要一段時間，具體取决於獲取的内容的數量。
+harvestclients.actions.runharvest.success=成功啟動了客戶「{0}」的異步獲取。請重新加載頁面以檢查獲取结果。
+harvestclients.newClientDialog.step1=第1步 - 客戶資訊
+harvestclients.newClientDialog.title.new=建立獲取客戶
+harvestclients.newClientDialog.help=將客戶端配置為從遠端服務器獲取内容。
+harvestclients.newClientDialog.nickname=暱稱
+harvestclients.newClientDialog.nickname.helptext=由字母、數字、下劃線(_)和破折號( - )組成。
+harvestclients.newClientDialog.nickname.required=客戶端暱稱不能為空!
+harvestclients.newClientDialog.nickname.invalid=客戶端暱稱只能包含字母、數字、下劃線(_)和破折號( - );並且最多為30個字符。
+harvestclients.newClientDialog.nickname.alreadyused=此暱稱已被使用。
+harvestclients.newClientDialog.type=服務器協議
+harvestclients.newClientDialog.type.helptext=目前只支援oai服務器協議。
+harvestclients.newClientDialog.type.OAI=Oai
+harvestclients.newClientDialog.type.Nesstar=Nesstar
+harvestclients.newClientDialog.url=服務器url
+harvestclients.newClientDialog.url.tip=獲取資源的url。
+harvestclients.newClientDialog.url.watermark=遠端收集服務器，http:// ...
+harvestclients.newClientDialog.url.helptext.notvalidated=獲取資源的url。一旦點擊「下一步」，我們將嘗試建立與服務器的連接，以驗證它是否正常工作，並獲取有關其功能的額外資訊。 
+harvestclients.newClientDialog.url.required=需要有效的獲取服務器地址。
+harvestclients.newClientDialog.url.invalid=無效的網址。無法建立連接並接收有效的服務器回應。 
+harvestclients.newClientDialog.url.noresponse=無法建立與服務器的連接。
+harvestclients.newClientDialog.url.badresponse=來自服務器的回應無效。
+harvestclients.newClientDialog.dataverse=當地的Dataverse
+harvestclients.newClientDialog.dataverse.tip=Dataveress將主管從此遠端資源獲取的Dataset。
+harvestclients.newClientDialog.dataverse.menu.enterName=輸入Dataverse别名
+harvestclients.newClientDialog.dataverse.menu.header=Dataverse name(affiliate)，别名
+harvestclients.newClientDialog.dataverse.menu.invalidMsg=沒有找到匹配項目
+harvestclients.newClientDialog.dataverse.required=您必須選擇從此客戶端獲取現有的datavere。
+harvestclients.newClientDialog.step2=第2步(共4個)
+harvestclients.newClientDialog.oaiSets=Oai set
+harvestclients.newClientDialog.oaiSets.tip=獲取此oai服務器提供的套駔。
+harvestclients.newClientDialog.oaiSets.noset=沒有任何
+harvestclients.newClientDialog.oaiSets.helptext=選擇「無」將收集由服務器定義的預設集。通常這是所有子集中的内容。
+harvestclients.newClientDialog.oaiSets.helptext.noset=此oai服務器不支援命名集。將獲取服務器提供的整個内容。
+harvestclients.newClientDialog.oaiSets.listTruncated=請注意，遠端服務器花費太長，無法返回可用oai套駔的完整列表，因此列表已被截斷。如果需要更改，請從當前列表中選擇一個設置(或選擇「無set」選項)，然後稍後再試。 
+harvestclients.newClientDialog.oaiMetadataFormat=書目資料格式
+harvestclients.newClientDialog.oaiMetadataFormat.tip=遠端服務器提供的書目資料格式。
+harvestclients.newClientDialog.oaiMetadataFormat.required=請選擇要從此存檔獲取的書目資料格式。
+harvestclients.newClientDialog.step3=第4步 - 安排
+harvestclients.newClientDialog.schedule=日程
+harvestclients.newClientDialog.schedule.tip=安排每天或每周自動運行。
+harvestclients.newClientDialog.schedule.time.none.helptext=不安排固定日程，按需運行。
+harvestclients.newClientDialog.schedule.none=沒有任何
+harvestclients.newClientDialog.schedule.daily=日常
+harvestclients.newClientDialog.schedule.weekly=每周
+harvestclients.newClientDialog.schedule.time=時間
+harvestclients.newClientDialog.schedule.day=天
+harvestclients.newClientDialog.schedule.time.am=是
+harvestclients.newClientDialog.schedule.time.pm=下午
+harvestclients.newClientDialog.schedule.time.helptext=預定時間在您當地的時間。
+harvestclients.newClientDialog.btn.create=建立客戶
+harvestclients.newClientDialog.success=成功建立了獲取客戶端「{0}」。
+harvestclients.newClientDialog.step4=第4步 - 顯示
+harvestclients.newClientDialog.harvestingStyle=典藏類型
+harvestclients.newClientDialog.harvestingStyle.tip=遠端存檔類型。
+harvestclients.newClientDialog.harvestingStyle.helptext=選擇最能描述此遠端服務器的存檔類型，以便正確地將格式化規則和樣式應用於收集到的書目資料，讓它們在搜尋结果中顯示。請注意，未正確選擇遠端存檔類型可能導致搜尋结果無法完整顯示條目，並且不能將使用者重新定向到資料的典藏來源。
+harvestclients.newClientDialog.harvestingStyle.required=請從選單中選擇其中一個值。
+harvestclients.viewEditDialog.title=編輯獲取客戶
+harvestclients.viewEditDialog.archiveUrl=典藏網址
+harvestclients.viewEditDialog.archiveUrl.tip=服務於此客戶端獲取的資料的存檔的url，用於搜尋结果的搜尋结果，以便連結到獲取内容的原始來源。
+harvestclients.viewEditDialog.archiveUrl.helptext=如果此url與服務器url的不同之處，請編輯。
+harvestclients.viewEditDialog.archiveDescription=檔案描述
+harvestclients.viewEditDialog.archiveDescription.tip=搜尋结果顯示獲的典藏來源描述。
+harvestclients.viewEditDialog.archiveDescription.default.generic=此Dataset獲取自從合作伙伴。點擊該連結將直接將您帶到資料的典藏來源。
+harvestclients.viewEditDialog.btn.save=儲存更改
+harvestclients.newClientDialog.title.edit=編輯set{0}
+
+#harvestset.xhtml
+harvestserver.title=管理獲取服務器
+harvestserver.toptip=定義一組本地Dataset，可用於通過遠端客戶端獲取。
+harvestserver.service.label=Oai服務器
+harvestserver.service.enabled=啟用
+harvestserver.service.disabled=禁用
+harvestserver.service.disabled.msg=收集服務器目前已禁用。
+harvestserver.service.empty=不配置set。
+harvestserver.service.enable.success=Oai服務已成功啟用。
+harvestserver.noSets.why.header=什麼是獲取服務器？
+harvestserver.noSets.why.reason1=獲取是與其他儲存庫交換書目資料的過程。作為獲取<b> <i>服務器</i> </b>，您的Dataverse可以為遠端收集客戶端提供一些Dataset書目資料。這些可以是其他Dataverse、或支援oai-pmh協議的任何其他客戶端。 
+harvestserver.noSets.why.reason2=只有您的Dataverse中發表後、無限制的Dataset可以被獲取。遠端客戶通常會定期更新、每日或每周保持同步的紀錄，從而最大限度地減少服務器上的負擔。請注意，它只獲取的書目資料，而不會自行下載資料檔案。 
+harvestserver.noSets.how.header=如何運行獲取服務器？
+harvestserver.noSets.how.tip1=可以在此頁面上啟用或禁用獲取服務器。 
+harvestserver.noSets.how.tip2=啟用服務後，您可以定義可用於遠端獲取的本地Dataset的set，因為<i> oai sets </i>。集合由搜尋查詢定義(例如，authorname:king;或父級:1234  - 選擇屬於dataversid的所有Dataset;或dspersistentid:「doi:1234 /」選擇具有永久識別碼權限的所有Dataset指定的)。有關搜尋查詢的詳细資訊，請参閱Dataverse使用者指南的「搜尋api」部分。  
+harvestserver.noSets.getStarted=若要開始，請啟用oai服務器，然後點擊「新增set」按鈕。要了解有關獲取的更多資訊，請見<a href="{0}/{1}/user/index.html#index" title="Harvesting - Dataverse User Guide" target="_blank">Harvesting</a>部分使用者指南。
+harvestserver.btn.add=新增set
+harvestserver.tab.header.spec=Oai setspec
+harvestserver.tab.col.spec.default=預設
+harvestserver.tab.header.description=描述
+harvestserver.tab.header.definition=定義查詢
+harvestserver.tab.col.definition.default=所有已發表的本機Dataset
+harvestserver.tab.header.stats=Dataset
+harvestserver.tab.col.stats.empty=沒有紀錄(空集)
+harvestserver.tab.col.stats.results={0} {0, choice, 0#Dataset|1#dataset|2#Dataset} ({1} {1, choice, 0#紀錄|1#紀錄|2#紀錄} 導出, {2} 標為已刪除)
+harvestserver.tab.header.action=行動
+harvestserver.tab.header.action.btn.export=運行導出
+harvestserver.actions.runreexport.success=成功啟動了oai set「{0}」的異步重新導出作業(請重新加載頁面以檢查導出進度)。
+harvestserver.tab.header.action.btn.edit=編輯
+harvestserver.tab.header.action.btn.delete=刪除
+harvestserver.tab.header.action.btn.delete.dialog.header=刪除獲取set
+harvestserver.tab.header.action.btn.delete.dialog.tip=您確定要刪除oai set「{0}」？刪除後無法回復！
+harvestserver.tab.header.action.delete.infomessage=選定的收穫set已被刪除。(這可能需要一些時刻)
+harvestserver.newSetDialog.title.new=建立獲取set
+harvestserver.newSetDialog.help=定義可用於收集到遠端客戶端的一組本地Dataset。
+harvestserver.newSetDialog.setspec=名稱/ oai setspec
+harvestserver.newSetDialog.setspec.tip=識别此集合的唯一名稱(oai setspec)。
+harvestserver.newSetDialog.setspec.helptext=由字母、數字、下劃線(_)和破折號( - )組成。
+harvestserver.editSetDialog.setspec.helptext=建立集合後，名稱無法更改。
+harvestserver.editSetDialog.setspec.helptext.default=這是預設的，未命名的集合
+harvestserver.editSetDialog.setspec.notFound=設置編輯未找到!
+harvestserver.editSetDialog.setspec.noChanges=無效更新!您必須提供更新的定義和/或描述。
+harvestserver.newSetDialog.setspec.required=名稱(oai setspec)不能為空!
+harvestserver.newSetDialog.setspec.invalid=名稱(oai setspec)只能包含字母、數字、下劃線(_)和連字號( - )。
+harvestserver.newSetDialog.setspec.alreadyused=已使用此設置名稱(oai setspec)。
+harvestserver.newSetDialog.setspec.sizelimit=此設置名稱(oai setspec)可能不超過30個字符。
+harvestserver.newSetDialog.setspec.superUser.required=只有超級使用者可能會建立oai套裝。
+harvestserver.newSetDialog.setdescription=描述
+harvestserver.newSetDialog.setdescription.tip=為此oai集提供簡要说明。
+harvestserver.newSetDialog.setdescription.required=設置描述不能為空!
+harvestserver.newSetDialog.setdescription.default=預設值，設置「無名稱」。當客戶端不指定「setspec」参數時，oai服務器將從此設置的紀錄服務。
+harvestserver.newSetDialog.setquery=定義查詢
+harvestserver.newSetDialog.setquery.tip=搜尋查詢定義Dataset的内容。
+harvestserver.newSetDialog.setquery.helptext=示例查詢:authorname:king
+harvestserver.newSetDialog.setquery.required=搜尋查詢不能留空!
+harvestserver.newSetDialog.setquery.results=搜尋查詢返回{0}Dataset!
+harvestserver.newSetDialog.setquery.empty=警告:搜尋查詢返回沒有结果!
+harvestserver.newSetDialog.btn.create=建立集合
+harvestserver.newSetDialog.success=成功建立獲取集「{0}」。
+harvestserver.viewEditDialog.title=編輯獲取set
+harvestserver.viewEditDialog.btn.save=儲存更改
+harvestserver.deleteSetDialog.setspec.superUser.required=只有超級使用者可能刪除oai集。
+
+#dashboard-users.xhtml
+dashboard.card.users=使用者
+dashboard.card.users.header=儀表板 - 使用者列表
+dashboard.card.users.super=超級使用者
+dashboard.card.users.manage=管理使用者
+dashboard.card.users.message=列表和管理使用者。
+dashboard.list_users.searchTerm.watermark=搜尋這些使用者......
+dashboard.list_users.tbl_header.userId=Id
+dashboard.list_users.tbl_header.userIdAZ=Id(a-z)
+dashboard.list_users.tbl_header.userIdZA=Id(z-a)
+dashboard.list_users.tbl_header.userIdentifier=使用者名
+dashboard.list_users.tbl_header.userIdentifierAZ=使用者名(a-z)
+dashboard.list_users.tbl_header.userIdentifierZA=使用者名(z-a)
+dashboard.list_users.tbl_header.name=姓名
+dashboard.list_users.tbl_header.lastName=姓
+dashboard.list_users.tbl_header.lastNameAZ=姓氏(a-z)
+dashboard.list_users.tbl_header.lastNameZA=姓氏(z-a)
+dashboard.list_users.tbl_header.firstName=名
+dashboard.list_users.tbl_header.email=電子郵件
+dashboard.list_users.tbl_header.emailAZ=電子郵件(a-z)
+dashboard.list_users.tbl_header.emailZA=電子郵件(z-a)
+dashboard.list_users.tbl_header.affiliation=聯繫
+dashboard.list_users.tbl_header.affiliationAZ=隸屬關系(a-z)
+dashboard.list_users.tbl_header.affiliationZA=隸屬(z-a)
+dashboard.list_users.tbl_header.roles=角色
+dashboard.list_users.tbl_header.position=位置
+dashboard.list_users.tbl_header.isSuperuser=超級使用者
+dashboard.list_users.tbl_header.superuserAZ=超級使用者(a-z)
+dashboard.list_users.tbl_header.superuserZA=超級使用者(z-a)
+dashboard.list_users.tbl_header.authProviderFactoryAlias=驗證
+dashboard.list_users.tbl_header.authProviderFactoryAliasAZ=身份驗證(a-z)
+dashboard.list_users.tbl_header.authProviderFactoryAliasZA=身份驗證(z-a)
+dashboard.list_users.tbl_header.createdTime=建立的時間
+dashboard.list_users.tbl_header.lastLoginTime=上次登入時間
+dashboard.list_users.tbl_header.lastApiUseTime=最後一個api使用時間
+dashboard.list_users.tbl_header.deactivated=停用
+dashboard.list_users.tbl_header.roles.removeAll=移除所有
+dashboard.list_users.tbl_header.roles.removeAll.header=刪除所有角色
+dashboard.list_users.tbl_header.roles.removeAll.confirmationText=您確定要刪除使用者{0}的所有角色嗎？
+dashboard.list_users.removeAll.message.success=使用者{0}刪除了所有角色。
+dashboard.list_users.removeAll.message.failure=無法刪除使用者{0}的角色。
+dashboard.list_users.toggleSuperuser=編輯超級使用者狀態
+dashboard.list_users.toggleSuperuser.confirmationText.add=您確定要為使用者{0}啟用超級使用者狀態嗎？
+dashboard.list_users.toggleSuperuser.confirmationText.remove=您確定要為使用者{0}禁用超級使用者狀態嗎？
+dashboard.list_users.api.auth.invalid_apikey=API密鑰無效。
+dashboard.list_users.api.auth.not_superuser=禁止。你必須是超級使用者。
+
+#dashboard-datamove.xhtml
+dashboard.card.datamove=資料
+dashboard.card.datamove.header=儀表板 - 移動資料
+dashboard.card.datamove.manage=移動資料
+dashboard.card.datamove.message=通過將Dataset從一個主機Dataverse移動到另一個主題來管理和策劃您的安裝。另請参見 <a href="{0}/{1}/admin/dataverses-dataset.html">管理Dataverse和Dataset</a> 管理手冊
+dashboard.card.datamove.selectdataset.header=Dataset要移動
+dashboard.card.datamove.newdataverse.header=新主機Dataverse
+dashboard.card.datamove.dataset.label=Dataset
+dashboard.card.datamove.dataverse.label=Dataverse
+dashboard.card.datamove.confirm.dialog=你確定想要移動這個Dataset嗎？
+dashboard.card.datamove.confirm.yes=是的，移動資料
+dashboard.card.datamove.message.success=Dataset「{0}」({1})已成功移動到{2}。
+dashboard.card.datamove.message.failure.summary=無法移動Dataset
+dashboard.card.datamove.message.failure.details=Dataset「{0}」({1})無法移動到{2}。{3} {4}
+dashboard.card.datamove.dataverse.placeholder=輸入Dataverse識別碼...
+dashboard.card.datamove.dataverse.menu.header=Dataverse 名稱(affiliate)，識別碼
+dashboard.card.datamove.dataverse.menu.invalidMsg=沒有找到比賽
+dashboard.card.datamove.dataset.placeholder=輸入Dataset永久 id，doi:...
+dashboard.card.datamove.dataset.menu.header=Dataset永久id，標題，主機Dataverse識別碼
+dashboard.card.datamove.dataset.menu.invalidMsg=沒有找到比賽
+dashboard.card.datamove.dataset.command.error.targetDataverseUnpublishedDatasetPublished=發表的Dataset可能不會移動到未發表的Dataverse。發表後，您可以重試移動{0}。
+dashboard.card.datamove.dataset.command.error.targetDataverseSameAsOriginalDataverse=此Dataset已在此Dataverse中。
+dashboard.card.datamove.dataset.command.error.unforced.datasetGuestbookNotInTargetDataverse=如果您移動它，則將從此Dataset中刪除留言簿，因為留言簿不在新主機Dataverse中。 
+dashboard.card.datamove.dataset.command.error.unforced.linkedToTargetDataverseOrOneOfItsParents=此Dataset連結到新的主機dataver權或其一個父項。此移動將刪除該Dataset的連結。 
+dashboard.card.datamove.dataset.command.error.unforced.suggestForce=强制執行此操作目前僅通過api可用。請参閱<a href="{0}/{1}/admin/dataverses-dataset.html">Managing Datasets and Dataverses</a>以獲取詳细資訊。
+dashboard.card.datamove.dataset.command.error.indexingProblem=無法移動Dataset。索引失敗。
+
+#MailServiceBean.java
+notification.email.create.dataverse.subject={0}:您的Dataverse已建立
+notification.email.create.dataset.subject={0}:已建立您的Dataset
+notification.email.dataset.created.subject={0}:已建立Dataset「{1}」
+notification.email.request.file.access.subject={0}:已對受限制檔案請求存取
+notification.email.grant.file.access.subject={0}:您已被授予對受限制檔案的存取權限
+notification.email.rejected.file.access.subject={0}:您對存取受限制檔案的請求已被拒絕
+notification.email.submit.dataset.subject={0}:您的Dataset已提交審核
+notification.email.publish.dataset.subject={0}:您的Dataset已發表
+notification.email.publishFailure.dataset.subject={0}:無法發表您的Dataset
+notification.email.returned.dataset.subject={0}:您的Dataset已返回
+notification.email.workflow.success.subject={0}:您的Dataset已被處理
+notification.email.workflow.success=在{0}上運行的工作流程(在{1})上運行成功:{2}
+notification.email.workflow.failure.subject={0}:無法處理Dataset
+notification.email.workflow.failure=在{0}上運行的工作流程(在{1})失敗:{2}
+notification.email.status.change.subject={0}:Dataset狀態更改
+notification.email.status.change=Dataset({0})的狀態已更改為{1}
+notification.email.workflow.nullMessage=沒有從工作流中發送的額外訊息。
+notification.email.create.account.subject={0}:您的帳號已建立
+notification.email.assign.role.subject={0}:您已被分配了一個角色
+notification.email.revoke.role.subject={0}:您的角色已被撤销
+notification.email.verifyEmail.subject={0}:驗證您的電子郵件地址
+notification.email.ingestCompleted.subject={0}:您的攝取已成功完成!
+notification.email.ingestCompletedWithErrors.subject={0}:您的攝取已完成錯誤!
+notification.email.greeting=你好，\n 
+notification.email.greeting.html=你好，<br>
+# Bundle file editors, please note that "notification.email.welcome" is used in a unit test
+notification.email.welcome=歡迎來到{0}!通過新增或查找資料開始。有問題嗎？在{4}籤出{1}/{2} /使用者或聯繫人{3}的使用者指南以獲得幫助。
+notification.email.welcomeConfirmEmailAddOn=\n\n請驗證{0}的電子郵件地址。注意，{1}後驗證連結將過期。存取您的帳號頁面發送另一個驗證信件。
+notification.email.requestFileAccess=對Dataset請求的檔案存取:{0}由{1}({2})。管理{3}的權限。
+notification.email.grantFileAccess=在dataset中的檔案授予的存取:{0}(在{1}的檢視)。
+notification.email.rejectFileAccess=您的存取請求被拒絕用於Dataset中請求的檔案:{0}({1}的檢視)。如果您對拒絕了您的請求的原因有任何疑問，則可以使用dataset頁面右上角的「聯繫人」連結到达Dataset所有者。
+# Bundle file editors, please note that "notification.email.createDataverse" is used in a unit test
+notification.email.createDataverse=您的新Dataverse名為{0}(在{1}處的檢視)是在{2}中建立的({3}的檢視)。要了解更多關於您可以使用Dataverse可以執行的操作，請查看Dataverse管理 -  {4}/{5} /user/dataverse-management.html的使用者指南。
+# Bundle file editors, please note that "notification.email.createDataset" is used in a unit test
+notification.email.createDataset=您的新Dataset命名為{0}({1}的檢視)是在{2}中建立的({3}的檢視)。要了解有關您可以使用Dataset可以執行的内容，請查看dataset management  -  {4}/{5} /user/dataset-management.html的使用者指南。
+notification.email.wasSubmittedForReview={0}({1}的檢視)已提交審查以在{2}({3}的檢視)發表。不要忘記發表它或將其發送回貢獻者，{4}({5})\\!
+notification.email.wasReturnedByReviewer={2}的校驗器返回{0}({1}的檢視)(在{3}查看)。
+notification.email.wasPublished={0}({1}的檢視)在{2}({3})中發表。
+notification.email.publishFailedPidReg={2}({1}的檢視)(在{3}的檢視)由於未能註冊，或更新Dataset的全局識別碼或其中一個檔案中的全局識別碼，無法發表。如果繼續發生，請聯繫支援。 
+notification.email.closing=\n\n可以與我們聯繫以獲得{0}的支援。\n\n谢谢，\n {1}
+notification.email.closing.html=<br> <br>您可以聯繫我們以獲得{0}的支援。<br>谢谢，<br> {1}
+notification.email.assignRole=您現在是{1}「{2}」的{0}(在{3}查看)。
+notification.email.revokeRole=您的一個角色是{0}「{1}」的角色已被撤销(在{2}查看)。
+notification.email.changeEmail=您好，{0}。{1} \n\n 如果您沒有打算此更改，請聯繫我們，或者您需要幫助。
+notification.email.passwordReset=嗨{0}，\n\n你好，希望您，請求密碼重置{1}。\n\n 請點擊下面的連結重置Dataverse帳號密碼:\n\n {2} \n\n the link以上只會為下一個{3}分钟工作。\n\n如果沒有要求此密碼重置或需要進一步的幫助，請聯繫我們。
+notification.email.passwordReset.subject=請求Dataverse密碼重置
+notification.email.datasetWasCreated = Dataset"<a href = "{0}">{1}</a>"剛剛在{3}集合中建立。
+hours=小時
+hour=小時
+minutes=分钟
+minute=分钟
+notification.email.checksumfail.subject={0}:您的上傳失敗的校驗和驗證
+notification.email.import.filesystem.subject=Dataset {0}已成功上傳和驗證
+notification.email.import.checksum.subject={0}:您的檔案校驗和作業已完成
+contact.delegation={0}代表{1}
+contact.delegation.default_personal=Dataverse安裝管理員
+notification.email.info.unavailable=不可用
+notification.email.apiTokenGenerated=Hello {0} {1}，\n\n \n\napi令牌已生成。請按照密碼確保保證。
+notification.email.apiTokenGenerated.subject=API令牌是生成的
+
+# dataverse.xhtml
+dataverse.name=Dataverse名稱
+dataverse.name.title=項目、部門、大學、教授、或期刊這個Dataverse將包含資料。
+dataverse.enterName=輸入名字...
+dataverse.host.title=包含此資料的Dataverse。
+dataverse.host.tip=更改主機Dataverse將清除您可以輸入資料的任何字段。
+dataverse.host.autocomplete.nomatches=無匹配
+dataverse.identifier.title=用於此Dataverse的url的短名稱。
+dataverse.affiliation=dataverse.up366.com
+dataverse.affiliation.title=與此Dataverse附屬的組織。
+dataverse.storage.title=在此Dataverse中用於Dataset的儲存服務。
+dataverse.metadatalanguage.title=將假定在此Dataverse中輸入的Dataset的書目資料在選定的語言中。
+dataverse.curationLabels.title=一組用於指示草案Dataset的策委的典藏標籤。
+dataverse.curationLabels.disabled=禁用
+dataverse.category=類别
+dataverse.category.title=最密切地反映了這款Dataverse的類型。
+dataverse.type.selectTab.top=選擇一個......
+dataverse.type.selectTab.researchers=研究員
+dataverse.type.selectTab.researchProjects=研究項目
+dataverse.type.selectTab.journals=杂志
+dataverse.type.selectTab.organizationsAndInsitutions=組織或機構
+dataverse.type.selectTab.teachingCourses=教學课程
+dataverse.type.selectTab.uncategorized=未分類
+dataverse.type.selectTab.researchGroup=研究組
+dataverse.type.selectTab.laboratory=實驗室
+dataverse.type.selectTab.department=部門
+dataverse.description.title=描述該Dataverse的目的，性質或範圍的摘要。
+dataverse.email=電子郵件
+dataverse.email.title=Dataverse的聯繫人的電子郵件地址。
+dataverse.share.dataverseShare=分享Dataverse
+dataverse.share.dataverseShare.tip=在您最喜歡的社交媒體網络上分享此Dataverse。
+dataverse.share.dataverseShare.shareText=查看這個Dataverse。
+dataverse.subject.title=這個Dataverse涵盖的主題。
+dataverse.metadataElements=書目資料字段
+dataverse.metadataElements.tip=選擇要在Dataset模板中使用的書目資料字段，並且在將Dataset新增到此Dataverse時。
+dataverse.metadataElements.from.tip=使用{0}的書目資料字段
+dataverse.resetModifications=重置修改
+dataverse.resetModifications.text=您確定要重置所選書目資料字段嗎？如果您這樣做，您已經完成的任何自定義(隱藏，需要，可選)將不再出現。
+dataverse.field.required=(必需的)
+dataverse.field.example1= (例子:
+dataverse.field.example2=的)
+dataverse.field.set.tip=[+]查看字段+設置為隱藏，必需或可選
+dataverse.field.set.view=[+]查看字段
+dataverse.field.requiredByDataverse=Dataverse要求
+dataverse.facetPickList.text=瀏覽/搜尋方程
+dataverse.facetPickList.tip=選擇書目資料字段以用作此Dataverse中的瀏覽Dataset和Dataverse的方框。
+dataverse.facetPickList.facetsFromHost.text={0}使用瀏覽/搜尋篩選條件
+dataverse.facetPickList.metadataBlockList.all=所有書目資料字段
+dataverse.edit=編輯
+dataverse.option.generalInfo=一般資訊
+dataverse.option.themeAndWidgets=主題+小工具
+dataverse.option.featuredDataverse=特色Dataverse
+dataverse.option.permissions=權限
+dataverse.option.dataverseGroups=群組
+dataverse.option.datasetTemplates=Dataset模板
+dataverse.option.datasetGuestbooks=Dataset留言簿
+dataverse.option.deleteDataverse=刪除Dataverse
+dataverse.publish.btn=發表
+dataverse.publish.header=發表Dataverse
+dataverse.nopublished=沒有發表的Dataverse
+dataverse.nopublished.tip=要使用此功能，您必須至少有一個發表的Dataverse。
+dataverse.contact=電子郵件Dataverse聯繫人
+dataverse.link=連結Dataverse
+dataverse.link.btn.tip=連結到您的Dataverse
+dataverse.link.yourDataverses=你的Dataverse
+dataverse.link.yourDataverses.inputPlaceholder=輸入Dataverse名稱
+dataverse.link.save=儲存連結Dataverse
+dataverse.link.dataverse.choose=選擇您想要將此Dataverse連結到的Dataverse。
+dataverse.link.dataset.choose=輸入您想要將此Dataset連結到的Dataverse的名稱。如果您需要在將來刪除此連結，請聯繫{0}。
+dataverse.link.dataset.none=沒有可連結的Dataverse。
+dataverse.link.no.choice=您有一個Dataverse可以新增連結Dataverse和Dataset。
+dataverse.link.no.linkable=為了能夠連結Dataverse或dataset，您需要擁有自己的Dataverse。建立一個Dataverse才能開始。
+dataverse.link.no.linkable.remaining=您已經連結了所有符合條件的Dataverse。
+dataverse.savedsearch.link=連結搜尋
+dataverse.savedsearch.searchquery=搜尋
+dataverse.savedsearch.filterQueries=面部
+dataverse.savedsearch.save=儲存連結搜尋
+dataverse.savedsearch.dataverse.choose=選擇您想要將此搜尋連結到的Dataverse。
+dataverse.savedsearch.no.choice=您可以新增一個資料，您可以新增儲存的搜尋。
+# Bundle file editors, please note that "dataverse.savedsearch.save.success" is used in a unit test
+dataverse.saved.search.success=已儲存的搜尋已成功連結到{0}。
+dataverse.saved.search.failure=儲存的搜尋無法連結。
+dataverse.linked.success= {0}已成功連結到{1}。
+dataverse.linked.success.wait= {0}已成功連結到{1}。請等待其内容出現。
+dataverse.linked.internalerror={0}已成功連結到{1}，但在内部錯誤已修复之前不會出現内容。
+dataverse.linked.error.alreadyLinked={0}已連結到{1}。
+dataverse.page.pre=以前的
+dataverse.page.next=下一個
+dataverse.byCategory=Dataverse按類别
+dataverse.displayFeatured=顯示下面在此Dataverse的登入頁面上選擇的Dataverse。
+dataverse.selectToFeature=選擇Dataverse以在此Dataverse的入口頁面上顯示。
+dataverse.publish.tip=您確定要發表您的Dataverse嗎？一旦你這樣做，它必須保持發表。
+dataverse.publish.failed.tip=這個Dataverse無法發表，因為它尚未發表。
+dataverse.publish.failed=不能發表Dataverse。
+dataverse.publish.success=你的Dataverse現在是公開的。
+dataverse.publish.failure=這個Dataverse無法發表。
+dataverse.delete.tip=您確定要刪除您的Dataverse嗎？你無法刪除這個Dataverse。
+dataverse.delete=刪除Dataverse
+dataverse.delete.success=您的Dataverse已被刪除。
+dataverse.delete.failure=這個Dataverse無法刪除。
+# Bundle file editors, please note that "dataverse.create.success" is used in a unit test because it's so fancy with two parameters
+dataverse.create.success=您已成功建立了您的Dataverse!要了解有關您可以使用Dataverse可以執行的内容，請查看<a href="{0}/{1}/user/dataverse-management.html" title="Dataverse Management - Dataverse User Guide" target="_blank">手冊</a>.
+dataverse.create.failure=無法建立此Dataverse。
+dataverse.create.authenticatedUsersOnly=只有經過身份驗證的使用者可以建立Dataverse。
+dataverse.update.success=您已成功更新您的Dataverse!
+dataverse.update.failure=這個Dataverse無法更新。
+dataverse.selected=選擇
+dataverse.listing.error=嘗試列出Dataverse的内容的致命錯誤。請將此錯誤報告给Dataverse管理員。
+dataverse.datasize=儲存在此Dataverse中的檔案的總大小:{0}字节
+dataverse.datasize.ioerror=致命的io錯誤，同時嘗試確定儲存在Dataverse中的檔案的總大小。請將此錯誤報告给Dataverse管理員。
+dataverse.inherited=(套用自封閉Dataverse)
+dataverse.default=(預設)
+# rolesAndPermissionsFragment.xhtml
+
+# advanced.xhtml
+advanced.search.header.dataverses=所有Dataverse
+advanced.search.dataverses.name.tip=項目、部門、大學、教授、或期刊這個Dataverse將包含資料。
+advanced.search.dataverses.affiliation.tip=與此Dataverse附屬的組織。
+advanced.search.dataverses.description.tip=描述該Dataverse的目的，性質或範圍的摘要。
+advanced.search.dataverses.subject.tip=特定的特定主題類别與此Dataverse有關。
+advanced.search.header.datasets=所有Dataset
+advanced.search.header.files=所有檔案
+advanced.search.files.name.tip=给出要識别檔案的名稱。
+advanced.search.files.description.tip=描述檔案及其變項的摘要。
+advanced.search.files.persistentId.tip=檔案的永久識別碼。
+advanced.search.files.persistentId=資料檔案永久id
+advanced.search.files.persistentId.tip=資料檔案的唯一永久識別碼，可以是Dataverse中的句柄或doi。
+advanced.search.files.fileType=檔案類型
+advanced.search.files.fileType.tip=檔案類型，例如逗號分隔值、纯文本、r等.
+advanced.search.files.variableName=變項的名稱
+advanced.search.files.variableName.tip=資料中變項列的名稱。
+advanced.search.files.variableLabel=可變標籤
+advanced.search.files.variableLabel.tip=變項的簡短描述。
+advanced.search.dataset.persistentId.tip=Dataset的永久識別碼。
+advanced.search.dataset.persistentId=Dataset永久標識
+advanced.search.dataset.persistentId.tip=Dataset的唯一永久識別碼，可以是Dataverse中的句柄或doi。
+advanced.search.files.fileTags=檔案標籤
+advanced.search.files.fileTags.tip=術語已應用於檔案的「文件」，「資料」或「程式」。
+
+# search
+search.dataset.literalquestion=實際的文字，文字問題問。
+search.dataset.interviewinstructions=對個人進行面試的具體说明。
+search.dataset.postquestion=描述在提出文字問題之後發生的内容。
+search.dataset.variableuniverse=作為研究對象的人或其他元素以及任何分析结果所指的人。
+search.dataset.variableNotes=澄清有關變項的資訊/注释。
+
+# search-include-fragment.xhtml
+dataverse.search.advancedSearch=高級搜尋
+dataverse.search.input.watermark=搜尋這個Dataverse ...
+account.search.input.watermark=搜尋此資料...
+dataverse.search.btn.find=尋找
+dataverse.results.btn.addData=新增資料
+dataverse.results.btn.addData.newDataverse=新的Dataverse
+dataverse.results.btn.addData.newDataset=新Dataset
+dataverse.results.dialog.addDataGuest.header=新增資料
+dataverse.results.dialog.addDataGuest.msg=登入以建立Dataverser或新增Dataset。
+dataverse.results.dialog.addDataGuest.msg.signup=註冊或登入以建立Dataverser或新增Dataset。
+dataverse.results.dialog.addDataGuest.signup.title=註冊Dataverse帳號
+dataverse.results.dialog.addDataGuest.login.title=登入您的Dataverse帳號
+dataverse.results.types.dataverses=所有Dataverse
+dataverse.results.types.datasets=所有Dataset
+dataverse.results.types.files=檔案
+dataverse.results.btn.filterResults=過濾结果
+# Bundle file editors, please note that "dataverse.results.empty.zero" is used in a unit test
+dataverse.results.empty.zero=沒有與您的搜尋匹配的Dataverse、Dataset或檔案。請使用其他或更廣泛的術語嘗試新的搜尋。您還可以查看<a href="{0}/{1}/user/find-use-data.html" title="Finding &amp; Using Data - Dataverse User Guide" target="_blank">搜尋手冊</a>提示。
+# Bundle file editors, please note that "dataverse.results.empty.hidden" is used in a unit test
+dataverse.results.empty.hidden=根據您如何缩小搜尋，沒有搜尋结果。您可以查看<a href="{0}/{1}/user/find-use-data.html" title="Finding &amp; Using Data - Dataverse User Guide" target="_blank">搜尋手冊</a>提示。
+dataverse.results.empty.browse.guest.zero=此Dataverse目前沒有Dataverse，Dataset或檔案。請<a href="/loginpage.xhtml{0}" title="Log into your Dataverse Account">登入</a>以查看您是否能夠新增到它。
+dataverse.results.empty.browse.guest.hidden=這個Dataverse中沒有Dataverse。請<a href="/loginpage.xhtml{0}" title="Log into your Dataverse Account">登入</a>以查看您是否能夠新增到它。
+dataverse.results.empty.browse.loggedin.noperms.zero=此Dataverse目前沒有Dataverse，Dataset或檔案。您可以使用上面的電子郵件Dataverse聯繫人按鈕詢問此Dataverse或請求存取此Dataverse。
+dataverse.results.empty.browse.loggedin.noperms.hidden=這個Dataverse中沒有Dataverse。
+dataverse.results.empty.browse.loggedin.perms.zero=此Dataverse目前沒有Dataverse，Dataset或檔案。您可以使用此頁面上的「新增資料」按鈕新增到它。
+account.results.empty.browse.loggedin.perms.zero=您沒有與您的帳號關聯的Dataverse，Dataset或檔案。您可以通過點擊上面的「新增資料」按鈕新增Dataverse或Dataset。閱讀更多關於在<a href="{0}/{1}/user/dataverse-management.html" title="Dataverse Management - Dataverse User Guide" target="_blank">使用者手冊</a>.
+dataverse.results.empty.browse.loggedin.perms.hidden=這個Dataverse中沒有Dataverse。您可以使用此頁面上的「新增資料」按鈕新增到它。
+dataverse.results.empty.link.technicalDetails=更多技術細節
+dataverse.search.facet.error=搜尋参數出錯。請<a href="/dataverse/{0}">清除搜尋结果</a>並重試。
+dataverse.results.count.toofresults={0} to {1} of {2} {2, choice, 0#结果集|1#结果集|2#结果集}
+dataverse.results.paginator.current=(當前的)
+dataverse.results.btn.sort=種類
+dataverse.results.btn.sort.option.nameAZ=名稱(a-z)
+dataverse.results.btn.sort.option.nameZA=名稱(z-a)
+dataverse.results.btn.sort.option.newest=最新
+dataverse.results.btn.sort.option.oldest=最老的
+dataverse.results.btn.sort.option.relevance=關聯
+dataverse.results.cards.foundInMetadata=在書目資料字段中找到:
+dataverse.results.cards.files.tabularData=表格資料
+dataverse.results.solrIsDown=請注意:由於内部錯誤，瀏覽和搜尋不可用。
+dataverse.theme.title=主題
+dataverse.theme.inheritCustomization.title=對於此Dataverse，使用與父資料更具有相同的主題。
+dataverse.theme.inheritCustomization.label=套用主題
+dataverse.theme.inheritCustomization.checkbox=從{0}套用主題
+dataverse.theme.logo=標識
+dataverse.theme.logo.tip=支援的圖像類型是jpg、tif或png，不應大於500 kb。Dataverse主題中的圖像檔案的最大顯示大小為940像素寬120像素高。
+dataverse.theme.logo.format=logo格式
+dataverse.theme.logo.format.selectTab.square=正方形
+dataverse.theme.logo.format.selectTab.rectangle=長方形
+dataverse.theme.logo.alignment=logo對齊
+dataverse.theme.logo.alignment.selectTab.left=剩下
+dataverse.theme.logo.alignment.selectTab.center=中心
+dataverse.theme.logo.alignment.selectTab.right=對
+dataverse.theme.logo.backColor=logo背景顏色
+dataverse.theme.logo.image.upload=上傳圖片
+dataverse.theme.tagline=標語
+dataverse.theme.website=網站
+dataverse.theme.linkColor=連結顏色
+dataverse.theme.txtColor=文字顏色
+dataverse.theme.backColor=背景顏色
+dataverse.theme.success=您已成功更新了此Dataverse的主題!
+dataverse.theme.failure=Dataverse主題尚未更新。
+dataverse.theme.logo.image=形象標識
+dataverse.theme.logo.imageFooter=頁尾圖像
+dataverse.theme.logo.image.title=您希望在此Dataverse的標題中顯示的logo或圖像檔案。
+dataverse.theme.logo.image.footer=您希望在此Dataverse的頁尾中顯示的logo或圖像檔案。
+dataverse.theme.logo.image.uploadNewFile=上傳新檔案
+dataverse.theme.logo.image.invalidMsg=圖像無法上傳。請使用jpg、tif或png檔案重試。
+dataverse.theme.logo.image.uploadImgFile=上傳圖像檔案
+dataverse.theme.logo.format.title=您上傳此Dataverse的logo或圖像檔案。
+dataverse.theme.logo.alignment.title=標志或圖像應該在頁眉或頁尾中顯示。
+dataverse.theme.logo.backColor.title=選擇一個顏色以在此Dataverse的標題或頁尾中顯示。
+dataverse.theme.headerColor=標題顏色
+dataverse.theme.headerColor.tip=您選擇要符合此Dataverse的標題的顏色。
+dataverse.theme.backColor.title=包含圖像、標記、url和文本的標題區域的顏色。
+dataverse.theme.linkColor.title=用於顯示為的連結的顏色。
+dataverse.theme.txtColor.title=標記文本的顏色和此Dataverse的名稱。
+dataverse.theme.tagline.title=描述此Dataverse的短語或句子。
+dataverse.theme.tagline.tip=提供140個字符或更少的標語。 
+dataverse.theme.website.title=您個人網站，機構或與此Dataverse相關的任何網站的url。
+dataverse.theme.website.tip=該網站將在標記線上連結。要列出一個網站，您還必須提供標語。 
+dataverse.theme.website.watermark=您的個人網站，http:// ...
+dataverse.theme.website.invalidMsg=無效的網址。
+dataverse.theme.disabled=Root Dataverse的主題已使用以下方法禁用:disablerootDataverse主題資料庫設置。
+dataverse.widgets.title=小工具
+dataverse.widgets.notPublished.why.header=為什麼使用小工具？
+dataverse.widgets.notPublished.why.reason1=通過允許您將Dataset與Dataset嵌入個人或項目網站來提高資料的web可見性。
+dataverse.widgets.notPublished.why.reason2=允許其他人瀏覽您的Dataverse和Dataset而不留下您的個人或項目網站。
+dataverse.widgets.notPublished.how.header=如何使用小工具
+dataverse.widgets.notPublished.how.tip1=要使用窗口小工具，需要發表您的Dataverse和Dataset。
+dataverse.widgets.notPublished.how.tip2=發表後，將在此頁面上提供程式，供您複製和新增到您的個人或項目網站。
+dataverse.widgets.notPublished.how.tip3=你有openscholar網站嗎？如果是這樣，請了解有關將Dataverse小工具新增到您的網站<a href="{0}/{1}/user/dataverse-management.html#adding-widgets-to-an-openscholar-website" title="Adding Widgets to an OpenScholar Website - Dataverse User Guide" target="_blank">here</a>.
+dataverse.widgets.notPublished.getStarted=要開始，發表您的Dataverse。要了解有關窗口小工具的更多資訊，請存取<a href="{0}/{1}/user/dataverse-management.html#theme-widgets" title="Theme + Widgets - Dataverse User Guide" target="_blank">Theme + Widgets</a> section of the User Guide.
+dataverse.widgets.tip=將此程式複製並貼上到您網站上的html中。要了解有關窗口小工具的更多資訊，請存取<a href="{0}/{1}/user/dataverse-management.html#theme-widgets" title="Theme + Widgets - Dataverse User Guide" target="_blank">Theme + Widgets</a>.
+dataverse.widgets.searchBox.txt=Dataverse搜尋框
+dataverse.widgets.searchBox.tip=為您的網站上的存取者新增方式，以便能夠搜尋Dataverse。
+dataverse.widgets.dataverseListing.txt=Dataverse列表
+dataverse.widgets.dataverseListing.tip=為您的網站上的存取者新增方式，以便能夠查看Dataverse和Dataset，sort或瀏覽它們。
+dataverse.widgets.advanced.popup.header=小工具高級選項
+dataverse.widgets.advanced.prompt=向您的個人網站轉發Dataset引用永久url。您提交的頁面作為個人網站url必須包含Dataverse小工具的程式片段。
+dataverse.widgets.advanced.url.label=個人網站網址
+#dataverse.widgets.advanced.url.watermark=http://www.example.com/page-name
+dataverse.widgets.advanced.invalid.message=請輸入有效網址
+dataverse.widgets.advanced.success.message=成功更新了您的個人網站url
+dataverse.widgets.advanced.failure.message=Dataverse個人網站url尚未更新。
+
+# permissions-manage.xhtml
+dataverse.permissions.title=權限
+dataverse.permissions.dataset.title=Dataset權限
+dataverse.permissions.access.accessBtn=編輯存取
+dataverse.permissions.usersOrGroups=使用者/群組
+dataverse.permissions.requests=要求
+dataverse.permissions.usersOrGroups.assignBtn=將角色分配给使用者/組
+dataverse.permissions.usersOrGroups.createGroupBtn=建立組
+dataverse.permissions.usersOrGroups.description=所有可存取您的Dataverse的使用者和組。
+dataverse.permissions.usersOrGroups.tabHeader.userOrGroup=使用者/群組名稱(隸屬關系)
+dataverse.permissions.usersOrGroups.tabHeader.id=Id
+dataverse.permissions.usersOrGroups.tabHeader.role=角色
+dataverse.permissions.usersOrGroups.tabHeader.action=行動
+dataverse.permissions.usersOrGroups.assignedAt=分配在{0}的角色
+dataverse.permissions.usersOrGroups.removeBtn=刪除分配的作用
+dataverse.permissions.usersOrGroups.removeBtn.confirmation=您確定要刪除此角色分配嗎？
+dataverse.permissions.roles=角色
+dataverse.permissions.roles.add=新增新角色
+dataverse.permissions.roles.description=在您的Dataverse中設置的所有角色，您可以分配给使用者和組。
+dataverse.permissions.roles.edit=編輯角色
+dataverse.permissions.roles.copy=複製角色
+dataverse.permissions.roles.alias.required=請輸入此角色的唯一識別碼。
+dataverse.permissions.roles.name.required=請輸入此角色的名稱。
+
+# permissions-manage-files.xhtml
+dataverse.permissionsFiles.title=限制檔案權限
+dataverse.permissionsFiles.usersOrGroups=使用者/群組
+dataverse.permissionsFiles.usersOrGroups.assignBtn=授予對使用者/組的存取權限
+dataverse.permissionsFiles.usersOrGroups.description=所有使用者和組都可以存取此Dataset中的受限檔案。
+dataverse.permissionsFiles.usersOrGroups.tabHeader.userOrGroup=使用者/群組名稱(隸屬關系)
+dataverse.permissionsFiles.usersOrGroups.tabHeader.id=Id
+dataverse.permissionsFiles.usersOrGroups.tabHeader.email=電子郵件
+dataverse.permissionsFiles.usersOrGroups.tabHeader.authentication=驗證
+dataverse.permissionsFiles.usersOrGroups.tabHeader.files=檔案
+dataverse.permissionsFiles.usersOrGroups.tabHeader.access=使用權
+dataverse.permissionsFiles.usersOrGroups.file=檔案
+dataverse.permissionsFiles.usersOrGroups.files=所有檔案
+dataverse.permissionsFiles.usersOrGroups.invalidMsg=沒有使用者或群組，可以存取此Dataset中的受限檔案。
+dataverse.permissionsFiles.files=限制檔案
+dataverse.permissionsFiles.files.label={0, choice, 0#Restricted Files|1#Restricted File|2#Restricted Files}
+dataverse.permissionsFiles.files.description=此Dataset中的所有受限檔案。
+dataverse.permissionsFiles.files.tabHeader.fileName=檔案名
+dataverse.permissionsFiles.files.tabHeader.roleAssignees=使用者/群組
+dataverse.permissionsFiles.files.tabHeader.access=使用權
+dataverse.permissionsFiles.files.tabHeader.publishedRestrictedState=發表
+dataverse.permissionsFiles.files.tabHeader.draftRestrictedState=草案
+dataverse.permissionsFiles.files.deleted=刪除了
+dataverse.permissionsFiles.files.public=上市
+dataverse.permissionsFiles.files.restricted=受限制的
+dataverse.permissionsFiles.files.roleAssignee=使用者/群組
+dataverse.permissionsFiles.files.roleAssignees=使用者/群組
+dataverse.permissionsFiles.files.roleAssignees.label={0, choice, 0#Users/Groups|1#User/Group|2#Users/Groups}
+dataverse.permissionsFiles.files.assignBtn=分配存取
+dataverse.permissionsFiles.files.invalidMsg=此Dataset中沒有受限制的檔案。
+dataverse.permissionsFiles.files.requested=請求的檔案
+dataverse.permissionsFiles.files.selected=選擇{1} {2}的{0}
+dataverse.permissionsFiles.files.includeDeleted=包括已刪除的檔案
+dataverse.permissionsFiles.viewRemoveDialog.header=檔案存取
+dataverse.permissionsFiles.viewRemoveDialog.removeBtn=刪除存取
+dataverse.permissionsFiles.viewRemoveDialog.removeBtn.confirmation=您確定要刪除存取此檔案嗎？一旦存取已被刪除，使用者或組將無法再下載此檔案。
+dataverse.permissionsFiles.assignDialog.header=授予檔案存取
+dataverse.permissionsFiles.assignDialog.description=授予檔案存取使用者和組。
+dataverse.permissionsFiles.assignDialog.userOrGroup=使用者/群組
+dataverse.permissionsFiles.assignDialog.userOrGroup.enterName=輸入使用者/組名稱
+dataverse.permissionsFiles.assignDialog.userOrGroup.invalidMsg=沒有找到比賽。
+dataverse.permissionsFiles.assignDialog.userOrGroup.requiredMsg=請選擇至少一個使用者或群組。
+dataverse.permissionsFiles.assignDialog.fileName=檔案名
+dataverse.permissionsFiles.assignDialog.grantBtn=授予
+dataverse.permissionsFiles.assignDialog.rejectBtn=拒絕
+
+# permissions-configure.xhtml
+dataverse.permissions.accessDialog.header=編輯存取
+dataverse.permissions.description=當前存取配置到您的Dataverse。
+dataverse.permissions.tip=選擇所有使用者或僅通過點擊「編輯存取」04su.3可以新增到此Dataverse。
+dataverse.permissions.Q1=谁可以新增到這個Dataverse？
+dataverse.permissions.Q1.answer1=任何新增到此Dataverse的人都需要獲得存取權限
+dataverse.permissions.Q1.answer2=具有Dataverse帳號的任何人都可以新增子Dataverse
+dataverse.permissions.Q1.answer3=具有Dataverse帳號的任何人都可以新增Dataset
+dataverse.permissions.Q1.answer4=具有Dataverse帳號的任何人都可以新增子Dataverse和Dataset
+dataverse.permissions.Q2=當使用者將新Dataset新增到此Dataverse時，應在該Dataset上自動分配哪個角色？
+dataverse.permissions.Q2.answer.editor.description=- 編輯書目資料、上傳檔案和編輯檔案、編輯條款、留言簿、提交Dataset進行審查
+dataverse.permissions.Q2.answer.manager.description=- 編輯書目資料、上傳檔案和編輯檔案、編輯條款、留言簿、檔案限制(檔案存取+使用)
+dataverse.permissions.Q2.answer.curator.description=- 編輯書目資料、上傳檔案和編輯檔案、編輯條款、留言簿、檔案限制(檔案存取+使用)、編輯權限/分配角色+發布
+permission.anyoneWithAccount=任何有Dataverse帳號的人
+
+# roles-assign.xhtml
+dataverse.permissions.usersOrGroups.assignDialog.header=分配角色
+dataverse.permissions.usersOrGroups.assignDialog.description=通過分配一個角色來授予使用者和組的權限。
+dataverse.permissions.usersOrGroups.assignDialog.userOrGroup=使用者/群組
+dataverse.permissions.usersOrGroups.assignDialog.userOrGroup.enterName=輸入使用者/組名稱
+dataverse.permissions.usersOrGroups.assignDialog.userOrGroup.invalidMsg=沒有找到比賽。
+dataverse.permissions.usersOrGroups.assignDialog.userOrGroup.requiredMsg=請選擇至少一個使用者或組。
+dataverse.permissions.usersOrGroups.assignDialog.role.description=這些是與所選角色關聯的權限。
+dataverse.permissions.usersOrGroups.assignDialog.role.warning=分配{0}角色表示使用者還將具有應用於此{2}中的所有{1}的{0}角色。
+dataverse.permissions.usersOrGroups.assignDialog.role.requiredMsg=請選擇要分配的角色。
+
+# roles-edit.xhtml
+dataverse.permissions.roles.header=編輯角色
+dataverse.permissions.roles.name=角色名稱
+dataverse.permissions.roles.name.title=輸入角色的名稱。
+dataverse.permissions.roles.id=識別碼
+dataverse.permissions.roles.id.title=輸入别名的名稱。
+dataverse.permissions.roles.description.title=描述角色(最多1000個字符)。
+dataverse.permissions.roles.description.counter={0}剩余字符
+dataverse.permissions.roles.roleList.header=角色權限
+dataverse.permissions.roles.roleList.authorizedUserOnly=帶有星號圖標的權限表示無法登入Dataverse的使用者執行的操作。
+
+# explicitGroup-new-dialog.xhtml
+dataverse.permissions.explicitGroupEditDialog.title.new=建立組
+dataverse.permissions.explicitGroupEditDialog.title.edit=編輯組{0}
+dataverse.permissions.explicitGroupEditDialog.help=將使用者或其他組新增到此組。
+dataverse.permissions.explicitGroupEditDialog.groupIdentifier=組識別碼
+dataverse.permissions.explicitGroupEditDialog.groupIdentifier.tip=用於本組id的短名稱。
+dataverse.permissions.explicitGroupEditDialog.groupIdentifier.required=組識別碼不能為空
+dataverse.permissions.explicitGroupEditDialog.groupIdentifier.invalid=組識別碼只能包含字母，數字，下劃線(_)和破折號( - )
+dataverse.permissions.explicitGroupEditDialog.groupIdentifier.helpText=包含字母，數字，下劃線(_)和破折號( - )
+dataverse.permissions.explicitGroupEditDialog.groupIdentifier.taken=在這個Dataverse中使用的組識別碼
+dataverse.permissions.explicitGroupEditDialog.groupName=組的名字
+dataverse.permissions.explicitGroupEditDialog.groupName.required=組名不能為空
+dataverse.permissions.explicitGroupEditDialog.groupDescription=描述
+dataverse.permissions.explicitGroupEditDialog.roleAssigneeName=使用者/群組
+dataverse.permissions.explicitGroupEditDialog.roleAssigneeNames=使用者/群組
+dataverse.permissions.explicitGroupEditDialog.createGroup=建立組
+
+# manage-templates.xhtml
+dataset.manageTemplates.pageTitle=管理Dataset模板
+dataset.manageTemplates.select.txt=包括{0}的模板
+dataset.manageTemplates.createBtn=建立Dataset模板
+dataset.manageTemplates.saveNewTerms=儲存Dataset模板
+dataset.manageTemplates.noTemplates.why.header=為什麼要使用模板？
+dataset.manageTemplates.noTemplates.why.reason1=當您在多個書目資料字段中具有多個Dataset時，模板非常有用，您希望不必繼續手動輸入。
+dataset.manageTemplates.noTemplates.why.reason2=如果您有一個特定的方式，可以使用模板對將Dataset進行上傳到Dataset的指令，如果您有一種特定的方式，則需要填寫書目資料字段。
+dataset.manageTemplates.noTemplates.how.header=如何使用模板
+dataset.manageTemplates.noTemplates.how.tip1=模板在Dataverse級别建立，可以刪除(因此它不顯示未來的Dataset)，設置為預設(不需要)，可以複製，以便在建立具有類似書目資料的新模板時不必重新開始來自另一個模板。刪除模板時，它不會影响已使用模板的Dataset。
+dataset.manageTemplates.noTemplates.how.tip2=請注意，在<a href="/dataverse/{0}?editMode=INFO" title="Dataverse General Information">通用資訊</a>這個Dataverse的頁面。
+dataset.manageTemplates.noTemplates.getStarted=要開始，請點擊上面的「建立Dataset模板」按鈕。要了解有關模板的更多資訊，請存取<a href="{0}/{1}/user/dataverse-management.html#dataset-templates" title="Dataset Templates - Dataverse User Guide" target="_blank">Dataverse模板</a>使用者指南的部分。
+dataset.manageTemplates.tab.header.templte=模板名稱
+dataset.manageTemplates.tab.header.date=建立日期
+dataset.manageTemplates.tab.header.usage=用法
+dataset.manageTemplates.tab.header.action=行動
+dataset.manageTemplates.tab.action.btn.makeDefault=使預設
+dataset.manageTemplates.tab.action.btn.default=預設
+dataset.manageTemplates.tab.action.btn.view=看法
+dataset.manageTemplates.tab.action.btn.copy=複製
+dataset.manageTemplates.tab.action.btn.edit=編輯模板
+dataset.manageTemplates.tab.action.btn.edit.metadata=書目資料
+dataset.manageTemplates.tab.action.btn.edit.terms=條款
+dataset.manageTemplates.tab.action.btn.delete=刪除
+dataset.manageTemplates.tab.action.btn.delete.dialog.tip=您確定要刪除此模板嗎？新Dataset將無法使用此模板。
+dataset.manageTemplates.tab.action.btn.delete.dialog.header=刪除模板
+dataset.manageTemplates.tab.action.btn.view.dialog.header=Dataset模板預覽
+dataset.manageTemplates.tab.action.btn.view.dialog.datasetTemplate=Dataset模板
+dataset.manageTemplates.tab.action.btn.view.dialog.datasetTemplate.title=Dataset模板自動預先填充資訊。
+dataset.manageTemplates.tab.action.noedit.createdin=在{0}建立的模板
+dataset.manageTemplates.delete.usedAsDefault=此模板是以下Dataverse(s)的預設模板。它也將被刪除為預設值。
+dataset.message.manageTemplates.label=管理Dataset模板
+dataset.message.manageTemplates.message=建立預先填充的模板，如書目資料字段標準值，例如作者關聯，或在書目資料字段中新增说明，以提供有關預期書目資料的更多資訊。
+
+# metadataFragment.xhtml
+dataset.anonymized.withheld=扣留
+
+dataset.metadatalanguage.create.guidance=請在繼續之前輸入<b>{0}</b>語言中的書目資料，或更改父資料驅動程序中的書目資料語言選項。
+dataset.metadatalanguage.view.guidance=此Dataset已配置為使用<b>{0}</b>作為所有書目資料條目的語言。
+
+# template.xhtml
+dataset.template.name.tip=Dataset模板的名稱。
+dataset.template.returnBtn=返回管理模板
+dataset.template.name.title=輸入模板的唯一名稱。
+template.asterisk.tip=星號表示書目資料字段，即在將Dataset新增到此Dataverse時，將需要填寫使用者的書目資料字段。
+dataset.template.popup.create.title=建立模板
+dataset.template.popup.create.text=您是否要新增預設使用條款和/或存取？
+dataset.create.add.terms=儲存+新增條款
+
+# manage-groups.xhtml
+dataverse.manageGroups.pageTitle=管理Dataverse組
+dataverse.manageGroups.createBtn=建立組
+dataverse.manageGroups.noGroups.why.header=為什麼要使用群組？
+dataverse.manageGroups.noGroups.why.reason1=組允許您立即為许多使用者分配角色和權限。
+dataverse.manageGroups.noGroups.why.reason2=您可以使用組來管理多種不同類型的使用者(學生，協作者等)
+dataverse.manageGroups.noGroups.how.header=如何使用組
+dataverse.manageGroups.noGroups.how.tip1=組可以包含使用者和其他組。
+dataverse.manageGroups.noGroups.how.tip2=您可以在「權限」檢視中為組分配權限。
+dataverse.manageGroups.noGroups.getStarted=要開始，請點擊上面的「建立組」按鈕。
+dataverse.manageGroups.tab.header.name=組的名字
+dataverse.manageGroups.tab.header.id=組id
+dataverse.manageGroups.tab.header.membership=會員資格
+dataverse.manageGroups.tab.header.action=行動
+dataverse.manageGroups.tab.action.btn.view=看法
+dataverse.manageGroups.tab.action.btn.copy=複製
+dataverse.manageGroups.tab.action.btn.enable=使能夠
+dataverse.manageGroups.tab.action.btn.disable=禁用
+dataverse.manageGroups.tab.action.btn.edit=編輯
+dataverse.manageGroups.tab.action.btn.viewCollectedData=查看收集的資料
+dataverse.manageGroups.tab.action.btn.delete=刪除
+dataverse.manageGroups.tab.action.btn.delete.dialog.header=刪除組
+dataverse.manageGroups.tab.action.btn.delete.dialog.tip=您確定要刪除此組嗎？你無法刪除一個小組。
+dataverse.manageGroups.tab.action.btn.view.dialog.header=Dataverse組
+dataverse.manageGroups.tab.action.btn.view.dialog.group=組的名字
+dataverse.manageGroups.tab.action.btn.view.dialog.groupView.name=成員名字
+dataverse.manageGroups.tab.action.btn.view.dialog.groupView.type=會員類型
+dataverse.manageGroups.tab.action.btn.view.dialog.groupView.action=行動
+dataverse.manageGroups.tab.action.btn.view.dialog.groupView.delete=刪除
+dataverse.manageGroups.tab.action.btn.view.dialog.groupMembers=小組成員
+dataverse.manageGroups.tab.action.btn.view.dialog.enterName=輸入使用者/組名稱
+dataverse.manageGroups.tab.action.btn.view.dialog.invalidMsg=沒有找到比賽。
+
+# manage-guestbooks.xhtml
+dataset.manageGuestbooks.pageTitle=管理Dataset留言簿
+dataset.manageGuestbooks.include=包括{0}的留言簿
+dataset.manageGuestbooks.createBtn=建立Dataset留言簿
+dataset.manageGuestbooks.download.all.responses=下載所有答案
+dataset.manageGuestbooks.download.responses=下載答案
+dataset.manageGuestbooks.noGuestbooks.why.header=為什麼使用留言簿？
+dataset.manageGuestbooks.noGuestbooks.why.reason1=留言簿允許您收集有關從Dataset下載檔案的資料。您可以决定收集帳號資訊(使用者名，给定名稱和姓氏，附屬等)以及建立自定義問題(例如，您打算使用該資料的？)。
+dataset.manageGuestbooks.noGuestbooks.why.reason2=您可以下載已啟用的留言簿收集的資料，以便能夠將其儲存在Dataverse之外。
+dataset.manageGuestbooks.noGuestbooks.how.header=如何使用留言簿
+dataset.manageGuestbooks.noGuestbooks.how.tip1=留言簿可用於多個Dataset，但只能將一個留言簿用於Dataset。
+dataset.manageGuestbooks.noGuestbooks.how.tip2=自定義問題可以有免費表單文本答案或者使用者從多個選項中選擇一個答案。
+dataset.manageGuestbooks.noGuestbooks.getStarted=要開始，請點擊上面的「建立Dataset留言簿」按鈕。要了解有關留言簿的更多資訊，請存取 <a href="{0}/{1}/user/dataverse-management.html#dataset-guestbooks" title="Dataset Guestbook - Dataverse User Guide" target="_blank">Dataset留言簿</a>使用者指南的部分。
+dataset.manageGuestbooks.tab.header.name=留言簿名稱
+dataset.manageGuestbooks.tab.header.date=建立日期
+dataset.manageGuestbooks.tab.header.usage=用法
+dataset.manageGuestbooks.tab.header.responses=回應
+dataset.manageGuestbooks.tab.header.action=行動
+dataset.manageGuestbooks.tab.action.btn.view=預覽
+dataset.manageGuestbooks.tab.action.btn.copy=複製
+dataset.manageGuestbooks.tab.action.btn.enable=使能夠
+dataset.manageGuestbooks.tab.action.btn.disable=禁用
+dataset.manageGuestbooks.tab.action.btn.edit=編輯
+dataset.manageGuestbooks.tab.action.btn.preview=預覽
+dataset.manageGuestbooks.tab.action.btn.viewCollectedData=查看回覆
+dataset.manageGuestbooks.tab.action.btn.delete=刪除
+dataset.manageGuestbooks.tab.action.btn.delete.dialog.header=刪除留言簿
+dataset.manageGuestbooks.tab.action.btn.delete.dialog.tip=您確定要刪除此留言簿嗎？你無法刪除留言簿。
+dataset.manageGuestbooks.tab.action.btn.view.dialog.header=預覽留言簿
+dataset.manageGuestbooks.tab.action.btn.view.dialog.datasetGuestbook.title=下載檔案後，留言簿要求以下資訊。
+dataset.manageGuestbooks.tab.action.btn.view.dialog.datasetGuestbook=留言簿名稱
+dataset.manageGuestbooks.tab.action.btn.viewCollectedData.dialog.header=Dataset留言簿收集的資料
+dataset.manageGuestbooks.tab.action.btn.view.dialog.userCollectedData.title=留言簿收集的使用者資料。
+dataset.manageGuestbooks.tab.action.btn.view.dialog.userCollectedData=收集資料
+dataset.manageGuestbooks.tab.action.noedit.createdin=留言簿在{0}建立
+dataset.manageGuestbooks.message.deleteSuccess=留言簿已被刪除。
+dataset.manageGuestbooks.message.deleteFailure=留言簿無法刪除。
+dataset.manageGuestbooks.message.editSuccess=留言簿已更新。
+dataset.manageGuestbooks.message.editFailure=留言簿無法更新。
+dataset.manageGuestbooks.message.enableSuccess=留言簿已啟用。
+dataset.manageGuestbooks.message.enableFailure=無法啟用留言簿。
+dataset.manageGuestbooks.message.disableSuccess=留言簿已被禁用。
+dataset.manageGuestbooks.message.disableFailure=留言簿無法禁用。
+dataset.manageGuestbooks.tip.title=管理Dataset留言簿
+dataset.manageGuestbooks.tip.downloadascsv=點擊「下載所有回應\\」以下載此Dataverse的所有收集的留言簿回應，作為csv檔案。要導航和分析收集的回應，我們建議將此csv檔案導入excel，google shoto或類似軟體。
+dataset.guestbooksResponses.dataset=Dataset
+dataset.guestbooksResponses.date=日期
+dataset.guestbooksResponses.type=類型
+dataset.guestbooksResponses.file=檔案
+dataset.guestbooksResponses.customQuestions=自定義問題
+dataset.guestbooksResponses.user=使用者
+dataset.guestbooksResponses.tip.title=留言簿回覆
+dataset.guestbooksResponses.count.responses={0} {0, choice, 0#回應|1#回應|2#回應}
+dataset.guestbooksResponses.count.toofresults={0} to {1} of {2} {2, choice, 0#回應|1#回應|2#回應}
+dataset.guestbooksResponses.tip.downloadascsv=點擊「下載回應」以下載此留言簿的所有收集的回應，作為csv檔案。要導航和分析收集的回應，我們建議將此csv檔案導入excel，google shoto或類似軟體。
+dataset.guestbooksResponses.tooManyResponses.message=注意:此留言簿在此頁面上有太多回應可顯示。下面只顯示最新的{0}回應。點擊\\「下載回應\\」以將所有收集的回應({1} total)作為csv檔案下載。
+
+# guestbook-responses.xhtml
+dataset.guestbookResponses.pageTitle=留言簿回覆
+
+# guestbook.xhtml
+dataset.manageGuestbooks.guestbook.name=留言簿名稱
+dataset.manageGuestbooks.guestbook.name.tip=輸入此留言簿的唯一名稱。
+dataset.manageGuestbooks.guestbook.dataCollected=收集資料
+dataset.manageGuestbooks.guestbook.dataCollected.description=當使用者下載檔案時將收集的Dataverse帳號資訊。檢查將需要的。
+dataset.manageGuestbooks.guestbook.customQuestions=自定義問題
+dataset.manageGuestbooks.guestbook.accountInformation=帳號資訊
+dataset.manageGuestbooks.guestbook.required=(必需的)
+dataset.manageGuestbooks.guestbook.optional=(選修的)
+dataset.manageGuestbooks.guestbook.customQuestions.description=建立自己的問題，让使用者在下載檔案時提供超過他們的帳號資訊。可能需要的問題或可選和答案可以是文本或多項選擇。
+dataset.manageGuestbooks.guestbook.customQuestions.questionType=問題類型
+dataset.manageGuestbooks.guestbook.customQuestions.questionText=問題文本
+dataset.manageGuestbooks.guestbook.customQuestions.responseOptions=回應選項
+dataset.manageGuestbooks.guestbook.customQuestions.questionType.text=文本
+dataset.manageGuestbooks.guestbook.customQuestions.questionType.multiple=多項選擇
+
+# guestbookResponseFragment.xhtml
+dataset.guestbookResponse.guestbook.additionalQuestions=其他問題
+dataset.guestbookResponse.showPreview.errorMessage=無法顯示預覽。
+dataset.guestbookResponse.showPreview.errorDetail=無法寫留言回應。
+
+# dataset.xhtml
+dataset.configureBtn=配置
+dataset.pageTitle=新增新Dataset
+
+dataset.accessBtn=存取Dataset
+dataset.accessBtn.header.download=下載選項
+dataset.accessBtn.header.explore=探索選項
+dataset.accessBtn.header.compute=計算選項
+dataset.accessBtn.download.size=Zip({0})
+dataset.accessBtn.too.big=Dataset太大而無法下載。請從檔案表中選擇所需的檔案。
+dataset.accessBtn.original.too.big=Dataset太大而無法以原始格式下載。請從檔案表中選擇所需的檔案。
+dataset.accessBtn.archival.too.big=Dataset太大，無法在典藏格式下載。請從檔案表中選擇所需的檔案。
+dataset.linkBtn=連結dataset
+dataset.contactBtn=聯繫所有者
+dataset.shareBtn=分享
+
+dataset.publishBtn=發表Dataset
+dataset.editBtn=編輯Dataset
+
+dataset.changestatus=改變策策狀態
+dataset.removestatus=刪除當前狀態
+dataset.editBtn.itemLabel.upload=檔案(上傳)
+dataset.editBtn.itemLabel.metadata=書目資料
+dataset.editBtn.itemLabel.terms=條款
+dataset.editBtn.itemLabel.permissions=權限
+dataset.editBtn.itemLabel.thumbnailsAndWidgets=縮圖+小工具
+dataset.editBtn.itemLabel.privateUrl=私人網址
+dataset.editBtn.itemLabel.permissionsDataset=Dataset
+dataset.editBtn.itemLabel.permissionsFile=限制檔案
+dataset.editBtn.itemLabel.deleteDataset=刪除Dataset
+dataset.editBtn.itemLabel.deleteDraft=刪除草稿版本
+dataset.editBtn.itemLabel.deaccession=被除名
+dataset.exportBtn=導出書目資料
+dataset.exportBtn.itemLabel.ddi=DDI
+dataset.exportBtn.itemLabel.dublinCore=都柏林核心
+dataset.exportBtn.itemLabel.schemaDotOrg=Schema.org json-ld
+dataset.exportBtn.itemLabel.datacite=資料引用
+dataset.exportBtn.itemLabel.json=杰森
+dataset.exportBtn.itemLabel.oai_ore=Oai_ore
+dataset.exportBtn.itemLabel.dataciteOpenAIRE=開放式
+dataset.exportBtn.itemLabel.html=DDI HTML码本
+metrics.title=指標
+metrics.title.tip=查看更多指標資訊
+metrics.dataset.title=Dataset指標
+metrics.dataset.tip.default=此Dataset的聚合度量標準。
+metrics.dataset.tip.makedatacount=使用<a href="https://makedatacount.org/counter-code-of-practice-for-research-data/" target="_blank" rel="noopener"rel_"noopener"/> 開放獲取 </a>標準。
+metrics.dataset.views.tip=Dataset檢視與聚合檔案檢視和檔案下載組合。
+metrics.dataset.downloads.default.tip=在此Dataset中的檔案總汇總下載。
+metrics.dataset.downloads.makedatacount.tip=下載的每個檔案都被計算為1，並新增到總下載計數。
+metrics.dataset.citations.tip=點擊以獲取引文url列表。
+metrics.file.title=檔案指標
+metrics.file.tip.default=此單個檔案的指標。
+metrics.file.tip.makedatacount=在Dataverse中跟踪單個檔案下載，但未報告為開放獲取標準的一部分。
+metrics.file.downloads.tip=此檔案的總下載。
+metrics.views={0, choice, 0#查看|1#查看|2#查看}
+metrics.downloads={0, choice, 0#下載|1#下載|2#下載}
+metrics.citations={0, choice, 0#引用|1#引用|2#引用}
+metrics.citations.dialog.header=Dataset引用
+metrics.citations.dialog.help=使用開放獲取標準，通過資料引用從交叉檢索此Dataset的引文。有關Dataset指標的詳细資訊，請参閱<a href="{0}/{1}/user/dataset-management.html#dataset-metrics-and-make-data-count" title="Dataset Metrics and Make Data Count - Dataverse User Guide" target="_blank">使用者手冊</a>.
+metrics.citations.dialog.empty=對不起，沒有發現引文。
+dataset.publish.btn=發表
+dataset.publish.header=發表Dataset
+dataset.rejectBtn=返回作者
+dataset.submitBtn=提交審查
+dataset.disabledSubmittedBtn=提交審查
+dataset.submitMessage=您將無法在審核時對此Dataset進行更改。
+dataset.submit.success=您的Dataset已提交審核。
+dataset.inreview.infoMessage=本Dataset的草案目前在出版之前正在審查。
+dataset.submit.failure=Dataset提交失敗 - {0}
+dataset.submit.failure.null=無法提交審查。Dataset是null。
+dataset.submit.failure.isReleased=最新版本的Dataset已發表。只能提交審查草稿版本。
+dataset.submit.failure.inReview=您無法提交此Dataset以供審核，因為它已在審核中。
+dataset.status.failure.notallowed=狀態更新失敗 - 不允許標籤
+dataset.status.failure.disabled=此Dataset禁用狀態標籤
+dataset.status.failure.isReleased=最新版本的Dataset已發表。狀態只能在草稿中設置
+dataset.rejectMessage=將此Dataset返回给貢獻者進行修改。
+dataset.rejectMessage.label=返回作者原因
+dataset.rejectWatermark=請輸入將此Dataset返回其作者的原因。
+dataset.reject.enterReason.error=需要返回作者的原因。
+dataset.reject.success=此Dataset已發送回貢獻者。
+dataset.reject.failure=Dataset提交返回失敗 - {0}
+dataset.reject.datasetNull=無法將Dataset返回给作者，因為它是null。
+dataset.reject.datasetNotInReview=此Dataset不能返回作者，因為最新版本不審查。提交人需要點擊「提交」以進行審核。
+dataset.publish.tip=您確定要發表此Dataset嗎？一旦你這樣做，它必須保持發表。
+dataset.publishBoth.tip=發表此Dataset後，它必須保持已發表。
+dataset.unregistered.tip= 此Dataset未註冊。我們將嘗試在發表之前註冊。
+dataset.republish.tip=您確定要重新發表此Dataset嗎？
+dataset.selectVersionNumber=選擇如果這是一個次要或重大版本更新。
+dataset.updateRelease=更新當前版本(將永久覆盖最新發表的版本) 
+dataset.majorRelease=主要版本
+dataset.minorRelease=次要释放
+dataset.majorRelease.tip=由於目前草案的變化的性質，這將是一個主要版本({0})
+dataset.mayNotBePublished=無法發表Dataset。
+dataset.mayNotPublish.administrator= 此Dataset不能發表，直到其管理員發表{0}。
+dataset.mayNotPublish.both= 此Dataset不能發表，直到發表{0}。你想現在發表兩者嗎？
+dataset.mayNotPublish.twoGenerations= 此Dataset無法發表，直到發表{0}和{1}。
+dataset.mayNotBePublished.both.button=是的，發表兩者
+dataset.viewVersion.unpublished=查看未發表的版本
+dataset.viewVersion.published=查看已發表版本
+dataset.link.title=連結到Dataset
+dataset.link.save=儲存Dataset連結
+dataset.link.not.to.owner=無法將Dataset連結到其Dataverse
+dataset.link.not.to.parent.dataverse=無法將Dataset連結到其父Dataverse
+dataset.link.not.published=無法將尚未發表的Dataset連結
+dataset.link.not.available=無法將尚未發表或未獲取的Dataset連結
+dataset.link.not.already.linked=無法連結已連結到此Dataverse的Dataset
+dataset.email.datasetContactTitle=聯繫Dataset所有者
+dataset.email.hiddenMessage= 
+dataset.email.messageSubject=測試訊息主題
+dataset.email.datasetLinkBtn.tip=連結Dataset到您的Dataverse
+dataset.share.datasetShare=分享Dataset
+dataset.share.datasetShare.tip=在您喜歡的社交媒體網络上分享此Dataset。
+dataset.share.datasetShare.shareText=查看此Dataset。
+dataset.locked.message=Dataset鎖定
+dataset.locked.message.details=此Dataset鎖定直到發表。
+dataset.locked.inReview.message=提交審查
+dataset.locked.ingest.message=上傳的表格資料檔案正在處理並轉換為典藏格式
+dataset.unlocked.ingest.message=表格檔案已被攝取。
+dataset.locked.editInProgress.message=編輯正在進行中
+dataset.locked.editInProgress.message.details=此時無法進行額外的編輯。如果此狀態仍然存在，請聯繫{0}。
+dataset.locked.pidNotReserved.message=Dataset doi未保留
+dataset.locked.pidNotReserved.message.details=此Dataset的引用中顯示的doi尚未保留使用資料引用。在保留之前，請不要分享此doi。
+dataset.publish.error=由於在聯繫<a href=\{1} target=\"_blank\"/> {0} </a>服務時，可能不會出現此Dataset不會發表。請再試一次。
+dataset.publish.error.doi=可能不會發表此Dataset，因為doi更新失敗。
+dataset.publish.file.validation.error.message=無法發表Dataset
+dataset.publish.file.validation.error.details=無法發表Dataset，因為Dataset中的一個或多個資料檔案無法驗證(物理檔案遺失，校驗和不匹配等) 
+dataset.publish.file.validation.error.contactSupport=無法發表Dataset，因為Dataset中的一個或多個資料檔案無法驗證(物理檔案遺失，校驗和不匹配等)，請聯繫支援以獲取進一步的幫助。 
+dataset.publish.file.validation.error.noChecksumType=未定義用於資料檔案id {0}的校驗和類型
+dataset.publish.file.validation.error.failRead=無法打開資料檔案id {0}以進行閱讀
+dataset.publish.file.validation.error.failCalculateChecksum=無法計算資料檔案id {0}的校驗和
+dataset.publish.file.validation.error.wrongChecksumValue=用於資料檔案id {0}的校驗和不匹配
+dataset.compute.computeBatchSingle=計算Dataset
+dataset.compute.computeBatchList=列表批量處理
+dataset.compute.computeBatchAdd=新增到批量處理
+dataset.compute.computeBatchClear=清除批量處理
+dataset.compute.computeBatchRemove=從批量處理中刪除
+dataset.compute.computeBatchCompute=計算批量處理
+dataset.compute.computeBatch.success=計算批量處理中的Dataset列表已更新。
+dataset.compute.computeBatch.failure=計算批量處理中的Dataset列表無法更新。請再試一次。
+dataset.compute.computeBtn=計算
+dataset.compute.computeBatchListHeader=計算批量處理
+dataset.compute.computeBatchRestricted=此Dataset包含受限制檔案，您可能無法計算，因為您尚未授予存取權限。
+dataset.delete.error=不能deacelysessionDataset，因為{0}更新失敗。
+dataset.publish.workflow.message=在進步中發表
+dataset.publish.workflow.inprogress=此Dataset鎖定直到發表。
+dataset.pidRegister.workflow.inprogress=Dataset被鎖定，同時正在註冊永久識別碼或更新，驗證永久識別碼和/或物理檔案。
+dataset.versionUI.draft=草案
+dataset.versionUI.inReview=在審查中
+dataset.versionUI.unpublished=未發表的
+dataset.versionUI.deaccessioned=被除名的
+dataset.cite.title.released=草稿版本將在與dataset發表後的v1中替換。
+dataset.cite.title.draft=在Dataset發表後，將在引用中替換版本的引文。
+dataset.cite.title.deassessioned=由於不再可用，因此已新增到此版本的引文中。
+dataset.cite.standards.tip=了解<a href="https://dataverse.org/best-practics/data_citation"itle="data citation-dataverse.org" target="_blank">資料引文標準</a>。
+dataset.cite.downloadBtn=引用Dataset
+dataset.cite.downloadBtn.xml=Endnote xml
+dataset.cite.downloadBtn.ris=Ris
+dataset.cite.downloadBtn.bib=Bib
+dataset.create.authenticatedUsersOnly=只有經過身份驗證的使用者可以建立Dataset。
+dataset.deaccession.reason=骗子原因
+dataset.beAccessedAt=現在可以存取Dataset:
+dataset.descriptionDisplay.title=描述
+dataset.keywordDisplay.title=關鍵詞
+dataset.subjectDisplay.title=學科
+dataset.contact.tip=使用上面的電子郵件按鈕聯繫。
+dataset.asterisk.tip=星號表示必填字段
+dataset.message.uploadFiles.label=上傳Dataset檔案
+dataset.message.uploadFilesSingle.message=有關支援的檔案格式的詳细資訊，請参閱<a href="{0}/{1}/user/dataset-management.html#file-handling-and-uploading" title="File Handling and Uploading - Dataverse User Guide" target="_blank">使用者手冊</a>.
+dataset.message.uploadFilesMultiple.message=此Dataset可用多個檔案上傳/下載方法。使用其中一個方法上傳檔案後，您的選擇將被鎖定在此Dataset中。
+dataset.message.editMetadata.label=編輯Dataset書目資料
+dataset.message.editMetadata.message=新增更多關於此Dataset的書目資料以幫助其他人轻松查找。
+dataset.message.editMetadata.duplicateFilenames=重複檔案名:{0}
+dataset.message.editTerms.label=編輯Dataset條款
+dataset.message.editTerms.message=新增此Dataset的使用條款以解释如何存取和使用資料。
+dataset.message.locked.editNotAllowedInReview=由於審閱Dataset鎖而無法編輯Dataset。
+dataset.message.locked.downloadNotAllowedInReview=由於審閱鎖定Dataset，可能無法下載Dataset檔案。
+dataset.message.locked.downloadNotAllowed=由於Dataset鎖可能無法下載Dataset檔案。
+dataset.message.locked.editNotAllowed=由於Dataset鎖而無法編輯Dataset。
+dataset.message.locked.publishNotAllowed=由於Dataset鎖而無法發表Dataset。
+dataset.message.createSuccess=此Dataset已建立。
+dataset.message.createSuccess.failedToSaveFiles=部分成功:已建立Dataset。但無法儲存檔案。請嘗試再次上傳檔案。
+dataset.message.createSuccess.partialSuccessSavingFiles=部分成功:已建立Dataset。但只儲存了{1}檔案中的{0}。請嘗試再次上傳遺失的檔案。
+dataset.message.linkSuccess= {0}已成功連結到{1}。
+dataset.message.metadataSuccess=此Dataset的書目資料已更新。
+dataset.message.termsSuccess=此Dataset的術語已更新。
+dataset.message.filesSuccess=此Dataset的檔案已更新。
+dataset.message.addFiles.Failure=無法將檔案新增到Dataset。請嘗試再次上傳檔案。
+dataset.message.addFiles.partialSuccess=部分成功:已儲存{1}中的{0}檔案。請嘗試再次上傳遺失的檔案。
+dataset.message.publish.remind.draft=如果它已準備好分享，請<b>發表</b>它。
+dataset.message.submit.remind.draft=如果它已準備好分享，請提交審查</b>。
+dataset.message.publish.remind.version=如果它已準備好分享，請<b>發表</b>，以便其他人可以看到這些更改。
+dataset.message.submit.remind.version=如果它已準備好分享，請<b>提交審查</b>以便其他人可以看到這些更改。
+dataset.message.publishSuccess=此Dataset已發表。
+dataset.message.only.authenticatedUsers=只有經過身份驗證的使用者可以發表Dataset。
+dataset.message.deleteSuccess=此Dataset已被刪除。
+dataset.message.bulkFileUpdateSuccess=所選檔案已更新。
+dataset.message.bulkFileDeleteSuccess=已刪除所選檔案。
+datasetVersion.message.deleteSuccess=此Dataset草稿已被刪除。
+datasetVersion.message.deaccessionSuccess=所選版本已被配置。
+dataset.message.deaccessionSuccess=此Dataset已被配置為被除名。
+dataset.message.publishFailure=無法發表Dataset。
+dataset.message.metadataFailure=書目資料無法更新。
+dataset.message.filesFailure=無法更新檔案。
+dataset.message.bulkFileDeleteFailure=無法刪除所選檔案。
+dataset.message.files.ingestFailure=無法攝取檔案。 
+dataset.message.deleteFailure=無法刪除此Dataset草稿。
+dataset.message.deaccessionFailure=此Dataset無法進行被除名。
+dataset.message.createFailure=無法建立Dataset。
+dataset.message.termsFailure=無法更新Dataset術語。
+dataset.message.label.fileAccess=檔案存取
+dataset.message.publicInstall=檔案儲存在可公開存取的儲存服務器上。
+dataset.metadata.publicationDate=發表日期
+dataset.metadata.publicationDate.tip=Dataset的出版日期。
+dataset.metadata.citationDate=引用日期
+dataset.metadata.citationDate.tip=Dataset的引用日期，由版本1.0中的任何檔案上的最長禁運確定。
+dataset.metadata.publicationYear=出版年份
+dataset.metadata.publicationYear.tip=Dataset的出版年份。
+dataset.metadata.persistentId=Dataset永久標識
+dataset.metadata.persistentId.tip=Dataset的唯一永久識別碼，可以是Dataverse中的句柄或doi。
+dataset.metadata.alternativePersistentId=以前的Dataset永久性id
+dataset.metadata.alternativePersistentId.tip=用於Dataset的先前使用的永久識別碼，其可以是Dataverse中的句柄或doi。
+file.metadata.preview=預覽
+file.metadata.filetags=檔案標籤
+file.metadata.persistentId=檔案永久id
+file.metadata.persistentId.tip=一個檔案的唯一永久識別碼，可以是Dataverse中的句柄或doi。
+dataset.versionDifferences.termsOfUseAccess=使用條款和存取
+dataset.versionDifferences.termsOfUseAccessChanged=使用條款/存取已更改
+dataset.versionDifferences.metadataBlock=書目資料區塊
+dataset.versionDifferences.field=場地
+dataset.versionDifferences.changed=改變了
+dataset.versionDifferences.from=從
+dataset.versionDifferences.to=到
+file.viewDiffDialog.fileAccess=使用權
+dataset.host.tip=更改主機Dataverse將清除您可以輸入資料的任何字段。
+dataset.template.tip=更改模板將清除您可以輸入資料的任何字段。
+dataset.noTemplate.label=沒有任何
+dataset.noSelectedFiles.header=選擇檔案
+dataset.noSelectedFiles=請選擇一個或多個檔案。
+dataset.noSelectedFilesForDownload=請選擇要下載的檔案或檔案。
+dataset.noSelectedFilesForRequestAccess=請選擇用於存取請求的檔案或檔案。
+dataset.embargoedSelectedFilesForRequestAccess=無法存取禁運的檔案。請為存取請求選擇重新授權檔案或檔案。
+dataset.inValidSelectedFilesForDownload=被選中的受限檔案
+dataset.inValidSelectedFilesForDownloadWithEmbargo=選擇延遲提供和/或限制檔案
+dataset.noValidSelectedFilesForDownload=所選檔案可能無法下載，因為您未被授予存取權限。
+dataset.mixedSelectedFilesForDownload=所選的受限制檔案可能無法下載，因為您尚未授予存取權限。
+dataset.mixedSelectedFilesForDownloadWithEmbargo=可能無法下載所選的延遲提供和/或限制檔案，因為您尚未獲得存取權限。
+
+dataset.downloadUnrestricted=點擊繼續下載您可以存取下載的檔案。
+
+dataset.requestAccessToRestrictedFiles=您可以通過點擊「請求存取」按鈕請求存取受限制檔案。
+dataset.requestAccessToRestrictedFilesWithEmbargo=在延遲提供期間無法存取延遲提供的檔案。如果您的選擇包含受限制檔案，則可以通過點擊「請求存取」按鈕來請求存取它們。
+dataset.privateurl.infoMessageAuthor=私人共享此Dataset發表之前:{0}
+dataset.privateurl.infoMessageReviewer=此未發表的Dataset是私有共享的。
+dataset.privateurl.header=未發表的Dataset私有網址
+dataset.privateurl.tip=使用私有網址允許沒有Dataverse帳號的人來存取未發表的Dataset。有關私有url功能的更多資訊，請参閱<a href="{0}/{1}/user/dataset-management.html#private-url-to-review-unpublished-dataset" title="Private URL for Reviewing an Unpublished Dataset - Dataverse User Guide" target="_blank">使用者手冊</a>.
+dataset.privateurl.absent=尚未建立私有網址。
+dataset.privateurl.createPrivateUrl=建立私人網址
+dataset.privateurl.createPrivateUrl.anonymized=為匿名存取建立url
+dataset.privateurl.createPrivateUrl.anonymized.unavailable=一旦發表了一個版本的Dataset，就無法使用匿名存取
+dataset.privateurl.disablePrivateUrl=禁用私人網址
+dataset.privateurl.disablePrivateUrlConfirm=是的，禁用私人網址
+dataset.privateurl.disableConfirmationText=您確定要禁用私人網址嗎？如果您已與其他人共享私人url，則將無法再使用它來存取未發表的Dataset。
+dataset.privateurl.cannotCreate=私有網址只能與未發表的Dataset一起使用。
+dataset.privateurl.roleassigeeTitle=私有網址已啟用
+dataset.privateurl.createdSuccess=成功!
+dataset.privateurl.full=此私有網址提供對Dataset的完整讀取存取權限
+dataset.privateurl.anonymized=此私有網址提供對匿名Dataset的存取權限
+dataset.privateurl.disabledSuccess=您已成功禁用此未發表Dataset的私有網址。
+dataset.privateurl.noPermToCreate=要建立私有url，您必須具有以下權限:{0}。
+dataset.externalstatus.header=策策地位改變了
+dataset.externalstatus.removed=策劃狀態刪除了
+dataset.externalstatus.info=策展狀態現在是「{0}」
+dataset.externalstatus.cantchange=無法更改策策狀態。請聯繫管理員。
+file.display.label=改變檢視
+file.display.table=桌子
+file.display.tree=數
+file.count.label=檔案計數
+file.count.one=1檔案
+file.count={0} to {1} of {2} {2, choice, 0#檔案|1#檔案|2#檔案}
+file.count.shown={0} {0, choice, 0#選擇檔案|1#檔案|2#檔案}
+file.clearSelection=清空選項。
+file.zip.download.exceeds.limit=下載所選檔案的整體大小({0})超出了{1}的zip限制。請取消選擇一些檔案繼續。
+file.zip.download.exceeds.limit.info=選擇的檔案太大而無法下載作為zip。
+file.zip.download.exceeds.limit.detail=您可以從檔案表中選擇{2}下載限制下方的單個檔案，或者使用<a href="{0}/{1}/api/dataaccess.html" title="Data Access API" target="_blank">資料存取API</a>用於對檔案的程序存取。
+file.zip.download.exceeds.limit.header=下載選項
+file.numFilesSelected={0} {0, choice, 0#檔案是|1#檔案是|2#檔案是} 當前選擇。
+file.select.tooltip=選擇檔案
+file.selectAllFiles=在此Dataset中選擇所有{0}檔案。
+file.dynamicCounter.filesPerPage=每頁檔案
+file.selectToAddBtn=選擇要新增的檔案
+file.selectToAdd.tipLimit=檔案上傳限制是每個檔案的{0}。 
+file.selectToAdd.tipMoreInformation=選擇檔案或拖放到上傳窗口小工具。
+file.selectToAdd.dragdropMsg=拖放檔案在此處。
+file.createUploadDisabled=通過ssh使用rsync上傳檔案。此方法建議用於大檔案傳输。儲存此Dataset後，上傳腳本將在上傳檔案頁面上提供。
+file.fromHTTP=通過您的瀏覽器上傳帶http
+file.fromDropbox=從dropbox上傳
+file.fromDropbox.tip=從dropbox中選擇檔案。
+file.fromRsync=通過資料捕獲模块(dcm)使用rsync + ssh上傳
+file.api.httpDisabled=通過http檔案上傳不適用於Dataverse的安裝。
+file.api.alreadyHasPackageFile=由於此Dataset已包含包檔案，因此通過http禁用檔案上傳。
+file.replace.original=原始檔案
+file.editFiles=編輯檔案
+file.editFilesSelected=編輯
+file.editFile=編輯
+
+file.actionsBlock=檔案操作
+file.accessBtn=存取檔案
+file.accessBtn.header.download=下載選項
+file.optionsBtn=檔案選項
+file.optionsBtn.header.edit=編輯選項
+file.optionsBtn.header.configure=配置選項
+file.editBtn=編輯檔案
+file.contactBtn=聯繫所有者
+file.shareBtn=分享
+file.share.title=分享檔案
+file.share.tip=在您喜歡的社交媒體網络上分享此檔案。
+file.share.text=查看此檔案。
+file.bulkUpdate=批量更新
+file.uploadFiles=上傳檔案
+file.replaceFile=替換檔案
+file.notFound.tip=此Dataset中沒有檔案。
+file.notFound.search=沒有符合您搜尋的檔案。請更改搜尋條件並重試。
+file.noSelectedFiles.tip=沒有選定的檔案要顯示。
+file.noUploadedFiles.tip=您上傳的檔案將顯示在此處。
+file.replace=代替
+file.alreadyDeleted.warning.header=編輯檔案
+file.alreadyDeleted.previous.warningMessage=此檔案已在當前版本中刪除(或替換)。它可能無法編輯。
+file.delete=刪除
+file.delete.duplicate.multiple=刪除重複的檔案
+file.delete.duplicate.single=刪除重複檔案
+file.metadata=書目資料
+file.deleted.success=點擊「儲存更改」按鈕後，將從此Dataset中永久刪除檔案「{0}」。
+file.deleted.replacement.success=替換檔案已被刪除。
+file.deleted.upload.success.single=檔案已被刪除並won\u2019t包含在此上傳中。
+file.deleted.upload.success.multiple=檔案已被刪除並在此上傳中包含won\u2019t。
+file.editAccess=編輯存取
+file.restrict=受限制
+file.unrestrict=無限制
+file.restricted.success=一旦點擊「儲存更改」按鈕，將會限制檔案「{0}」。
+file.download.header=下載
+file.download.subset.header=下載資料子集
+file.preview=預覽:
+file.fileName=檔案名
+file.type.tabularData=表格資料
+file.originalChecksumType=原始檔案{0}
+file.checksum.exists.tip=具有此校驗和的檔案已存在於Dataset中。
+file.selectedThumbnail=縮圖
+file.selectedThumbnail.tip=此檔案的縮圖用作Dataset的預設縮圖。點擊另一個檔案的「高級選項」按鈕以選擇該檔案。
+file.cloudStorageAccess=雲端儲存存取
+file.cloudStorageAccess.tip=此Dataset的容器名稱需要存取雲端儲存中的檔案。
+file.cloudStorageAccess.help=要在{2}雲端環境中直接存取此資料，請在下面的雲端儲存存取框中使用容器名稱。要了解有關雲端環境的更多資訊，請存取<a href="{0}/{1}/user/dataset-management.html#cloud-storage" title="Cloud Storage Access - Dataverse User Guide" target="_blank">雲端儲存存取</a>使用者指南的部分。
+file.copy=複製
+file.compute=計算
+file.rsyncUpload.info=使用rsync+ssh上傳檔案。此方法建議用於大檔案傳输。按照以下步驟上傳您的資料。(<a href="{0}/{1}/user/dataset-management.html#rsync-ssh-upload" title="User Guide - rsync Upload" target="_blank">Rsync 上傳手冊</a>)。
+file.rsyncUpload.filesExist=您無法將其他檔案上傳到此Dataset。Dataset只能儲存一個資料包。如果您需要替換此Dataset中的資料包，請聯繫{0}。
+file.rsyncUpload.noScriptBroken=資料捕獲模块無法生成rsync腳本。請聯繫{0}。
+file.rsyncUpload.noScriptBusy=當前生成rsync腳本。如果腳本需要超過十分钟以生成，請聯繫{0}。
+file.rsyncUpload.step1=確保您的資料儲存在單個目錄下。此目錄中的所有檔案及其子目錄將上傳到Dataset。
+file.rsyncUpload.step2=下載此檔案上傳腳本:
+file.rsyncUpload.step2.downloadScriptButton=下載dcm腳本
+file.rsyncUpload.step3=在儲存腳本的同一目錄中打開终端窗口並運行此命令:<code> bash./{0} </code>
+file.rsyncUpload.step4=按照腳本中的说明進行操作。它會要求一個完整的路徑(以「/」)到包含資料的目錄。注意:此腳本將在7天後過期。
+file.rsyncUpload.inProgressMessage.summary=檔案上傳正在進行中
+file.rsyncUpload.inProgressMessage.details=在傳输和驗證資料檔案的同時鎖定此Dataset。
+file.rsyncUpload.httpUploadDisabledDueToRsyncFileExisting=此Dataset已禁用http上傳，因為您已通過rsync上傳檔案。如果您想切換到http上傳，請聯繫{0}。
+file.rsyncUpload.httpUploadDisabledDueToRsyncFileExistingAndPublished=此Dataset已禁用http上傳，因為您已通過rsync已上傳檔案並發表Dataset。
+file.rsyncUpload.rsyncUploadDisabledDueFileUploadedViaHttp=使用rsync + ssh禁用此Dataset的上傳，因為您已通過http上傳了檔案。如果您想切換到rsync上傳，那麼您必須首先從此Dataset中刪除所有上傳的檔案。發表此Dataset後，所選的上傳方法永久鎖定。
+file.rsyncUpload.rsyncUploadDisabledDueFileUploadedViaHttpAndPublished=使用rsync + ssh禁用此Dataset，因為您已經通過http上傳了檔案並發表了Dataset。
+file.metaData.checksum.copy=點擊複製
+file.metaData.dataFile.dataTab.unf=Unf
+file.metaData.dataFile.dataTab.variables=變項
+file.metaData.dataFile.dataTab.observations=觀察
+file.metaData.fileAccess=檔案存取: 
+file.addDescription=新增檔案说明...
+file.tags=標籤
+file.editTags=編輯標記
+file.editTagsDialog.tip=選擇現有檔案標記或建立新標記以描述您的檔案。每個檔案都可以具有多個標記。
+file.editTagsDialog.select=檔案標籤
+file.editTagsDialog.selectedTags=選定的標籤
+file.editTagsDialog.selectedTags.none=沒有選擇標籤
+file.editTagsDialog.add=自定義檔案標記
+file.editTagsDialog.add.tip=建立新標記將其作為此Dataset中所有檔案的標記選項新增。
+file.editTagsDialog.newName=新增新檔案標記...
+dataset.removeUnusedFileTags.label=刪除標記
+dataset.removeUnusedFileTags.tip=選擇以刪除Dataset中的檔案未使用的自定義檔案標記。
+dataset.removeUnusedFileTags.check=刪除未使用的標記
+file.embargo=延遲提供
+file.editEmbargo=編輯延遲提供
+file.editEmbargo.add=新增或更改
+file.editEmbargo.delete=刪除
+file.editEmbargoDialog.tip=編輯所選檔案或檔案的計畫延遲提供。發表此Dataset版後，您需要聯繫管理員以更改檔案或檔案的延遲提供日期或原因。
+file.editEmbargoDialog.some.tip=已經發表了一個或多個所選檔案。聯繫管理員以更改檔案或檔案的延遲提供日期或原因。
+file.editEmbargoDialog.none.tip=已選定的檔案或檔案已發表。聯繫管理員以更改檔案或檔案延遲提供日期或原因。
+
+file.editEmbargoDialog.partial.tip=您在這裡所做的任何更改都不會對這些檔案進行。
+
+file.editEmbargoDialog.reason.tip=輸入這種延遲提供存在的簡短原因
+file.editEmbargoDialog.newReason=新增一個原因......
+file.editEmbargoDialog.newDate=選擇延遲提供结束日期
+file.editEmbargoDialog.remove=刪除所選檔案的現有延遲提供
+
+
+file.setThumbnail=設置縮圖
+file.setThumbnail.header=設置Dataset縮圖
+file.datasetThumbnail=Dataset縮圖
+file.datasetThumbnail.tip=選擇將此圖像用作此Dataset的搜尋结果中顯示的縮圖圖像。
+file.setThumbnail.confirmation=您確定要將此圖像設置為Dataset縮圖嗎？已上傳到縮圖的圖像已上傳，此操作將刪除它。
+file.useThisIamge=使用此圖像作為Dataset縮圖圖像
+file.advancedOptions=高級選項
+file.advancedIngestOptions=高級攝取選項
+file.assignedDataverseImage.success={0}已儲存為此Dataset的縮圖。
+file.assignedTabFileTags.success=標籤已成功新增{0}。
+file.assignedEmbargo.success=為{0}成功新增了延遲提供。
+file.tabularDataTags=表格資料標籤
+file.tabularDataTags.tip=選擇一個標記以描述資料的類型(調查，時間序列，地理空間等)。
+file.spss-savEncoding=語言編碼
+file.spss-savEncoding.title=選擇用於編碼此spss(sav)資料檔案的語言。
+file.spss-savEncoding.current=當前選擇:
+file.spss-porExtraLabels=可變標籤
+file.spss-porExtraLabels.title=上傳具有額外變項標籤的其他文本檔案。
+file.spss-porExtraLabels.selectToAddBtn=選擇要新增的檔案
+file.ingestFailed.header=上傳完成錯誤
+file.ingestFailed.message=表格資料攝取失敗。
+file.downloadBtn.format.all=所有檔案格式+資訊
+file.downloadBtn.format.tab=標籤限制
+file.downloadBtn.format.original={0}(原始檔案格式)
+file.downloadBtn.format.rdata=Rdata
+file.downloadBtn.format.var=可變書目資料
+file.downloadBtn.format.citation=資料檔案引用
+file.download.filetype.unknown=原始檔案格式
+file.more.information.link=連結到更多檔案資訊 
+file.requestAccess=申請進入
+file.requestAccess.dialog.msg=您需要將<a href="/loginpage.xhtml{0}" target="{2}" title="Log into your Dataverse Account">登入</a>以請求存取權限。
+file.requestAccess.dialog.msg.signup=您需要<a href="{1}" target="{2}" title="Sign Up for a Dataverse Account">註冊</a>或<a href="/loginpage.xhtml{0}" target="{2}" title="Log into your Dataverse Account">登入</a>以請求存取。
+file.accessRequested=存取請求
+file.ingestInProgress=攝取進展......
+file.dataFilesTab.metadata.header=書目資料
+file.dataFilesTab.metadata.addBtn=新增+編輯書目資料
+file.dataFilesTab.terms.header=條款
+file.dataFilesTab.terms.editTermsBtn=編輯條款要求
+file.dataFilesTab.terms.list.termsOfUse.header=使用條款
+file.dataFilesTab.terms.list.termsOfUse.waiver=放棄
+file.dataFilesTab.terms.list.termsOfUse.waiver.title=豁免通知資料下載者如何使用此Dataset。
+file.dataFilesTab.terms.list.termsOfUse.waiver.txt=Cc0 - 「公共領域貢獻」
+file.cc0.icon.alttxt=公共領域貢獻圖標
+file.dataFilesTab.terms.list.termsOfUse.waiver.description=Dataset將預設為<a href="https://creativecommons.org/publicdomain/zero/1.0/" title="Public Domain Dedication - Creative Commons" target="_blank">CC0 public domain dedication </a>。cc0促進了研究資料的重用和可扩展性。我們的<a href="https://dataverse.org/best-practics/dataverse-community-norms" title="Dataverse community norms-dataverse.org" tarment="_blank">社區規範</a>以及良好的科學實践期望通過引用提供適當的信用。如果您無法為Dataset提供cc0豁免，則可以輸入Dataset的自定義使用條款。
+file.dataFilesTab.terms.list.termsOfUse.no.waiver.txt=此Dataset未選擇豁免。
+file.dataFilesTab.terms.list.termsOfUse.waiver.txt.description=我們的<a href="https://dataverse.org/best-practics/dataverse-community-norms" title="Dataverse community norms-dataverse.org" tarment="_blank">社區規範</a>以及良好的科學實践期望通過引用提供適當的信用。請使用上面的資料引文，由Dataverse生成。
+file.dataFilesTab.terms.list.termsOfUse.waiver.select.CCO=是的，應用cc0 - 「公共領域貢獻」 
+file.dataFilesTab.terms.list.termsOfUse.waiver.select.notCCO=不，不適用於cc0  - 「公共領域貢獻」 
+file.dataFilesTab.terms.list.termsOfUse.waiver.select.tip=這是最终使用者將在此Dataset上顯示的内容
+file.dataFilesTab.terms.list.termsOfUse.termsOfUse=使用條款
+file.dataFilesTab.terms.list.termsOfUse.termsOfUse.title=概述了一旦下載完成的資料如何使用。
+file.dataFilesTab.terms.list.termsOfUse.termsOfUse.description=如果您無法使用cc0進行Dataset，則可以設置自定義使用條款。這是一個<a href="https://dataverse.org/best-practices/sample-dua" title="Sample Data Usage Agreement - Dataverse.org" target="_blank">資料使用協議</a>用於具有去身份化人類主題資料的Dataset。
+file.dataFilesTab.terms.list.termsOfUse.addInfo=附加資訊
+file.dataFilesTab.terms.list.termsOfUse.addInfo.declaration=保密聲明
+file.dataFilesTab.terms.list.termsOfUse.addInfo.declaration.title=指示是否需要籤署機密性聲明來存取資源。
+file.dataFilesTab.terms.list.termsOfUse.addInfo.permissions=特殊權限
+file.dataFilesTab.terms.list.termsOfUse.addInfo.permissions.title=確定是否需要使用任何特殊權限來存取資源(例如，如果表單是必需的，並且存取表單)。
+file.dataFilesTab.terms.list.termsOfUse.addInfo.restrictions=限制
+file.dataFilesTab.terms.list.termsOfUse.addInfo.restrictions.title=這裡應在此處指出對獲取或使用集合的任何限制，例如隱私認證或分配限制。這些可以是資料收集的作者，生产者或傳播者應用的限制。如果資料僅限於某一類别使用者，請指定哪種類型。
+file.dataFilesTab.terms.list.termsOfUse.addInfo.citationRequirements=引用要求
+file.dataFilesTab.terms.list.termsOfUse.addInfo.citationRequirements.title=包括在基於資料分析的文章或其他出版物中適當引用的資料的特殊/顯式引用要求。對於標準資料引文要求，請参閱我們的社區規範。
+file.dataFilesTab.terms.list.termsOfUse.addInfo.depositorRequirements=存款人要求
+file.dataFilesTab.terms.list.termsOfUse.addInfo.depositorRequirements.title=關於使用者责任通知Dataset存款人，作者或典藏者通過向公布的工作提供引用或提供稿件的副本來通知其使用資料的策略。
+file.dataFilesTab.terms.list.termsOfUse.addInfo.conditions=條件
+file.dataFilesTab.terms.list.termsOfUse.addInfo.conditions.title=任何其他資訊，可以幫助使用者了解Dataset的存取和使用條件。
+file.dataFilesTab.terms.list.termsOfUse.addInfo.disclaimer=免责聲明
+file.dataFilesTab.terms.list.termsOfUse.addInfo.disclaimer.title=有關Dataset的责任的資訊。
+file.dataFilesTab.terms.list.termsOfAccess.header=受限制的檔案+存取條款
+file.dataFilesTab.terms.list.termsOfAccess.restrictedFiles=限制檔案
+file.dataFilesTab.terms.list.termsOfAccess.restrictedFiles.title=此Dataset中的受限制檔案的數量。
+file.dataFilesTab.terms.list.termsOfAccess.restrictedFiles.txt=有{0, choice, 0#是|1#是|2#是} {0} 限制 {0, choice, 0#檔案|1#檔案|2#檔案}在此Dataset中。
+file.dataFilesTab.terms.list.termsOfAccess.termsOfsAccess=存取條款
+file.dataFilesTab.terms.list.termsOfAccess.termsOfsAccess.title=有關如何以及使用者如何存取此Dataset中的受限檔案的資訊。
+file.dataFilesTab.terms.list.termsOfAccess.requestAccess=申請進入
+file.dataFilesTab.terms.list.termsOfAccess.requestAccess.title=如果選中，使用者可以請求存取此Dataset中的受限檔案。
+file.dataFilesTab.terms.list.termsOfAccess.requestAccess.request=使用者可以請求存取檔案。
+file.dataFilesTab.terms.list.termsOfAccess.requestAccess.notRequest=使用者可能無法請求存取檔案。
+file.dataFilesTab.terms.list.termsOfAccess.embargoed=在指定的embargo期間，檔案不可用。
+file.dataFilesTab.terms.list.termsOfAccess.embargoedthenrestricted=在指定的embargo期間，檔案不可用並在此之後受到限制。
+file.dataFilesTab.terms.list.termsOfAccess.requestAccess.enableBtn=啟用存取請求
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.dataAccessPlace=資料存取位置
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.dataAccessPlace.title=如果資料不僅在Dataverse中，則列出當前儲存資料的位置。
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.originalArchive=原始存檔
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.originalArchive.title=存檔從中獲得資料。
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.availabilityStatus=可用性狀態
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.availabilityStatus.title=Dataset可用性聲明。存款人可能需要指示Dataset不可用，因為它被禁止一段時間，因為它已被取代，因為新版本即將來临等。
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.contactForAccess=聯繫以獲取
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.contactForAccess.title=如果與dataset聯繫人不同，則這是控制存取集合的聯繫人或組織(包括電子郵件或完整地址和電话號码)。
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.sizeOfCollection=集合的大小
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.sizeOfCollection.tip=摘要Dataset中存在的物理檔案數，紀錄包含資料的檔案的數量，並注意集合是否包含機器可讀文件和/或其他补充檔案和資訊，例如程式，資料詞典，資料定義語句，或資料收集仪器。
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.studyCompletion=研究完成
+file.dataFilesTab.terms.list.termsOfAccess.addInfo.studyCompletion.title=收集到編碼資料量並儲存在Dataset中的資料的關系。關於為什麼應提供某些收集資訊的某些收集的資訊項或應提供特定資料檔案的資訊。
+file.dataFilesTab.terms.list.guestbook=留言簿
+file.dataFilesTab.terms.list.guestbook.title=下載檔案時將收集使用者資訊(即，名稱，電子郵件，機構和位置)。
+file.dataFilesTab.terms.list.guestbook.noSelected.tip=沒有留言簿分配给此Dataset，不會提示您提供有關檔案下載的任何資訊。
+file.dataFilesTab.terms.list.guestbook.noSelected.admin.tip={0}沒有提供留言簿以分配给此Dataset。
+file.dataFilesTab.terms.list.guestbook.inUse.tip=以下留言簿將提示使用者在下載檔案時提供其他資訊。
+file.dataFilesTab.terms.list.guestbook.viewBtn=預覽留言簿
+file.dataFilesTab.terms.list.guestbook.select.tip=選擇留言簿以在下載檔案時提供其他資訊。
+file.dataFilesTab.terms.list.guestbook.noAvailable.tip={0}沒有啟用留言簿。要建立留言簿，請返回{0}，點擊「編輯」按鈕，然後選擇「Dataset留言簿」選項。
+file.dataFilesTab.terms.list.guestbook.clearBtn=清空選項
+
+file.dataFilesTab.dataAccess=資料存取
+file.dataFilesTab.dataAccess.info=可以使用下面的命令通過终端窗口存取此資料檔案。有關下載和驗證資料的詳细資訊，請参閱我們的<a href="{0}/{1}/user/find-use-data.html#rsync_download" title="rsync Download - Dataverse User Guide" target="_blank">Rsync下載手冊</a>.
+file.dataFilesTab.dataAccess.info.draft=在發表Dataset草案之前，無法存取資料檔案。有關下載和驗證資料的詳细資訊，請参閱我們的<a href="{0}/{1}/user/find-use-data.html#rsync_download" title="rsync Download - Dataverse User Guide" target="_blank">Rsync下載手冊</a>.
+file.dataFilesTab.dataAccess.local.label=本地存取
+file.dataFilesTab.dataAccess.download.label=下載存取
+file.dataFilesTab.dataAccess.verify.label=驗證資料
+file.dataFilesTab.dataAccess.local.tooltip=如果此資料是本地可用的，這是它的檔案路徑。
+file.dataFilesTab.dataAccess.download.tooltip=通過運行此命令從您的首選镜像下載此資料。
+file.dataFilesTab.dataAccess.verify.tooltip=此命令運行校驗和驗證您下載的資料的完整性。
+file.dataFilesTab.button.direct=直接的
+
+file.dataFilesTab.versions=版本
+file.dataFilesTab.versions.headers.dataset=Dataset版
+file.dataFilesTab.versions.headers.summary=概括
+file.dataFilesTab.versions.headers.contributors=貢獻者
+file.dataFilesTab.versions.headers.contributors.withheld=貢獻者姓名
+file.dataFilesTab.versions.headers.published=發表於
+file.dataFilesTab.versions.viewDiffBtn=查看差異
+file.dataFilesTab.versions.citationMetadata=引文書目資料:
+file.dataFilesTab.versions.added=新增
+file.dataFilesTab.versions.removed=刪除
+file.dataFilesTab.versions.changed=改變了
+file.dataFilesTab.versions.replaced=更換
+file.dataFilesTab.versions.original=原來的
+file.dataFilesTab.versions.replacment=替換
+file.dataFilesTab.versions.additionalCitationMetadata=附加引文書目資料:
+file.dataFilesTab.versions.description.draft=這是一個版本草案。
+file.dataFilesTab.versions.description.deaccessioned=由於以前的版本是禁止存取的，此發表版本沒有可用的差别票據。
+file.dataFilesTab.versions.description.firstPublished=這是第一個已發表的版本。
+file.dataFilesTab.versions.description.deaccessionedReason=禁了存取原因:
+file.dataFilesTab.versions.description.beAccessedAt=現在可以存取Dataset:
+file.dataFilesTab.versions.viewDetails.btn=查看詳情
+file.dataFilesTab.versions.widget.viewMoreInfo=要查看有關此Dataset的版本的更多資訊，並且如果此是您的Dataset，請存取<a href="/dataset.xhtml?persistentId={0}" title="{1}" target="_blank">該資料全部版本</a>.
+file.dataFilesTab.versions.preloadmessage=(加載版本......)
+file.previewTab.externalTools.header=可用預覽
+file.previewTab.button.label=預覽
+file.previewTab.previews.not.available=此檔案不適用於公共預覽。
+file.deleteDialog.tip=您確定要刪除此Dataset和所有檔案嗎？您無法刪除此Dataset。
+file.deleteDialog.header=刪除Dataset
+file.deleteDraftDialog.tip=您確定要刪除此草稿版本嗎？檔案將被恢復為最近發表的版本。你無法刪除這個草案。
+file.deleteDraftDialog.header=刪除草稿版本
+file.deleteFileDialog.tip=點擊本頁底部的「儲存更改」按鈕後將刪除該檔案。
+file.deleteFileDialog.immediate=點擊「刪除」按鈕後，將刪除該檔案。
+file.deleteFileDialog.multiple.immediate=點擊「刪除」按鈕後，將刪除檔案。
+file.deleteFileDialog.header=刪除檔案
+file.deleteFileDialog.failed.tip=檔案不會從先前發表的Dataset版本中刪除。
+file.deaccessionDialog.tip=一旦你識别這個Dataset，就將不再是大眾觀察。
+file.deaccessionDialog.version=版本
+file.deaccessionDialog.reason.question1=您想要哪個版本？
+file.deaccessionDialog.reason.question2=被除名的原因是什麼？
+file.deaccessionDialog.reason.selectItem.identifiable=一個或多個檔案中存在可識别的資料。
+file.deaccessionDialog.reason.selectItem.beRetracted=研究制品已撤回。
+file.deaccessionDialog.reason.selectItem.beTransferred=Dataset已被傳输到另一個儲存庫。
+file.deaccessionDialog.reason.selectItem.IRB=Irb請求。
+file.deaccessionDialog.reason.selectItem.legalIssue=法律問題或資料使用協議。
+file.deaccessionDialog.reason.selectItem.notValid=不是有效的Dataset。
+file.deaccessionDialog.reason.selectItem.other=其他(請在下面提供的空間中輸入原因)
+file.deaccessionDialog.enterInfo=請輸入有關被除名的原因的其他資訊。
+file.deaccessionDialog.leaveURL=如果適用，請留下一個url，可以在除名後存取此Dataset。
+file.deaccessionDialog.leaveURL.watermark=可選Dataset站點，http://...
+file.deaccessionDialog.deaccession.tip=你確定要識别嗎？所選版本將不再被大眾可見。
+file.deaccessionDialog.deaccessionDataset.tip=你確定要識别這個Dataset嗎？大眾將不再可見。
+file.deaccessionDialog.dialog.selectVersion.error=請為要除名選擇版本。
+file.deaccessionDialog.dialog.reason.error=請選擇要除名的原因。
+file.deaccessionDialog.dialog.url.error=請輸入有效的轉發url。
+file.deaccessionDialog.dialog.textForReason.error=請輸入案文，了解除名操作。
+file.deaccessionDialog.dialog.limitChar.error=被除名原因的文本可能不超過{0}字符。
+file.viewDiffDialog.header=版本差異詳细資訊
+file.viewDiffDialog.dialog.warning=請選擇兩個版本以查看差異。
+file.viewDiffDialog.notAvailable=N/A
+file.viewDiffDialog.version=版本
+file.viewDiffDialog.lastUpdated=最近更新時間
+file.viewDiffDialog.fileID=檔案id
+file.viewDiffDialog.fileName=姓名
+file.viewDiffDialog.fileType=類型
+file.viewDiffDialog.fileSize=尺寸
+file.viewDiffDialog.category=標籤
+file.viewDiffDialog.description=描述
+file.viewDiffDialog.provDescription=來源描述
+file.viewDiffDialog.fileReplaced=檔案已更換
+file.viewDiffDialog.filesReplaced=替換檔案
+file.viewDiffDialog.files.header=檔案
+file.viewDiffDialog.msg.draftFound=&#160; 這是「草稿」版本。
+file.viewDiffDialog.msg.draftNotFound=找不到「草案」版本。
+file.viewDiffDialog.msg.versionFound=&#160; 這是版本「{0}」。
+file.viewDiffDialog.msg.versionNotFound=找不到版本「{0}」。
+file.metadataTip=書目資料提示:新增Dataset後，點擊「編輯Dataset」按鈕以新增更多書目資料。
+file.addBtn=儲存Dataset
+file.dataset.allFiles=來自此Dataset的所有檔案
+file.downloadDialog.header=Dataset條款
+file.downloadDialog.tip=請確認和/或填寫下面需要的資訊以繼續。
+file.requestAccessTermsDialog.tip=請確認和/或完成下面需要的資訊，以便請求存取此Dataset中的檔案。
+file.requestAccessTermsDialog.embargoed.tip=請確認和/或填寫下面需要的資訊，以便請求存取此Dataset中的非延遲提供檔案。
+file.requestAccessTermsDialog.embargoed=注意:您已選擇無法存取的延遲提供檔案。當您提出此請求時，將僅包含未延遲提供的檔案。
+
+file.requestAccess.notAllowed=Dataset不接受存取權請求。
+file.requestAccess.notAllowed.alreadyHasDownloadPermisssion=使用者已經有權下載此檔案。請求存取無效。
+file.requestAccess.notAllowed.embargoed=存取不允許積極延遲提供的檔案。請求存取無效。
+file.search.placeholder=搜尋這個Dataset......
+file.results.filter=過濾
+file.results.filter.type=檔案類型:
+file.results.filter.access=使用權:
+file.results.filter.tag=檔案標記:
+file.results.filter.all=全部
+file.results.btn.sort=種類
+file.results.btn.sort.option.nameAZ=名稱(a-z)
+file.results.btn.sort.option.nameZA=名稱(z-a)
+file.results.btn.sort.option.newest=最新
+file.results.btn.sort.option.oldest=最老的
+file.results.btn.sort.option.size=尺寸
+file.results.btn.sort.option.type=類型
+file.compute.fileAccessDenied=此檔案受到限制，您可能無法在其上計算，因為您尚未授予存取權限。
+file.configure.Button=配置
+
+file.auxfiles.download.header=下載辅助檔案
+# These types correspond to the AuxiliaryFile.Type enum.
+file.auxfiles.types.DP=差異私有統計資料
+# Add more types here
+file.auxfiles.unspecifiedTypes=其他辅助檔案
+
+# dataset-widgets.xhtml
+dataset.widgets.title=Dataset縮圖+小工具
+dataset.widgets.notPublished.why.header=為什麼使用小工具？
+dataset.widgets.notPublished.why.reason1=通過允許您將Dataset與Dataset嵌入個人或項目網站來提高資料的web可見性。
+dataset.widgets.notPublished.why.reason2=允許其他人瀏覽您的Dataverse和Dataset而不留下您的個人或項目網站。
+dataset.widgets.notPublished.how.header=如何使用小工具
+dataset.widgets.notPublished.how.tip1=要使用窗口小工具，需要發表您的Dataverse和Dataset。
+dataset.widgets.notPublished.how.tip2=發表後，將在此頁面上提供程式，供您複製和新增到您的個人或項目網站。
+dataset.widgets.notPublished.how.tip3=你有openscholar網站嗎？如果是這樣，請了解有關將Dataverse小工具新增到您的網站到<a href="{0}/{1}/user/dataverse-management.html#adding-widgets-to-an-openscholar-website" title="Adding Widgets to an OpenScholar Website - Dataverse User Guide" target="_blank">這裡</a>.
+dataset.widgets.notPublished.getStarted=要開始，發表您的Dataset。要了解有關窗口小工具的更多資訊，請存取<a href="{0}/{1}/user/dataset-management.html#widgets" title="Widgets - Dataverse User Guide" target="_blank">Widgets</a>使用者指南的部分。
+dataset.widgets.editAdvanced=編輯高級選項
+dataset.widgets.editAdvanced.tip=<strong>高級選項</strong> &#150;在您的個人或項目網站上配置小工具的其他選項。
+dataset.widgets.tip=將此程式複製並貼上到您網站上的html中。要了解有關窗口小工具的更多資訊，請存取<a href="{0}/{1}/user/dataset-management.html#widgets" title="Widgets - Dataverse User Guide" target="_blank">Widgets</a>使用者指南的部分。
+dataset.widgets.citation.txt=Dataset引文
+dataset.widgets.citation.tip=為您的Dataset新增到個人或項目網站的引用。
+dataset.widgets.datasetFull.txt=Dataset
+dataset.widgets.datasetFull.tip=為您的網站上的存取者新增方式，以便能夠查看Dataset，下載檔案等。
+dataset.widgets.advanced.popup.header=小工具高級選項
+dataset.widgets.advanced.prompt=將Dataset引用的轉發持永久url傳遞给您的個人網站。
+dataset.widgets.advanced.url.label=個人網站網址
+#dataset.widgets.advanced.url.watermark=http://www.example.com/page-name
+dataset.widgets.advanced.invalid.message=請輸入有效網址
+dataset.widgets.advanced.success.message=成功更新了您的個人網站url
+dataset.widgets.advanced.failure.message=Dataverse個人網站url尚未更新。
+dataset.thumbnailsAndWidget.breadcrumbs.title=縮圖+小工具
+dataset.thumbnailsAndWidget.thumbnails.title=縮圖
+dataset.thumbnailsAndWidget.widgets.title=小工具
+dataset.thumbnailsAndWidget.thumbnailImage=縮圖圖像
+dataset.thumbnailsAndWidget.thumbnailImage.title=您希望顯示為此Dataset的縮圖的logo或圖像檔案。
+dataset.thumbnailsAndWidget.thumbnailImage.tip=支援的圖像類型是jpg，tif或png，不應大於{0} kb。圖像檔案的最大顯示大小為Dataset縮圖是48像素寬、48像素高。
+dataset.thumbnailsAndWidget.thumbnailImage.default=預設圖標
+dataset.thumbnailsAndWidget.thumbnailImage.selectAvailable=選擇可用檔案
+dataset.thumbnailsAndWidget.thumbnailImage.selectThumbnail=選擇縮圖
+dataset.thumbnailsAndWidget.thumbnailImage.selectAvailable.title=從屬於屬於Dataset的圖像資料檔案中選擇縮圖。
+dataset.thumbnailsAndWidget.thumbnailImage.uploadNew=上傳新檔案
+dataset.thumbnailsAndWidget.thumbnailImage.uploadNew.title=將圖像檔案作為Dataset縮圖上傳，這將與屬於Dataset的資料檔案分開儲存。
+dataset.thumbnailsAndWidget.thumbnailImage.upload=上傳圖片
+dataset.thumbnailsAndWidget.thumbnailImage.upload.invalidMsg=圖像無法上傳。請使用jpg，tif或png檔案重試。
+dataset.thumbnailsAndWidget.thumbnailImage.alt=為Dataset選擇縮圖圖像
+dataset.thumbnailsAndWidget.success=Dataset縮圖更新。
+dataset.thumbnailsAndWidget.removeThumbnail=刪除縮圖
+dataset.thumbnailsAndWidget.removeThumbnail.tip=您只需刪除此圖像作為Dataset縮圖，不會從Dataset中刪除它。為此，請轉到「編輯檔案」頁面。
+dataset.thumbnailsAndWidget.availableThumbnails=可用縮圖
+dataset.thumbnailsAndWidget.availableThumbnails.tip=從屬於Dataset的資料檔案中選擇縮圖。繼續返回縮圖+窗口小工具頁面以儲存更改。
+
+# file.xhtml
+file.share.fileShare=分享檔案
+file.share.fileShare.tip=在您喜歡的社交媒體網络上分享此檔案。
+file.share.fileShare.shareText=查看此檔案。
+file.title.label=標題
+file.citation.label=引用
+file.citation.notice=此檔案是「{0}」的一部分。
+file.citation.dataset=Dataset引文
+file.citation.datafile=檔案引用
+file.cite.downloadBtn=引用Dataset
+file.cite.file.downloadBtn=引用資料檔案
+file.pid.label=檔案永久id:
+file.unf.lable= 檔案unf:
+file.general.metadata.label=一般書目資料
+file.description.label=描述
+file.tags.label=標籤
+file.lastupdated.label=最近更新時間
+file.DatasetVersion=版本
+
+file.previewTab.tool.open=打開
+file.previewTab.header=預覽
+file.previewTab.presentation=檔案預覽工具
+file.previewTab.openBtn=在新窗口中打開
+file.previewTab.exploreBtn={0} {1}
+file.metadataTab.fileMetadata.header=檔案書目資料
+file.metadataTab.fileMetadata.persistentid.label=資料檔案永久id
+file.metadataTab.fileMetadata.downloadUrl.label=下載url
+file.metadataTab.fileMetadata.downloadUrl.info=使用wget命令或下載管理器中的下載url以避免中斷下載，超時或其他故障。<a href="{0}/{1}/user/find-use-data.html#downloading-via-url" title="User Guide - Downloading via URL" target="_blank">通過連結下載使用者手冊</a>
+file.metadataTab.fileMetadata.unf.label=档位
+file.metadataTab.fileMetadata.size.label=尺寸
+file.metadataTab.fileMetadata.type.label=類型
+file.metadataTab.fileMetadata.description.label=描述
+file.metadataTab.fileMetadata.publicationDate.label=發表日期
+file.metadataTab.fileMetadata.embargoReason.label=延遲提供理由
+file.metadataTab.fileMetadata.metadataReleaseDate.label=書目資料發表日期
+file.metadataTab.fileMetadata.depositDate.label=存款日期
+file.metadataTab.fileMetadata.hierarchy.label=檔案路徑
+file.metadataTab.fileMetadata.hierarchy.tip=分层目錄结構路徑用於顯示檔案組織並支援再現性。
+file.metadataTab.fitsMetadata.header=適合書目資料
+
+file.versionDifferences.noChanges=沒有與此版本相關的更改
+file.versionDifferences.fileNotInVersion=檔案不包含在此版本中
+file.versionDifferences.actionChanged=改變了
+file.versionDifferences.actionAdded=新增
+file.versionDifferences.actionRemoved=刪除
+file.versionDifferences.actionReplaced=更換
+file.versionDifferences.fileMetadataGroupTitle=檔案書目資料
+file.versionDifferences.fileTagsGroupTitle=檔案標籤
+file.versionDifferences.descriptionDetailTitle=描述
+file.versionDifferences.provenanceDetailTitle=來源
+file.versionDifferences.fileNameDetailTitle=檔案名
+file.versionDifferences.fileAccessTitle=檔案存取
+file.versionDifferences.fileRestricted=受限制的
+file.versionDifferences.fileUnrestricted=不受限制的
+file.versionDifferences.fileGroupTitle=檔案
+
+file.anonymized.authorsWithheld=作者姓名扣留
+# File Ingest
+ingest.csv.invalidHeader=標頭行無效。其中一個细胞是空的。
+ingest.csv.lineMismatch=在第一和最终通過的線路計數之間不匹配!，第一次通過時發現的{0}，但{1}在第二次上找到。
+ingest.csv.recordMismatch=讀取不匹配，資料檔案的線{0}:{1}預期的分隔值，{2}找到。
+ingest.csv.nullStream=流不能為null。
+
+# editdatafile.xhtml
+
+# editFilesFragment.xhtml
+file.edit.error.file_exceeds_limit=此檔案超出大小限制。
+# File metadata error
+file.metadata.datafiletag.not_tabular=您無法將表格資料標記新增到非表格檔案。
+file.metadata.filedirectory.invalidCharacters=目錄名稱不能包含無效字符。有效字符是a-Z, 0-9, '_', '-', '.', '\\', '/' 和 ' '(白色空間)。
+
+# File Edit Success
+file.message.editSuccess=該檔案已更新。
+file.message.deleteSuccess=該檔案已被刪除。
+file.message.replaceSuccess=該檔案已被替換。
+
+# File Add/Replace operation messages
+file.addreplace.file_size_ok=檔案大小在範圍内。
+file.addreplace.error.byte_abrev=B
+file.addreplace.error.file_exceeds_limit=此檔案大小({0})超出{1}的大小限制。
+file.addreplace.error.dataset_is_null=Dataset不能為null。
+file.addreplace.error.dataset_id_is_null=Datasetid不能為null。
+file.addreplace.error.parsing=解析中的錯誤提供了json
+file.addreplace.warning.unzip.failed=無法解壓縮檔案。按原樣儲存檔案。
+file.addreplace.warning.unzip.failed.size=此zip檔案中包含的檔案超出{0}的大小限制。此Dataverse安裝將儲存並顯示壓縮檔案，而不是打開包裝和顯示檔案。
+find.dataset.error.dataset_id_is_null=在基於永久id存取Dataset時，必須存在{0}查詢参數。
+find.dataset.error.dataset.not.found.persistentId=未找到具有永久id {0}的Dataset。
+find.dataset.error.dataset.not.found.id=沒有找到具有id {0}的Dataset。
+find.dataset.error.dataset.not.found.bad.id=Bad dataset id號:{0}。
+find.datasetlinking.error.not.found.ids=Dataset與dataset id {0}連結Dataverse，並找不到Dataset連結Dataverse id {1}。
+find.datasetlinking.error.not.found.bad.ids=Bad dataset id號:{0}或Dataset連結Dataverse id號:{1}。
+find.dataverselinking.error.not.found.ids=沒有找到Dataverse id {0}和Dataverse連結Dataverse id {1}的Dataverse連結Dataverse。
+find.dataverselinking.error.not.found.bad.ids=坏Dataverse id號:{0}或Dataverse連結Dataverse id號:{1}。
+find.datafile.error.datafile.not.found.id=找不到id {0}的檔案。
+find.datafile.error.datafile.not.found.bad.id=坏檔案id號:{0}。
+find.datafile.error.dataset.not.found.persistentId=找不到具有永久性id {0}的資料檔案。
+find.dataverse.role.error.role.not.found.id=沒有找到具有id {0}的dataveres角色。
+find.dataverse.role.error.role.not.found.bad.id=Bad Dataverse角色id號:{0}
+find.dataverse.role.error.role.not.found.alias=沒有找到别名{0}的dataveres角色。
+find.dataverse.role.error.role.builtin.not.allowed=可能無法刪除内置角色{0}。
+file.addreplace.error.dataset_id_not_found=找不到的Dataset: 
+file.addreplace.error.no_edit_dataset_permission=您無權編輯此Dataset。
+file.addreplace.error.filename_undetermined=無法確定檔案名。
+file.addreplace.error.file_content_type_undetermined=無法確定檔案内容類型。
+file.addreplace.error.file_upload_failed=檔案上傳失敗。
+file.addreplace.warning.duplicate_file=此檔案具有與Dataset中的{0}相同的内容。 
+file.addreplace.error.duplicate_file.continue=如果不是故意，您可以刪除。
+file.addreplace.error.existing_file_to_replace_id_is_null=必須提供要替換的現有檔案的id。
+file.addreplace.error.existing_file_to_replace_not_found_by_id=找不到替換檔案。沒有找到id:{0}的檔案
+file.addreplace.error.existing_file_to_replace_is_null=替換檔案不能為null。
+file.addreplace.error.existing_file_to_replace_not_in_dataset=替換檔案不屬於此Dataset。
+file.addreplace.error.existing_file_not_in_latest_published_version=您無法替換最近發表的Dataset中不在的檔案。(檔案未發表或從以前的版本刪除。)
+file.addreplace.content_type.header=檔案類型不同
+file.addreplace.already_exists.header=上傳的重複檔案
+file.addreplace.already_exists.header.multiple=上傳的重複檔案
+file.addreplace.error.replace.new_file_has_different_content_type=原始檔案({0})和替換檔案({1})是不同的檔案類型。
+file.addreplace.error.replace.new_file_same_as_replacement=錯誤!您可能不會用具有重複内容的檔案替換檔案。
+file.addreplace.error.unpublished_file_cannot_be_replaced=您無法替換未發表的檔案。請刪除它而不是更換它。
+file.addreplace.error.ingest_create_file_err=嘗試新增新檔案時出錯。
+file.addreplace.error.initial_file_list_empty=發生錯誤，未新增新檔案。
+file.addreplace.error.initial_file_list_more_than_one=您無法替換具有多個檔案的單個檔案。您上傳的檔案被攝取到多個檔案中。
+file.addreplace.error.final_file_list_empty=沒有檔案要新增。(如果依次調用，則不會發生此錯誤。)
+file.addreplace.error.only_replace_operation=只有該檔案才能替換操作!
+file.addreplace.error.failed_to_remove_old_file_from_dataset=無法從新資料困境中刪除舊檔案。
+file.addreplace.error.add.add_file_error=無法將檔案新增到Dataset。
+file.addreplace.error.phase2_called_early_no_new_files=儲存Dataset有一個錯誤 - 沒有找到新檔案。
+file.addreplace.success.add=檔案成功新增!
+file.addreplace.success.replace=檔案成功替換!
+file.addreplace.error.auth=API密鑰無效。
+file.addreplace.error.invalid_datafile_tag=不是有效的表格資料標籤: 
+
+
+
+# 500.xhtml
+error.500.page.title=500内部服務器錯誤
+error.500.message=<strong>内部服務器錯誤</strong> - 遇到意外錯誤，沒有更多資訊。
+
+# 404.xhtml
+error.404.page.title=404沒有找到
+error.404.message=<strong>頁面未找到</strong> - 找不到您要查找的頁面。
+
+# 403.xhtml
+error.403.page.title=403未經授權
+error.403.message=<strong>未授權</strong> - 您無權查看此頁面。
+
+# general error - support message
+error.support.message= 如果您認為這是一個錯誤，請聯繫{0}以獲取幫助。
+
+# citation-frame.xhtml
+citationFrame.banner.message=如果下面的站點不加載，則可以在{0} {1}中找到存檔的資料。{2}
+citationFrame.banner.message.here=這裡
+citationFrame.banner.closeIcon=關閉此訊息，轉到Dataset
+citationFrame.banner.countdownMessage=此訊息將關閉 
+citationFrame.banner.countdownMessage.seconds=秒
+
+# Friendly AuthenticationProvider names
+authenticationProvider.name.builtin=Dataverse
+authenticationProvider.name.null=(提供商未知)
+authenticationProvider.name.github=Github
+authenticationProvider.name.google=Google
+authenticationProvider.name.orcid=Orcid
+authenticationProvider.name.orcid-sandbox=Orcid沙箱
+authenticationProvider.name.shib=Shibboleth
+ingest.csv.invalidHeader=標頭行無效。其中一個格子是空的。
+ingest.csv.lineMismatch=在第一和最终通過的線路計數之間不匹配!，第一次通過時發現的{0}，但{1}在第二次上找到。
+ingest.csv.recordMismatch=讀取不匹配，資料檔案的線{0}:{1}預期的分隔值，{2}找到。
+ingest.csv.nullStream=流不能為null。
+citationFrame.banner.countdownMessage.seconds=秒
+
+#file-edit-popup-fragment.xhtml #editFilesFragment.xhtml
+dataset.access.accessHeader=限制檔案並新增Dataset存取條款
+dataset.access.description=限制限制存取已發表的檔案。您可以新增或編輯Dataset的存取條款，並允許人員請求存取受限檔案。
+
+#datasetFieldForEditFragment.xhtml
+dataset.AddReplication=將「複製資料」新增到標題
+dataset.replicationDataFor=複製資料:
+
+
+#mydata_fragment.xhtml
+mydataFragment.infoAccess=以下是您可以存取的Dataverse，Dataset和檔案。您可以通過發表狀態和角色來過濾它們。
+mydataFragment.moreResults=查看更多结果
+mydataFragment.publicationStatus=出版狀態
+mydataFragment.roles=角色
+mydataFragment.resultsByUserName=使用者名的结果
+mydataFragment.search=搜尋我的資料......
+mydata.result=结果
+mydata.results=结果
+mydata.viewnext=查看下一個
+mydata.more=更多的
+
+file.provenance=來源
+file.editProvenanceDialog=來源
+file.editProvenanceDialog.tip=來源是您資料檔案的起源的紀錄和它已通過的任何轉換。從來源捕獲工具上傳json檔案以生成資料的出處圖。有關更多資訊，請参閱我們的<a href="{0}/{1}/user/" title="Dataverse User Guide" target="_blank">使用者指南</a>.
+file.editProvenanceDialog.uploadSuccess=上傳完成
+file.editProvenanceDialog.uploadError=上傳和解析您的來源檔案時發生錯誤。
+file.editProvenanceDialog.noEntitiesError=上傳的來源檔案不包含任何可能與您的資料檔案相關的實體。 
+file.editProvenanceDialog.invalidSchemaError=上傳的來源檔案不符合w3c出處標準。
+file.editProvenanceDialog.bundleFile=來源檔案
+file.editProvenanceDialog.bundleFile.instructions=檔案必須是json格式，然後按照<a href="https://www.w3.org/submission/2013/subm-prov-json -20130424/" target="_blank"> W3C標準</a>.
+file.editProvenanceDialog.bundleFile.alreadyPublished=此原始檔案已發表，無法替換或刪除。
+file.editProvenanceDialog.bundleEntity=資料檔案實體
+file.editProvenanceDialog.bundleEntity.placeholder=連接實體......
+file.editProvenanceDialog.bundleEntity.requiredValidation=價值是必需的。
+file.editProvenanceDialog.bundleEntity.tip=選擇代理檔案中的實體，該檔案表示資料檔案。
+file.editProvenanceDialog.bundleEntity.nameHeader=姓名
+file.editProvenanceDialog.bundleEntity.typeHeader=類型
+file.editProvenanceDialog.bundleEntity.entityHeader=實體
+file.editProvenanceDialog.selectToAddBtn=選擇檔案
+file.editProvenanceDialog.description.tip=您還可以新增紀錄資料檔案歷史紀錄的資訊，包括如何建立它，它如何改變，以及谁與之合作。
+file.editProvenanceDialog.description=來源描述
+file.editProvenanceDialog.description.placeholder=新增原子生物描述......
+file.confirmProvenanceDialog=來源
+file.confirmProvenanceDialog.tip1=發表此Dataset後，無法編輯或替換您的來源檔案。
+file.confirmProvenanceDialog.tip2=選擇「取消」返回上一頁，您可以在其中預覽您的來源檔案以確認它是正確的。
+file.metadataTab.provenance.header=檔案來源
+file.metadataTab.provenance.body=提交稍後的檔案來源資訊......
+file.metadataTab.provenance.error=由於内部錯誤，您的來源資訊未正確儲存。
+file.metadataTab.provenance.message=您的來源資訊已收到。請點擊下面的「儲存更改」以確保將所有資料新增到Dataset中。
+
+file.provConfirm.unpublished.json=發表您的Dataset時，您的來源檔案將永久保存。請在發表之前預覽以確認。 
+file.provConfirm.published.json=點擊「儲存更改」後，您的來源檔案將永久保存。在儲存更改之前，請預覽以確認。
+file.provConfirm.freeform=您的來源描述不是永久的;它可以随時更新。
+file.provConfirm.empty=沒有改變。
+
+file.provAlert.published.json=您的來源檔案更改已儲存到Dataset。 
+file.provAlert.unpublished.json=點擊「儲存更改」按鈕後，您的來源檔案更改將儲存到此版本的Dataset。 
+file.provAlert.freeform=在點擊「儲存更改」按鈕後，您的出處描述將儲存到此版本的Dataset。 
+file.provAlert.filePage.published.json=您的來源檔案更改已儲存到Dataset。 
+file.provAlert.filePage.unpublished.json=您的來源檔案更改已儲存到此版本的Dataset。 
+file.provAlert.filePage.freeform=您的出處描述已將更改儲存到此版本的Dataset。 
+
+api.prov.provJsonSaved=Prov-json提供資料檔案的分解資料:
+api.prov.provJsonDeleted=Prov-json刪除所選資料檔案。
+
+api.prov.error.provDisabled=此功能已被禁用。
+api.prov.error.badDataFileId=無效的資料檔案id。
+api.prov.error.jsonUpdateNotAllowed=Prov-json無法為已有prov-json的已發表檔案更新。
+api.prov.error.entityMismatch=提供的實體名稱與上傳的prov-json解析的任何實體不匹配。
+api.prov.error.jsonDeleteNotAllowed=對於已發表的檔案，無法刪除prov-json。
+api.prov.error.jsonNoContent=沒有出種json可用於此檔案。
+api.prov.error.freeformInvalidJson=找不到有效的json對象。
+api.prov.error.freeformMissingJsonKey=您發送的json對象必須具有名為「text」的密鑰。
+api.prov.error.freeformNoText=沒有出種的免費表單文本可用於此檔案。
+api.prov.error.noDataFileFound=找不到基於id的檔案。
+
+bagit.sourceOrganization=Dataverse安裝(<站點url>)
+bagit.sourceOrganizationAddress=<完整地址>
+bagit.sourceOrganizationEmail=<電子郵件地址>
+
+#Permission.java
+permission.addDataverseDataverse=在另一個Dataverse中新增Dataverse權
+permission.deleteDataset=刪除Dataset草稿
+permission.deleteDataverse=刪除未發表的Dataverse
+permission.publishDataset=發表Dataset
+permission.publishDataverse=發表Dataverse
+permission.managePermissionsDataFile=管理檔案的權限
+permission.managePermissionsDataset=管理Dataset的權限
+permission.managePermissionsDataverse=管理Dataverse的權限
+permission.editDataset=編輯Dataset的書目資料
+permission.editDataverse=編輯dataverse的書目資料、篩選條件、自定義和模板 
+permission.downloadFile=下載檔案
+permission.viewUnpublishedDataset=查看未發表的Dataset及其檔案
+permission.viewUnpublishedDataverse=查看一個未發表的Dataverse
+permission.addDatasetDataverse=將Dataset新增到Dataverse
+
+#DataverseUserPage.java
+userPage.informationUpdated=您的帳號資訊已成功更新。
+userPage.passwordChanged=您的帳號密碼已成功更改。
+confirmEmail.changed=您的電子郵件地址已更改，必須重新驗證。請在{0}檢查您的收件箱，然後按照我們發送的連結。\n\n，請注意，連結只在其到期之前為下一個{1}工作。
+
+#Dataset.java
+dataset.category.documentation=檔案
+dataset.category.data=資料
+dataset.category.code=程式
+
+#DatasetVersionDifference.java
+dataset.version.file.added=檔案(新增:{0}
+dataset.version.file.removed=檔案(刪除:{0}
+dataset.version.file.removed2=;刪除:{0}
+dataset.version.file.replaced=檔案(替換:{0}
+dataset.version.file.replaced2=;替換:{0}
+dataset.version.file.changed=檔案(已更改的檔案書目資料:{0}
+dataset.version.file.changed2=;更改了檔案書目資料:{0}
+dataset.version.variablemetadata.changed=可變書目資料(已更改的變項書目資料:{0}
+dataset.version.variablemetadata.changed2=;更改變項書目資料:{0}
+
+#DataversePage.java
+dataverse.item.required=必需的
+dataverse.item.required.conditional=有條件要求
+dataverse.item.optional=選修的
+dataverse.item.hidden=隱
+dataverse.edit.msg=編輯Dataverse
+dataverse.edit.detailmsg=編輯您的Dataverse，然後點擊「儲存更改」。星號表示必填字段。
+dataverse.feature.update=此Dataverse的特色Dataverse已更新。
+dataverse.link.select=您必須選擇連結Dataverse。
+dataset.noSelectedDataverse.header=選擇Dataverse(s)
+dataverse.link.user=只有經過身份驗證的使用者可以連結Dataverse。
+dataverse.link.error=無法將{0}連結到{1}。發生了内部錯誤。
+dataverse.search.user=只有經過身份驗證的使用者可以儲存搜尋。
+dataverse.alias=别名
+dataverse.alias.taken=這個别名已經採用。
+
+#editDatafilesPage.java
+dataset.save.fail=Dataset儲存失敗
+
+dataset.files.exist=檔案{0}具有與Dataset中已存在的{1}相同的内容。
+dataset.file.exist=檔案{0}具有與Dataset中已存在的{1}相同的内容。
+dataset.file.exist.test={0, choice, 1#檔案 |2#所有檔案 |} {1} {0, choice, 1#有 |2#有 |} 相同 {2} 已存在 {0, choice, 1#已存在 |2#已存在 |}在Dataset中。
+dataset.files.duplicate=檔案{0}具有與已上傳的{1}相同的内容。
+dataset.file.duplicate=檔案{0}具有與已上傳的{1}相同的内容。
+dataset.file.inline.message= 此檔案具有與{0}相同的内容。
+dataset.file.upload=成功{0}上傳。
+dataset.file.upload.setUp.rsync.failed=Rsync上傳設置失敗!  
+dataset.file.upload.setUp.rsync.failed.detail=無法找到適當的儲存驅動程序。    
+dataset.file.uploadFailure=上傳失敗
+dataset.file.uploadFailure.detailmsg=檔案{0}無法上傳!
+dataset.file.uploadWarning=上傳警告
+dataset.file.uploadWorked=上傳工作
+dataset.file.upload.popup.explanation.tip=有關更多資訊，請参閱<a href="{0}/{1}/user/dataset-management.html#duplicate-files" title="Duplicate Files - Dataverse User Guide" target="_blank" rel="noopener">複製檔案部分</a>.
+
+#EmailValidator.java
+email.invalid=不是有效的電子郵件地址。
+
+#URLValidator.java
+url.invalid=不是一個有效的url。
+
+#HarvestingClientsPage.java
+harvest.start.error=對不起，無法為所選獲取客戶端配置(未知服務器錯誤)啟動獲取。
+harvest.delete.error=選擇獲取客戶端無法刪除;未知例外:
+harvest.create.error=無法建立新的獲取客戶端配置:選擇無目標Dataverse。
+harvest.createCommand.error=獲取客戶端建立命令失敗
+harvest.create.fail=獲取客戶建立失敗(原因未知)。
+harvest.update.success=成功更新獲取客戶
+harvest.save.failure1=無法儲存獲取客戶
+harvest.save.failure2=無法儲存獲取客戶(原因未知)。
+
+#HarvestingSetsPage.java
+harvest.oaicreate.fail=無法建立oai集
+harvest.oaicreate.defaultset.fail=無法建立預設的oai集
+harvest.oaiupdate.fail=無法更新oai集。
+harvest.oaiupdate.success=成功更新了oai set &#34; {0}&#34;.
+harvest.delete.fail=無法刪除獲取集;未知例外: 
+harvest.reexport.fail=對不起，無法在選定的oai set(未知服務器錯誤)上重新出口。
+harvest.search.failed=所提供的查詢失敗。來自Dataverse搜尋服務器的訊息:
+
+#LoginPage.java
+login.Username/Email=請填入一個使用者名
+login.Password=請輸入密碼
+
+#SystemConfig.java
+system.app.terms=此Dataverse安裝沒有使用條款。
+system.api.terms=此Dataverse安裝沒有api使用條款。
+
+#DatasetPage.java
+dataverse.notreleased=Dataverse未發表
+dataverse.release.authenticatedUsersOnly=只有經過身份驗證的使用者可以释放Dataverse。
+dataset.registration.failed=Dataset註冊失敗
+dataset.registered=Dataset註冊
+dataset.registered.msg=您的Dataset現已註冊。
+dataset.notlinked=Dataset未連結
+dataset.notlinked.msg=將此Dataset連結到您的問題:
+datasetversion.archive.success=版本的典藏副本成功提交
+datasetversion.archive.failure=提交檔案副本時出錯 
+datasetversion.update.failure=Dataset版本更新失敗。更改仍在草稿中。
+datasetversion.update.archive.failure=Dataset版本更新成功，但嘗試更新典藏副本失敗。
+datasetversion.update.success=已更新Dataset的已發表版本。
+datasetversion.update.archive.success=已更新Dataset及其典藏副本的已發表版本。
+
+#ThemeWidgetFragment.java
+theme.validateTagline=標語必須最多為140個字符。
+theme.urlValidate=Url驗證失敗。
+theme.urlValidate.msg=請提供url。
+dataverse.save.failed=Dataverse儲存失敗 -
+
+#LinkValidator.java
+link.tagline.validate=請輸入網站的標語，以便超連結。
+
+#TemplatePage.java
+template.save.fail=模板儲存失敗
+template.create=模板已建立。
+template.save=模板已被編輯並儲存。
+
+#GuestbookPage.java
+guestbook.save.fail=留言簿儲存失敗
+guestbook.option.msg= - 一個選項問題需要多個選項。請在储蓄之前完成。
+guestbook.create=留言簿已建立。 
+guestbook.save=留言簿已被編輯並儲存。
+
+#Shib.java
+shib.invalidEmailAddress=Saml斷言包含無效的電子郵件地址:&#34; {0}&#34;.
+shib.emailAddress.error=找不到單個有效地址。
+shib.nullerror=Saml斷言 &#34; {0}&#34;是零的。請聯繫支援。
+dataverse.shib.success=您的Dataverse帳號現在與您的機構帳戶相關聯。
+shib.convert.fail.deactivated=您的現有帳號無法轉換，因為它已被停用。
+shib.createUser.fail=無法建立使用者。
+shib.duplicate.email.error=無法登入，因為與其關聯的電子郵件地址自上次登入以來已更改，並且已被另一個帳號使用。
+
+#IngestServiceBean.java
+ingest.failed=攝取失敗
+
+#ManagePermissionsPage.java
+permission.roleWasRemoved=刪除{1}的{0}角色。
+permission.defaultPermissionDataverseUpdated=此Dataverse的預設權限已更新。
+permission.roleAssignedToFor={0}為{2}分配给{1}的角色。
+permission.roleNotAssignedFor={0}無法為{2}分配给{1}。
+permission.updated=更新
+permission.created=建立了
+permission.roleWas=角色是{0}。要將其分配给使用者和/或組，請點擊此頁面的「使用者/組」部分中的「使用者/組」按「分配角色」。
+permission.roleNotSaved=角色無法儲存。
+permission.permissionsMissing=權限{0}缺失。
+permission.CannotAssigntDefaultPermissions=無法分配預設權限。
+permission.default.contributor.role.none.decription=在新建立的Dataset上沒有權限的人。不推荐與人類貢獻者的Dataverse。 
+permission.default.contributor.role.none.name=沒有任何
+permission.role.must.be.created.by.superuser=只能由超級使用者建立或編輯角色。
+permission.role.not.created.alias.already.exists=與此别名已經存在的角色已存在。
+
+#ManageFilePermissionsPage.java
+permission.roleNotAbleToBeRemoved=角色分配無法刪除。
+permission.fileAccessGranted=授予{0}的檔案存取請求。
+permission.fileAccessRejected={0}的檔案存取請求被拒絕。
+permission.roleNotAbleToBeAssigned=角色無法分配。
+
+#ManageGroupsPage.java
+dataverse.manageGroups.create.success=成功建立了組{0}。刷新以更新您的頁面。
+dataverse.manageGroups.save.success=成功儲存組{0}。
+dataverse.manageGroups.delete=該小組已被刪除。
+dataverse.manageGroups.nodelete=顯示組無法刪除。
+dataverse.manageGroups.create.fail=組建立失敗。
+dataverse.manageGroups.edit.fail=組編輯失敗。
+dataverse.manageGroups.save.fail=組儲存失敗。
+
+#ManageTemplatesPage.java
+template.makeDefault=已選擇模板作為此Dataverse的預設模板
+template.unselectDefault=模板已被刪除為此Dataverse的預設模板
+template.clone=模板已被複製
+template.clone.error=無法複製模板。 
+template.delete=模板已被刪除
+template.delete.error=無法刪除Dataset模板。
+template.update=更新模板資料
+template.update.error=模板更新失敗
+template.makeDefault.error=Dataset模板無法預設。
+page.copy=备份
+
+#RolePermissionFragment.java
+permission.roleAssignedToOn=角色{0}在{2}上分配给{1}
+permission.cannotAssignRole=不能分配角色:{0}
+permission.roleRevoked=角色分配成功撤消
+permission.cannotRevokeRole1=無法撤消角色分配 - 您缺少權限{0}
+permission.cannotRevokeRole2=無法撤消角色分配:{0}
+permission.roleSave=角色 &#34; {0}&#34; 儲存
+permission.cannotSaveRole=無法儲存角色{0}
+
+#GlobalId.java
+pid.allowedCharacters=^[A-Za-z0-9._/:\\-]*
+
+#General Command Exception
+command.exception.only.superusers={1}只能被超級使用者調用。
+command.exception.user.deactivated={0}失敗:使用者帳號已被停用。
+command.exception.user.deleted={0}失敗:已刪除使用者帳號。
+
+#Admin-API
+admin.api.auth.mustBeSuperUser=禁止。你必須是超級使用者。
+admin.api.migrateHDL.failure.must.be.set.for.doi=安裝協議設置為「hdl」時可能不會移動。協議必須是「doi」
+admin.api.migrateHDL.failure.must.be.hdl.dataset=Dataset未註冊為hdl。它無法移動。
+admin.api.migrateHDL.success=Dataset移動hdl註冊完成。Dataset已成功重新註冊。
+admin.api.migrateHDL.failure=無法移動Dataset句柄id:{0}
+admin.api.migrateHDL.failureWithException=無法移動Dataset句柄id:{0}意外的異常:{1}
+admin.api.deleteUser.failure.prefix=無法刪除經過身份驗證的使用者{0}，因為
+admin.api.deleteUser.failure.dvobjects= 使用者已建立Dataverse對象
+admin.api.deleteUser.failure.gbResps= 使用者與檔案下載(留言簿回應)紀錄相關聯 
+admin.api.deleteUser.failure.roleAssignments=使用者與角色分配紀錄相關聯
+admin.api.deleteUser.failure.versionUser=使用者已為Dataset版貢獻
+admin.api.deleteUser.failure.savedSearches=使用者已建立已儲存的搜尋
+admin.api.deleteUser.success=已驗證的使用者{0}刪除。
+
+#Files.java
+files.api.metadata.update.duplicateFile=檔案已存在於{0}
+
+#Datasets.java
+dataset.api.updatePIDMetadata.failure.dataset.must.be.released=必須在已發表的Dataset上運行修改註冊書目資料。
+dataset.api.updatePIDMetadata.auth.mustBeSuperUser=禁止操作。你必須是超級使用者。
+dataset.api.updatePIDMetadata.success.for.single.dataset=Dataset{0}pid書目資料已成功更新。
+dataset.api.updatePIDMetadata.success.for.update.all=所有Datasetpid書目資料更新已成功完成。
+dataset.api.moveDataset.error.targetDataverseNotFound=找不到目標Dataverse。
+dataset.api.moveDataset.error.suggestForce=使用查詢参數forcemove=true來完成移動。
+dataset.api.moveDataset.success=Dataset已成功移動。
+dataset.api.listing.error=嘗試列出Dataset的内容的致命錯誤。請將此錯誤報告给Dataverse管理員。
+dataset.api.datasize.storage=儲存在此Dataset中的檔案的總大小:{0}字节
+dataset.api.datasize.download=可用於在此版本的Dataset中下載的檔案的總大小:{0}字节
+dataset.api.datasize.ioerror=嘗試確定儲存在Dataset中的檔案的總大小時出現致命的io錯誤。請將此錯誤報告给Dataverse管理員。
+dataset.api.grant.role.not.found.error=無法在Dataverse {1}中找到名為''{0}''的角色
+dataset.api.grant.role.cant.create.assignment.error=無法建立分配:{0}
+dataset.api.grant.role.assignee.not.found.error=沒有發現受让人
+dataset.api.revoke.role.not.found.error=「角色分配{0}未找到」
+dataset.api.revoke.role.success=在{2}中為inscaiseee {1}撤销的角色{0}
+dataset.api.privateurl.error.datasetnotfound=找不到Dataset。 
+dataset.api.privateurl.error.alreadyexists=私有網址已存在此Dataset。
+dataset.api.privateurl.error.notdraft=無法建立私有網址，因為最新版本的Dataset不是草稿。
+dataset.api.privateurl.anonymized.error.released=由於此Dataset已發表，因此無法建立匿名存取的url。
+dataset.api.creationdate=建立日期
+dataset.api.modificationdate=最後修改日期
+dataset.api.curationstatus=策劃狀況
+
+
+#Dataverses.java
+dataverses.api.update.default.contributor.role.failure.role.not.found=找不到角色{0}。
+dataverses.api.update.default.contributor.role.success=Dataverse{0}的預設貢獻者角色已設置為{1}。
+dataverses.api.update.default.contributor.role.failure.role.does.not.have.dataset.permissions=角色{0}沒有Dataset權限。
+dataverses.api.move.dataverse.failure.descendent=無法將Dataverse移動到其後代
+dataverses.api.move.dataverse.failure.already.member=Dataverse已經在這個Dataverse
+dataverses.api.move.dataverse.failure.itself=無法將Dataverse移動到自己
+dataverses.api.move.dataverse.failure.not.published=發表的Dataverse可能不會被移動到未發表的Dataverse。您可以發表{1}並重新嘗試移動。
+dataverses.api.move.dataverse.error.guestbook=Dataset留言簿不在目標Dataverse中。 
+dataverses.api.move.dataverse.error.template=Dataverse模板不在目標Dataverse中。
+dataverses.api.move.dataverse.error.featured=Dataverse是當前Dataverse中的特色。
+dataverses.api.move.dataverse.error.metadataBlock=Dataverse書目資料區塊不在目標Dataverse中。 
+dataverses.api.move.dataverse.error.dataverseLink=Dataverse連結到目標Dataverse或其一個父母。 
+dataverses.api.move.dataverse.error.datasetLink=Dataset連結到目標Dataverse或其父母之一。   
+dataverses.api.move.dataverse.error.forceMove=請使用参數 ?forceMove=true 完成移動。這將從與目標Dataverse不兼容的Dataverse中刪除任何内容。
+dataverses.api.create.dataset.error.mustIncludeVersion=請在dataset json中提供初始版本
+dataverses.api.create.dataset.error.superuserFiles=只有超級使用者可以通過此api新增檔案
+
+#Access.java
+access.api.allowRequests.failure.noDataset=無法找到具有id的Dataset:{0}
+access.api.allowRequests.failure.noSave=問題儲存Dataset{0}:{1}
+access.api.allowRequests.allows=允許
+access.api.allowRequests.disallows=禁止
+access.api.allowRequests.success=Dataset {0} {1}檔案存取請求。
+access.api.fileAccess.failure.noUser=無法找到使用者執行命令:{0}
+access.api.requestAccess.failure.commandError=問題嘗試請求存取{0}:{1}
+access.api.requestAccess.failure.requestExists=代表您已代表此檔案的存取請求已存在。
+access.api.requestAccess.failure.invalidRequest=您可能無法請求存取此檔案。它可能已經可供您使用。
+access.api.requestAccess.noKey=您必須提供一個密鑰以請求存取檔案。 
+access.api.requestAccess.fileNotFound=無法找到具有id {0}的資料檔案。
+access.api.requestAccess.invalidRequest=此檔案已為您提供下載，或者您有待處理請求
+access.api.requestAccess.requestsNotAccepted=Dataset不接受存取權請求。
+access.api.requestAccess.success.for.single.file=請求存取檔案{0}。
+access.api.rejectAccess.failure.noPermissions=請求者無權管理檔案下載請求。
+access.api.grantAccess.success.for.single.file=存取檔案{0}授予。
+access.api.grantAccess.noAssigneeFound=找不到識別碼{0}的受让人。
+access.api.grantAccess.failure.commandError=在{0}上嘗試授權存取問題:{1}
+access.api.fileAccess.rejectFailure.noRequest=無需存取檔案{0}的存取{1}
+access.api.rejectAccess.success.for.single.file=存取檔案{0}被拒絕。
+access.api.revokeAccess.noRoleFound=找不到使用者{0}找到檔案下載器角色
+access.api.revokeAccess.success.for.single.file=檔案下載器存取已為檔案{1}上的使用者{0}撤销
+access.api.requestList.fileNotFound=無法找到具有id {0}的資料檔案。
+access.api.requestList.noKey=您必須提供一個密鑰以獲取檔案的存取請求列表。 
+access.api.requestList.noRequestsFound=此檔案沒有存取請求:{0}。
+access.api.exception.metadata.not.available.for.nontabular.file=這種類型的書目資料僅適用於表格檔案。
+access.api.exception.metadata.restricted.no.permission=您無權下載此檔案。
+access.api.exception.version.not.found=找不到請求的Dataset版本。
+access.api.exception.dataset.not.found=找不到請求的Dataset。
+
+#permission
+permission.AddDataverse.label=新增Dataverse
+permission.AddDataset.label=新增Dataset
+permission.ViewUnpublishedDataverse.label=查看未發表Dataverse
+permission.ViewUnpublishedDataset.label=查看未發表Dataset
+permission.DownloadFile.label=下載檔案
+permission.EditDataverse.label=修改Dataverse
+permission.EditDataset.label=修改Dataset
+permission.ManageDataversePermissions.label=管理Dataverse權限
+permission.ManageDatasetPermissions.label=管理Dataset權限
+permission.PublishDataverse.label=發表Dataverse
+permission.PublishDataset.label=發表Dataset
+permission.DeleteDataverse.label=刪除Dataverse
+permission.DeleteDatasetDraft.label=刪除Dataset
+permission.ManageFilePermissions.label=管理檔案權限
+
+permission.AddDataverse.desc=在另一個Dataverse中新增Dataverse
+permission.DeleteDatasetDraft.desc=刪除Dataset草稿
+permission.DeleteDataverse.desc=刪除未發表的Dataverse
+permission.PublishDataset.desc=發表Dataset
+permission.PublishDataverse.desc=發表Dataverse
+permission.ManageFilePermissions.desc=管理檔案的權限
+permission.ManageDatasetPermissions.desc=管理Dataset的權限
+permission.ManageDataversePermissions.desc=管理Dataverse的權限
+permission.EditDataset.desc=編輯Dataset的書目資料
+permission.EditDataverse.desc=編輯Dataverse的書目資料、篩選條件、自定義和模板 
+permission.DownloadFile.desc=下載檔案
+permission.ViewUnpublishedDataset.desc=查看未發表的Dataset及其檔案
+permission.ViewUnpublishedDataverse.desc=查看一個未發表的Dataverse
+permission.AddDataset.desc=將Dataset新增到Dataverse
+
+packageDownload.title=包檔案下載
+packageDownload.instructions=使用wget命令或下載管理器中的下載url下載此軟體包檔案。不建議通過web瀏覽器下載。<a href="{0}/{1}/user/find-use-data.html#downloading-a-dataverse-package-via-url" title="User Guide - Downloading a Dataverse Package via URL" target="_blank">通過URL下載整個Dataverse包手冊</a>
+packageDownload.urlHeader=下載url
+
+#mydata_fragment.xhtml
+Published=發表
+Unpublished=未發表的
+Draft=草案
+In\u0020Review=在審查中
+Deaccessioned=被除名的
+
+#Managegroupspage.java
+dataverse.manageGroups.user=使用者
+dataverse.manageGroups.users=使用者
+dataverse.manageGroups.group=群組
+dataverse.manageGroups.groups=群組
+dataverse.manageGroups.nomembers=沒有成員
+dataverse.manageGroups.unknown=未知
+dataverse.manageGroups.User=使用者
+dataverse.manageGroups.Group=群組
+
+#editFilesFragment.xhtml
+editfilesfragment.mainlabel=選擇語言編碼...
+editfilesfragment.label1=西歐
+editfilesfragment.label1.item1=西部(iso-8859-1)
+editfilesfragment.label1.item2=西部(iso-8859-15)
+editfilesfragment.label1.item3=西部(windows-1252)
+editfilesfragment.label1.item4=西部(宏曼)
+editfilesfragment.label1.item5=西部(ibm-850)
+editfilesfragment.label1.item6=凱爾特人(iso-8859-14)
+editfilesfragment.label1.item7=希臘語(iso-8859-7)
+editfilesfragment.label1.item8=希臘語(windows-1253)
+editfilesfragment.label1.item9=希臘(macgreek)
+editfilesfragment.label1.item10=冰島(macicelandic)
+editfilesfragment.label1.item11=北歐(iso-8859-10)
+editfilesfragment.label1.item12=南歐(iso-8859-3)
+editfilesfragment.label2=東歐
+editfilesfragment.label2.item1=波羅的海(iso-8859-4)
+editfilesfragment.label2.item2=波羅的海(iso-8859-13)
+editfilesfragment.label2.item3=波羅的海(windows-1257)
+editfilesfragment.label2.item4=西里爾(iso-8859-5)
+editfilesfragment.label2.item5=西里爾(iso-ir-111)
+editfilesfragment.label2.item6=西里爾(windows-1251)
+editfilesfragment.label2.item7=西里爾(mac嘧啶)
+editfilesfragment.label2.item8=西里爾/烏克蘭(makrainian)
+editfilesfragment.label2.item9=西里爾(koi8-r)
+editfilesfragment.label2.item10=西里爾/烏克蘭(koi8-u)
+editfilesfragment.label2.item11=克羅地亞語(maccrodian)
+editfilesfragment.label2.item12=羅馬尼亞(宏曼)
+editfilesfragment.label2.item13=羅馬尼亞(iso-8859-16)
+editfilesfragment.label2.item14=中歐(iso-8859-2)
+editfilesfragment.label2.item15=中歐(windows-1250)
+editfilesfragment.label2.item16=中歐(macce)
+editfilesfragment.label2.item17=西里爾(ibm-855)
+editfilesfragment.label3=東亞
+editfilesfragment.label3.item1=日本(iso-2022-jp)
+editfilesfragment.label3.item2=日本(shift_jis)
+editfilesfragment.label3.item3=日本(euc-jp)
+editfilesfragment.label3.item4=繁體中文(big5)
+editfilesfragment.label3.item5=繁體中文(big5-hksc)
+editfilesfragment.label3.item6=繁體中文(euc-tw)
+editfilesfragment.label3.item7=簡體中文(gb2312)
+editfilesfragment.label3.item8=簡體中文(hz)
+editfilesfragment.label3.item9=簡體中文(gbk)
+editfilesfragment.label3.item10=簡體中文(iso-2022-cn)
+editfilesfragment.label3.item11=韓國(euc-kr)
+editfilesfragment.label3.item12=韓國(johab)
+editfilesfragment.label3.item13=韓國(iso-20222-kr)
+editfilesfragment.label4=Unicode
+editfilesfragment.label4.item1=Unicode(utf-8)
+editfilesfragment.label4.item2=Unicode(utf-16le)
+editfilesfragment.label4.item3=Unicode(utf-16be)
+editfilesfragment.label5=美國 -  ascii
+
+isrequired={0}是必需的。
+isrequired.conditional=如果您選擇在任何可選{1}字段中輸入值，則需要{0}。
+draftversion=草稿版本
+deaccessionedversion=被除名版本
+
+not_restricted=沒有限制
+editdatafilepage.defaultLanguageEncoding=Utf8(預設)
+passwdVal.passwdReq.each=每個
+passwdVal.passwdReq.uppercase=大寫
+passwdVal.passwdReq.lowercase=小寫
+passwdVal.passwdReq.letter=信
+passwdVal.passwdReq.numeral=數字
+passwdVal.passwdReq.special=特别的
+dataretrieverAPI.noMsgResultsFound=很抱歉，找不到任何结果。
+
+#xlsxfilereader.java附屬
+xlsxfilereader.ioexception.parse=無法解析excel/xlsx電子表格。{0}
+xlsxfilereader.ioexception.norows=Excel(xlsx)檔案中找不到資料。
+xlsxfilereader.ioexception.onlyonerow=在excel(xlsx)檔案中檢測到一行資料(列名標題？)。
+xlsxfilereader.ioexception.failed=在第二次通過期間無法讀取線{0}。
+xlsxfilereader.ioexception.mismatch=在第二次通過期間讀取不匹配，線{0}:{1}預期的分隔值，{2}找到。
+xlsxfilereader.ioexception.linecount=第一和最终通行证的線路計數之間不匹配!
+
+#rtabfileparser.java
+rtabfileparser.ioexception.failed=無法讀取資料檔案的{0}。
+rtabfileparser.ioexception.mismatch=讀取不匹配，資料檔案的線{0}:{1}預期的分隔值，{2}找到。
+rtabfileparser.ioexception.boolean=布爾變項的意外值({0}): 
+rtabfileparser.ioexception.read=無法讀取布爾變項({0})!
+rtabfileparser.ioexception.parser1=R tab檔案解析器:無法從Dataset書目資料中獲取varqnty。
+rtabfileparser.ioexception.parser2=R tab檔案解析器:dataset書目資料中的varqnty = 0!
+
+#ConfigureFragmentBean.java
+configurefragmentbean.apiTokenGenerated=將生成api令牌。請按照密碼確保保證。
+
+#FacetCategory - staticSearchFields
+staticSearchFields.dvCategory=Dataverse類别
+staticSearchFields.metadataSource=書目資料來源
+staticSearchFields.publicationDate=出版年份
+staticSearchFields.fileTypeGroupFacet=檔案類型
+staticSearchFields.dvObjectType=類型
+staticSearchFields.fileTag=檔案標籤
+staticSearchFields.fileAccess=使用權
+staticSearchFields.publicationStatus=出版狀態
+staticSearchFields.subject_ss=學科
+
+#dataverse category - Facet Labels
+Researcher=研究員
+Research\u0020Project=研究項目
+Journal=杂志
+Organization\u0020or\u0020Institution=組織或機構
+Teaching\u0020Course=教學课程
+Research\u0020Group=研究組
+Laboratory=實驗室
+Department=部門
+Uncategorized=未分類
+
+#filetype - Facet Labels
+Document=文件
+Text=文本
+Tabular\u0020Data=表格資料
+Data=資料
+FITS=適合
+Shape=形狀
+Image=圖片
+Network\u0020Data=網络資料
+Unknown=未知
+Documentation=檔案
+Code=程式
+Archive=檔案
+Audio=聲音
+Video=影片
+
+#access - Facet Labels (Not used as of 5.6)
+Public=公開的
+Restricted=受限制的
+EmbargoedThenPublic=延遲提供後公開
+EmbargoedThenRestricted=延遲提供後受限
+
+
+#Shibboleth login
+idp.fatal.divMissing=<div>指定為「insertatdiv」。無法位於html中
+idp.fatal.noXMLHttpRequest=瀏覽器不支援xmlhttprequest，無法加載idp選擇資料
+idp.fatal.wrongProtocol=提供给ds的策略不是 &quot;urn:oasis:names:tc:SAML:profiles:SSO:idpdiscovery-protocol:single&quot;
+idp.fatal.wrongEntityId=sp提供的entityid與配置不匹配
+idp.fatal.noData=書目資料下載返回沒有資料
+idp.fatal.loadFailed=無法下載書目資料 
+idp.fatal.noparms=沒有参數發現會话，沒有配置defaultreturn参數
+idp.fatal.noReturnURL=沒有提供url返回参數
+idp.fatal.badProtocol=返回請求必須以https:// 或 http://開頭
+idp.idpPreferred.label=使用先前的選擇:
+idp.idpEntry.label=或輸入您的機構名稱。
+idp.idpEntry.NoPreferred.label=輸入您的機構的名稱，然後點擊「繼續」。通過您的機構的身份驗證系統登入。
+idp.idpList.label=或從下面的列表中選擇您的機構。
+idp.idpList.NoPreferred.label=選擇您的機構，然後點擊「繼續」。通過您的機構的身份驗證系統登入。
+idp.idpList.defaultOptionLabel=請選擇...
+idp.idpList.showList=請允許我從名單中挑選
+idp.idpList.showSearch=請允許我輸入我的機構的名稱
+idp.submitButton.label=繼續
+idp.helpText=幫助
+idp.defaultLogoAlt=
+
+#externaltools
+externaltools.dct.displayname=資料策择工具
+externaltools.dct.description=變項策择資料策择工具
+externaltools.explorer.displayname=資料資源管理器
+externaltools.explorer.description=Data explorer提供了一個gui，它列出了表格資料檔案中的變項，允許搜尋，圖表和交叉表格分析。
+
+# api/admin/datasetfield/load
+api.admin.datasetfield.load.ArrayIndexOutOfBoundMessage=在{0}部分中解析書目資料區塊時出錯，第 #{1} 行: 遺失 ''{2}'' 第 (#{3}) 列
+api.admin.datasetfield.load.GeneralErrorMessage=在{0}部分中解析書目資料區塊時出錯，行#{1}:{2}
+
+#PIDs
+pids.api.reservePid.success=Pid為{0}保留
+pids.api.deletePid.success=Pid刪除{0}
+pids.deletePid.failureExpected=無法刪除pid {0}。狀態程式:{1}。
+pids.deletePid.failureOther=刪除pid {0}問題:{1}
+pids.commands.reservePid.failure=Datasetid {0}的問題保留pid:{1}。
+pids.datacite.errors.noResponseCode=問題獲取{0}的http狀態程式。是在dns嗎？是否正確配置了doi.dataciterapiurlstring？
+pids.datacite.errors.DoiOnly=只有doi:得到支援。
+
+#PublishDatasetCommand
+publishDatasetCommand.pidNotReserved=無法發表Dataset，因為它仍未保留其永久識別碼。
+
+# APIs
+api.errors.invalidApiToken=無效的API令牌。
